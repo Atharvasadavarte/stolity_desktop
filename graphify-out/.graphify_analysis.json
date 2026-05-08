@@ -1,0 +1,362 @@
+{
+  "communities": {
+    "0": [
+      "dart_async",
+      "dart_ui",
+      "services_download_service_dart",
+      "services_file_picker_service_dart",
+      "services_snackbar_service_dart",
+      "services_window_service_dart",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_buildnavigationpill",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_coloredbox",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_dialog",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_dispose",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_handledownloadmessage",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_handlefilepick",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_handlerouteupdate",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_initializewindow",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_initstate",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_isauthflowurl",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_isdownloadanchor",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_mutationobserver",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_navpilliconbutton",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_navpilliconbuttonstate",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_notifyroute",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_onpillinteraction",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_openmacpopup",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_openwindowspopup",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_padding",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_patchinput",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_safearea",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_scaffold",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_sendmessage",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_setpillhover",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_startnavigationstatetracking",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_stolityprevent",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_stolitywebview",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_updatenavigationstate",
+      "webview_screen_dart"
+    ],
+    "1": [
+      "runner_win32_window_create",
+      "runner_win32_window_destroy",
+      "runner_win32_window_enablefulldpisupportifavailable",
+      "runner_win32_window_getclientarea",
+      "runner_win32_window_gethandle",
+      "runner_win32_window_getthisfromhandle",
+      "runner_win32_window_getwindowclass",
+      "runner_win32_window_messagehandler",
+      "runner_win32_window_oncreate",
+      "runner_win32_window_scale",
+      "runner_win32_window_setchildcontent",
+      "runner_win32_window_setquitonclose",
+      "runner_win32_window_show",
+      "runner_win32_window_unregisterwindowclass",
+      "runner_win32_window_updatetheme",
+      "runner_win32_window_windowclassregistrar",
+      "runner_win32_window_wndproc",
+      "windows_runner_flutter_window_cpp",
+      "windows_runner_flutter_window_h",
+      "windows_runner_win32_window_cpp",
+      "windows_runner_win32_window_h"
+    ],
+    "2": [
+      "dart_convert",
+      "dart_io",
+      "dart_typed_data",
+      "lib_services_download_service_dart",
+      "lib_services_file_picker_service_dart",
+      "package_file_picker_file_picker_dart",
+      "package_webview_flutter_webview_flutter_dart",
+      "package_webview_windows_webview_windows_dart",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_services_download_service_dart_directory",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_services_download_service_dart_downloadsdirectory",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_services_download_service_dart_downloadservice",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_services_download_service_dart_filenamefromurl",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_services_download_service_dart_httpexception",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_services_download_service_dart_sanitizefilename",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_services_download_service_dart_savebytes",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_services_file_picker_service_dart_escapejsstring",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_services_file_picker_service_dart_handlefolderpick",
+      "utils_mime_types_dart"
+    ],
+    "3": [
+      "linux_runner_main_cc",
+      "linux_runner_my_application_h",
+      "package_flutter_test_flutter_test_dart",
+      "package_stolity_desktop_main_dart",
+      "package_stolity_desktop_webview_screen_dart",
+      "runner_main_main",
+      "runner_my_application_first_frame_cb",
+      "runner_my_application_my_application_class_init",
+      "runner_my_application_my_application_dispose",
+      "runner_my_application_my_application_init",
+      "runner_my_application_my_application_local_command_line",
+      "runner_my_application_my_application_shutdown",
+      "runner_my_application_my_application_startup",
+      "test_widget_test_dart"
+    ],
+    "4": [
+      "flutter_generated_plugin_registrant_fl_register_plugins",
+      "flutter_generated_plugin_registrant_registerplugins",
+      "flutter_generatedpluginregistrant_registergeneratedplugins",
+      "ios_runner_generatedpluginregistrant_h",
+      "macos_runner_mainflutterwindow_swift",
+      "nswindow",
+      "plugins_generatedpluginregistrant_generatedpluginregistrant_registerwith",
+      "runner_generatedpluginregistrant_generatedpluginregistrant_registerwithregistry",
+      "runner_mainflutterwindow_mainflutterwindow_awakefromnib",
+      "runner_my_application_my_application_activate"
+    ],
+    "5": [
+      "constants_dart",
+      "lib_main_dart",
+      "lib_services_snackbar_service_dart",
+      "lib_services_window_service_dart",
+      "package_flutter_material_dart",
+      "package_window_manager_window_manager_dart",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_main_dart_build",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_main_dart_materialapp",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_main_dart_stolityapp",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_services_snackbar_service_dart_showreusablesnackbar"
+    ],
+    "6": [
+      "flutterappdelegate",
+      "flutterimplicitenginedelegate",
+      "ios_runner_appdelegate_swift",
+      "runner_appdelegate_appdelegate_application",
+      "runner_appdelegate_appdelegate_applicationshouldterminateafterlastwindowclosed",
+      "runner_appdelegate_appdelegate_applicationsupportssecurerestorablestate",
+      "runner_appdelegate_appdelegate_didinitializeimplicitflutterengine"
+    ],
+    "7": [
+      "runner_main_wwinmain",
+      "runner_utils_createandattachconsole",
+      "runner_utils_getcommandlinearguments",
+      "runner_utils_utf8fromutf16",
+      "windows_runner_main_cpp",
+      "windows_runner_utils_cpp"
+    ],
+    "8": [
+      "ios_runnertests_runnertests_swift",
+      "runnertests_runnertests_runnertests",
+      "runnertests_runnertests_runnertests_testexample",
+      "xctestcase"
+    ],
+    "9": [
+      "ephemeral_flutter_lldb_helper_handle_new_rx_page",
+      "ephemeral_flutter_lldb_helper_lldb_init_module",
+      "ephemeral_flutter_lldb_helper_rationale_8",
+      "ios_flutter_ephemeral_flutter_lldb_helper_py"
+    ],
+    "10": [
+      "flutterscenedelegate",
+      "ios_runner_scenedelegate_swift",
+      "runner_scenedelegate_scenedelegate"
+    ],
+    "11": [
+      "macos_pods_target_support_files_window_manager_window_manager_dummy_m",
+      "window_manager_window_manager_dummy_podsdummy_window_manager"
+    ],
+    "12": [
+      "macos_pods_target_support_files_screen_retriever_screen_retriever_dummy_m",
+      "screen_retriever_screen_retriever_dummy_podsdummy_screen_retriever"
+    ],
+    "13": [
+      "macos_pods_target_support_files_webview_flutter_wkwebview_webview_flutter_wkwebview_dummy_m",
+      "webview_flutter_wkwebview_webview_flutter_wkwebview_dummy_podsdummy_webview_flutter_wkwebview"
+    ],
+    "14": [
+      "macos_pods_target_support_files_pods_runner_pods_runner_dummy_m",
+      "pods_runner_pods_runner_dummy_podsdummy_pods_runner"
+    ],
+    "15": [
+      "file_picker_file_picker_dummy_podsdummy_file_picker",
+      "macos_pods_target_support_files_file_picker_file_picker_dummy_m"
+    ],
+    "16": [
+      "lib_utils_mime_types_dart",
+      "users_atharvasadavarte_documents_stolity_desktop_lib_utils_mime_types_dart_getmimetype"
+    ],
+    "17": [
+      "macos_pods_target_support_files_window_manager_window_manager_umbrella_h"
+    ],
+    "18": [
+      "macos_pods_target_support_files_screen_retriever_screen_retriever_umbrella_h"
+    ],
+    "19": [
+      "macos_pods_target_support_files_webview_flutter_wkwebview_webview_flutter_wkwebview_umbrella_h"
+    ],
+    "20": [
+      "macos_pods_target_support_files_pods_runner_pods_runner_umbrella_h"
+    ],
+    "21": [
+      "macos_pods_target_support_files_pods_runnertests_pods_runnertests_umbrella_h"
+    ],
+    "22": [
+      "macos_pods_target_support_files_file_picker_file_picker_umbrella_h"
+    ],
+    "23": [
+      "ios_runner_runner_bridging_header_h"
+    ],
+    "24": [
+      "android_build_gradle_kts"
+    ],
+    "25": [
+      "android_settings_gradle_kts"
+    ],
+    "26": [
+      "stolity_desktop_mainactivity_mainactivity"
+    ],
+    "27": [
+      "windows_runner_utils_h"
+    ],
+    "28": [
+      "windows_runner_resource_h"
+    ]
+  },
+  "cohesion": {
+    "0": 0.06,
+    "1": 0.18,
+    "2": 0.12,
+    "3": 0.14,
+    "4": 0.2,
+    "5": 0.24,
+    "6": 0.29,
+    "7": 0.47,
+    "8": 0.5,
+    "9": 0.5,
+    "10": 0.67,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0,
+    "18": 1.0,
+    "19": 1.0,
+    "20": 1.0,
+    "21": 1.0,
+    "22": 1.0,
+    "23": 1.0,
+    "24": 1.0,
+    "25": 1.0,
+    "26": 1.0,
+    "27": 1.0,
+    "28": 1.0
+  },
+  "gods": [
+    {
+      "id": "webview_screen_dart",
+      "label": "webview_screen.dart",
+      "degree": 42
+    },
+    {
+      "id": "runner_win32_window_create",
+      "label": "Create()",
+      "degree": 6
+    },
+    {
+      "id": "runner_win32_window_messagehandler",
+      "label": "MessageHandler()",
+      "degree": 6
+    },
+    {
+      "id": "runner_win32_window_destroy",
+      "label": "Destroy()",
+      "degree": 6
+    },
+    {
+      "id": "runner_win32_window_oncreate",
+      "label": "OnCreate()",
+      "degree": 6
+    },
+    {
+      "id": "package_flutter_material_dart",
+      "label": "package:flutter/material.dart",
+      "degree": 5
+    },
+    {
+      "id": "runner_main_main",
+      "label": "main()",
+      "degree": 4
+    },
+    {
+      "id": "runner_win32_window_wndproc",
+      "label": "WndProc()",
+      "degree": 4
+    },
+    {
+      "id": "runner_win32_window_getclientarea",
+      "label": "GetClientArea()",
+      "degree": 4
+    },
+    {
+      "id": "runnertests_runnertests_runnertests",
+      "label": "RunnerTests",
+      "degree": 3
+    }
+  ],
+  "surprises": [
+    {
+      "source": "OnCreate()",
+      "target": "RegisterPlugins()",
+      "source_files": [
+        "windows/runner/win32_window.cpp",
+        "windows/flutter/generated_plugin_registrant.cc"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities; peripheral node `RegisterPlugins()` unexpectedly reaches hub `OnCreate()`"
+    },
+    {
+      "source": "my_application_activate()",
+      "target": "fl_register_plugins()",
+      "source_files": [
+        "linux/runner/my_application.cc",
+        "linux/flutter/generated_plugin_registrant.cc"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source"
+    },
+    {
+      "source": "webview_screen.dart",
+      "target": "StolityWebView",
+      "source_files": [
+        "lib/main.dart",
+        "lib/webview_screen.dart"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "defines",
+      "why": "peripheral node `StolityWebView` unexpectedly reaches hub `webview_screen.dart`"
+    },
+    {
+      "source": "webview_screen.dart",
+      "target": "_NavPillIconButton",
+      "source_files": [
+        "lib/main.dart",
+        "lib/webview_screen.dart"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "defines",
+      "why": "peripheral node `_NavPillIconButton` unexpectedly reaches hub `webview_screen.dart`"
+    },
+    {
+      "source": "webview_screen.dart",
+      "target": "_NavPillIconButtonState",
+      "source_files": [
+        "lib/main.dart",
+        "lib/webview_screen.dart"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "defines",
+      "why": "peripheral node `_NavPillIconButtonState` unexpectedly reaches hub `webview_screen.dart`"
+    }
+  ],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}

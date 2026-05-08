@@ -1,0 +1,3048 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "RunnerTests",
+      "file_type": "code",
+      "source_file": "macos/RunnerTests/RunnerTests.swift",
+      "source_location": "L5",
+      "community": 8,
+      "norm_label": "runnertests",
+      "id": "runnertests_runnertests_runnertests"
+    },
+    {
+      "label": "XCTestCase",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "community": 8,
+      "norm_label": "xctestcase",
+      "id": "xctestcase"
+    },
+    {
+      "label": ".testExample()",
+      "file_type": "code",
+      "source_file": "macos/RunnerTests/RunnerTests.swift",
+      "source_location": "L7",
+      "community": 8,
+      "norm_label": ".testexample()",
+      "id": "runnertests_runnertests_runnertests_testexample"
+    },
+    {
+      "label": "MainFlutterWindow.swift",
+      "file_type": "code",
+      "source_file": "macos/Runner/MainFlutterWindow.swift",
+      "source_location": "L1",
+      "community": 4,
+      "norm_label": "mainflutterwindow.swift",
+      "id": "macos_runner_mainflutterwindow_swift"
+    },
+    {
+      "label": "NSWindow",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "community": 4,
+      "norm_label": "nswindow",
+      "id": "nswindow"
+    },
+    {
+      "label": ".awakeFromNib()",
+      "file_type": "code",
+      "source_file": "macos/Runner/MainFlutterWindow.swift",
+      "source_location": "L5",
+      "community": 4,
+      "norm_label": ".awakefromnib()",
+      "id": "runner_mainflutterwindow_mainflutterwindow_awakefromnib"
+    },
+    {
+      "label": "FlutterAppDelegate",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "community": 6,
+      "norm_label": "flutterappdelegate",
+      "id": "flutterappdelegate"
+    },
+    {
+      "label": ".applicationShouldTerminateAfterLastWindowClosed()",
+      "file_type": "code",
+      "source_file": "macos/Runner/AppDelegate.swift",
+      "source_location": "L6",
+      "community": 6,
+      "norm_label": ".applicationshouldterminateafterlastwindowclosed()",
+      "id": "runner_appdelegate_appdelegate_applicationshouldterminateafterlastwindowclosed"
+    },
+    {
+      "label": ".applicationSupportsSecureRestorableState()",
+      "file_type": "code",
+      "source_file": "macos/Runner/AppDelegate.swift",
+      "source_location": "L10",
+      "community": 6,
+      "norm_label": ".applicationsupportssecurerestorablestate()",
+      "id": "runner_appdelegate_appdelegate_applicationsupportssecurerestorablestate"
+    },
+    {
+      "label": "RegisterGeneratedPlugins()",
+      "file_type": "code",
+      "source_file": "macos/Flutter/GeneratedPluginRegistrant.swift",
+      "source_location": "L13",
+      "community": 4,
+      "norm_label": "registergeneratedplugins()",
+      "id": "flutter_generatedpluginregistrant_registergeneratedplugins"
+    },
+    {
+      "label": "window_manager-umbrella.h",
+      "file_type": "code",
+      "source_file": "macos/Pods/Target Support Files/window_manager/window_manager-umbrella.h",
+      "source_location": "L1",
+      "community": 17,
+      "norm_label": "window_manager-umbrella.h",
+      "id": "macos_pods_target_support_files_window_manager_window_manager_umbrella_h"
+    },
+    {
+      "label": "window_manager-dummy.m",
+      "file_type": "code",
+      "source_file": "macos/Pods/Target Support Files/window_manager/window_manager-dummy.m",
+      "source_location": "L1",
+      "community": 11,
+      "norm_label": "window_manager-dummy.m",
+      "id": "macos_pods_target_support_files_window_manager_window_manager_dummy_m"
+    },
+    {
+      "label": "PodsDummy_window_manager",
+      "file_type": "code",
+      "source_file": "macos/Pods/Target Support Files/window_manager/window_manager-dummy.m",
+      "source_location": "L2",
+      "community": 11,
+      "norm_label": "podsdummy_window_manager",
+      "id": "window_manager_window_manager_dummy_podsdummy_window_manager"
+    },
+    {
+      "label": "screen_retriever-dummy.m",
+      "file_type": "code",
+      "source_file": "macos/Pods/Target Support Files/screen_retriever/screen_retriever-dummy.m",
+      "source_location": "L1",
+      "community": 12,
+      "norm_label": "screen_retriever-dummy.m",
+      "id": "macos_pods_target_support_files_screen_retriever_screen_retriever_dummy_m"
+    },
+    {
+      "label": "PodsDummy_screen_retriever",
+      "file_type": "code",
+      "source_file": "macos/Pods/Target Support Files/screen_retriever/screen_retriever-dummy.m",
+      "source_location": "L2",
+      "community": 12,
+      "norm_label": "podsdummy_screen_retriever",
+      "id": "screen_retriever_screen_retriever_dummy_podsdummy_screen_retriever"
+    },
+    {
+      "label": "screen_retriever-umbrella.h",
+      "file_type": "code",
+      "source_file": "macos/Pods/Target Support Files/screen_retriever/screen_retriever-umbrella.h",
+      "source_location": "L1",
+      "community": 18,
+      "norm_label": "screen_retriever-umbrella.h",
+      "id": "macos_pods_target_support_files_screen_retriever_screen_retriever_umbrella_h"
+    },
+    {
+      "label": "webview_flutter_wkwebview-dummy.m",
+      "file_type": "code",
+      "source_file": "macos/Pods/Target Support Files/webview_flutter_wkwebview/webview_flutter_wkwebview-dummy.m",
+      "source_location": "L1",
+      "community": 13,
+      "norm_label": "webview_flutter_wkwebview-dummy.m",
+      "id": "macos_pods_target_support_files_webview_flutter_wkwebview_webview_flutter_wkwebview_dummy_m"
+    },
+    {
+      "label": "PodsDummy_webview_flutter_wkwebview",
+      "file_type": "code",
+      "source_file": "macos/Pods/Target Support Files/webview_flutter_wkwebview/webview_flutter_wkwebview-dummy.m",
+      "source_location": "L2",
+      "community": 13,
+      "norm_label": "podsdummy_webview_flutter_wkwebview",
+      "id": "webview_flutter_wkwebview_webview_flutter_wkwebview_dummy_podsdummy_webview_flutter_wkwebview"
+    },
+    {
+      "label": "webview_flutter_wkwebview-umbrella.h",
+      "file_type": "code",
+      "source_file": "macos/Pods/Target Support Files/webview_flutter_wkwebview/webview_flutter_wkwebview-umbrella.h",
+      "source_location": "L1",
+      "community": 19,
+      "norm_label": "webview_flutter_wkwebview-umbrella.h",
+      "id": "macos_pods_target_support_files_webview_flutter_wkwebview_webview_flutter_wkwebview_umbrella_h"
+    },
+    {
+      "label": "Pods-Runner-umbrella.h",
+      "file_type": "code",
+      "source_file": "macos/Pods/Target Support Files/Pods-Runner/Pods-Runner-umbrella.h",
+      "source_location": "L1",
+      "community": 20,
+      "norm_label": "pods-runner-umbrella.h",
+      "id": "macos_pods_target_support_files_pods_runner_pods_runner_umbrella_h"
+    },
+    {
+      "label": "Pods-Runner-dummy.m",
+      "file_type": "code",
+      "source_file": "macos/Pods/Target Support Files/Pods-Runner/Pods-Runner-dummy.m",
+      "source_location": "L1",
+      "community": 14,
+      "norm_label": "pods-runner-dummy.m",
+      "id": "macos_pods_target_support_files_pods_runner_pods_runner_dummy_m"
+    },
+    {
+      "label": "PodsDummy_Pods_Runner",
+      "file_type": "code",
+      "source_file": "macos/Pods/Target Support Files/Pods-Runner/Pods-Runner-dummy.m",
+      "source_location": "L2",
+      "community": 14,
+      "norm_label": "podsdummy_pods_runner",
+      "id": "pods_runner_pods_runner_dummy_podsdummy_pods_runner"
+    },
+    {
+      "label": "Pods-RunnerTests-umbrella.h",
+      "file_type": "code",
+      "source_file": "macos/Pods/Target Support Files/Pods-RunnerTests/Pods-RunnerTests-umbrella.h",
+      "source_location": "L1",
+      "community": 21,
+      "norm_label": "pods-runnertests-umbrella.h",
+      "id": "macos_pods_target_support_files_pods_runnertests_pods_runnertests_umbrella_h"
+    },
+    {
+      "label": "file_picker-dummy.m",
+      "file_type": "code",
+      "source_file": "macos/Pods/Target Support Files/file_picker/file_picker-dummy.m",
+      "source_location": "L1",
+      "community": 15,
+      "norm_label": "file_picker-dummy.m",
+      "id": "macos_pods_target_support_files_file_picker_file_picker_dummy_m"
+    },
+    {
+      "label": "PodsDummy_file_picker",
+      "file_type": "code",
+      "source_file": "macos/Pods/Target Support Files/file_picker/file_picker-dummy.m",
+      "source_location": "L2",
+      "community": 15,
+      "norm_label": "podsdummy_file_picker",
+      "id": "file_picker_file_picker_dummy_podsdummy_file_picker"
+    },
+    {
+      "label": "file_picker-umbrella.h",
+      "file_type": "code",
+      "source_file": "macos/Pods/Target Support Files/file_picker/file_picker-umbrella.h",
+      "source_location": "L1",
+      "community": 22,
+      "norm_label": "file_picker-umbrella.h",
+      "id": "macos_pods_target_support_files_file_picker_file_picker_umbrella_h"
+    },
+    {
+      "label": "widget_test.dart",
+      "file_type": "code",
+      "source_file": "test/widget_test.dart",
+      "source_location": null,
+      "community": 3,
+      "norm_label": "widget_test.dart",
+      "id": "test_widget_test_dart"
+    },
+    {
+      "label": "package:flutter_test/flutter_test.dart",
+      "file_type": "code",
+      "source_file": "test/widget_test.dart",
+      "source_location": null,
+      "community": 3,
+      "norm_label": "package:flutter_test/flutter_test.dart",
+      "id": "package_flutter_test_flutter_test_dart"
+    },
+    {
+      "label": "package:stolity_desktop/main.dart",
+      "file_type": "code",
+      "source_file": "test/widget_test.dart",
+      "source_location": null,
+      "community": 3,
+      "norm_label": "package:stolity_desktop/main.dart",
+      "id": "package_stolity_desktop_main_dart"
+    },
+    {
+      "label": "package:stolity_desktop/webview_screen.dart",
+      "file_type": "code",
+      "source_file": "test/widget_test.dart",
+      "source_location": null,
+      "community": 3,
+      "norm_label": "package:stolity_desktop/webview_screen.dart",
+      "id": "package_stolity_desktop_webview_screen_dart"
+    },
+    {
+      "label": "RunnerTests.swift",
+      "file_type": "code",
+      "source_file": "ios/RunnerTests/RunnerTests.swift",
+      "source_location": "L1",
+      "community": 8,
+      "norm_label": "runnertests.swift",
+      "id": "ios_runnertests_runnertests_swift"
+    },
+    {
+      "label": "Runner-Bridging-Header.h",
+      "file_type": "code",
+      "source_file": "ios/Runner/Runner-Bridging-Header.h",
+      "source_location": "L1",
+      "community": 23,
+      "norm_label": "runner-bridging-header.h",
+      "id": "ios_runner_runner_bridging_header_h"
+    },
+    {
+      "label": "GeneratedPluginRegistrant.h",
+      "file_type": "code",
+      "source_file": "ios/Runner/GeneratedPluginRegistrant.h",
+      "source_location": "L1",
+      "community": 4,
+      "norm_label": "generatedpluginregistrant.h",
+      "id": "ios_runner_generatedpluginregistrant_h"
+    },
+    {
+      "label": "AppDelegate.swift",
+      "file_type": "code",
+      "source_file": "ios/Runner/AppDelegate.swift",
+      "source_location": "L1",
+      "community": 6,
+      "norm_label": "appdelegate.swift",
+      "id": "ios_runner_appdelegate_swift"
+    },
+    {
+      "label": "FlutterImplicitEngineDelegate",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "community": 6,
+      "norm_label": "flutterimplicitenginedelegate",
+      "id": "flutterimplicitenginedelegate"
+    },
+    {
+      "label": ".application()",
+      "file_type": "code",
+      "source_file": "ios/Runner/AppDelegate.swift",
+      "source_location": "L6",
+      "community": 6,
+      "norm_label": ".application()",
+      "id": "runner_appdelegate_appdelegate_application"
+    },
+    {
+      "label": ".didInitializeImplicitFlutterEngine()",
+      "file_type": "code",
+      "source_file": "ios/Runner/AppDelegate.swift",
+      "source_location": "L13",
+      "community": 6,
+      "norm_label": ".didinitializeimplicitflutterengine()",
+      "id": "runner_appdelegate_appdelegate_didinitializeimplicitflutterengine"
+    },
+    {
+      "label": "-registerWithRegistry",
+      "file_type": "code",
+      "source_file": "ios/Runner/GeneratedPluginRegistrant.m",
+      "source_location": "L23",
+      "community": 4,
+      "norm_label": "-registerwithregistry",
+      "id": "runner_generatedpluginregistrant_generatedpluginregistrant_registerwithregistry"
+    },
+    {
+      "label": "SceneDelegate.swift",
+      "file_type": "code",
+      "source_file": "ios/Runner/SceneDelegate.swift",
+      "source_location": "L1",
+      "community": 10,
+      "norm_label": "scenedelegate.swift",
+      "id": "ios_runner_scenedelegate_swift"
+    },
+    {
+      "label": "SceneDelegate",
+      "file_type": "code",
+      "source_file": "ios/Runner/SceneDelegate.swift",
+      "source_location": "L4",
+      "community": 10,
+      "norm_label": "scenedelegate",
+      "id": "runner_scenedelegate_scenedelegate"
+    },
+    {
+      "label": "FlutterSceneDelegate",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "community": 10,
+      "norm_label": "flutterscenedelegate",
+      "id": "flutterscenedelegate"
+    },
+    {
+      "label": "flutter_lldb_helper.py",
+      "file_type": "code",
+      "source_file": "ios/Flutter/ephemeral/flutter_lldb_helper.py",
+      "source_location": "L1",
+      "community": 9,
+      "norm_label": "flutter_lldb_helper.py",
+      "id": "ios_flutter_ephemeral_flutter_lldb_helper_py"
+    },
+    {
+      "label": "handle_new_rx_page()",
+      "file_type": "code",
+      "source_file": "ios/Flutter/ephemeral/flutter_lldb_helper.py",
+      "source_location": "L7",
+      "community": 9,
+      "norm_label": "handle_new_rx_page()",
+      "id": "ephemeral_flutter_lldb_helper_handle_new_rx_page"
+    },
+    {
+      "label": "__lldb_init_module()",
+      "file_type": "code",
+      "source_file": "ios/Flutter/ephemeral/flutter_lldb_helper.py",
+      "source_location": "L24",
+      "community": 9,
+      "norm_label": "__lldb_init_module()",
+      "id": "ephemeral_flutter_lldb_helper_lldb_init_module"
+    },
+    {
+      "label": "Intercept NOTIFY_DEBUGGER_ABOUT_RX_PAGES and touch the pages.",
+      "file_type": "rationale",
+      "source_file": "ios/Flutter/ephemeral/flutter_lldb_helper.py",
+      "source_location": "L8",
+      "community": 9,
+      "norm_label": "intercept notify_debugger_about_rx_pages and touch the pages.",
+      "id": "ephemeral_flutter_lldb_helper_rationale_8"
+    },
+    {
+      "label": "main.cc",
+      "file_type": "code",
+      "source_file": "linux/runner/main.cc",
+      "source_location": "L1",
+      "community": 3,
+      "norm_label": "main.cc",
+      "id": "linux_runner_main_cc"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "linux/runner/main.cc",
+      "source_location": "L3",
+      "community": 3,
+      "norm_label": "main()",
+      "id": "runner_main_main"
+    },
+    {
+      "label": "my_application.h",
+      "file_type": "code",
+      "source_file": "linux/runner/my_application.h",
+      "source_location": "L1",
+      "community": 3,
+      "norm_label": "my_application.h",
+      "id": "linux_runner_my_application_h"
+    },
+    {
+      "label": "first_frame_cb()",
+      "file_type": "code",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L18",
+      "community": 3,
+      "norm_label": "first_frame_cb()",
+      "id": "runner_my_application_first_frame_cb"
+    },
+    {
+      "label": "my_application_activate()",
+      "file_type": "code",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L23",
+      "community": 4,
+      "norm_label": "my_application_activate()",
+      "id": "runner_my_application_my_application_activate"
+    },
+    {
+      "label": "my_application_local_command_line()",
+      "file_type": "code",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L82",
+      "community": 3,
+      "norm_label": "my_application_local_command_line()",
+      "id": "runner_my_application_my_application_local_command_line"
+    },
+    {
+      "label": "my_application_startup()",
+      "file_type": "code",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L103",
+      "community": 3,
+      "norm_label": "my_application_startup()",
+      "id": "runner_my_application_my_application_startup"
+    },
+    {
+      "label": "my_application_shutdown()",
+      "file_type": "code",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L112",
+      "community": 3,
+      "norm_label": "my_application_shutdown()",
+      "id": "runner_my_application_my_application_shutdown"
+    },
+    {
+      "label": "my_application_dispose()",
+      "file_type": "code",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L121",
+      "community": 3,
+      "norm_label": "my_application_dispose()",
+      "id": "runner_my_application_my_application_dispose"
+    },
+    {
+      "label": "my_application_class_init()",
+      "file_type": "code",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L127",
+      "community": 3,
+      "norm_label": "my_application_class_init()",
+      "id": "runner_my_application_my_application_class_init"
+    },
+    {
+      "label": "my_application_init()",
+      "file_type": "code",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L136",
+      "community": 3,
+      "norm_label": "my_application_init()",
+      "id": "runner_my_application_my_application_init"
+    },
+    {
+      "label": "fl_register_plugins()",
+      "file_type": "code",
+      "source_file": "linux/flutter/generated_plugin_registrant.cc",
+      "source_location": "L12",
+      "community": 4,
+      "norm_label": "fl_register_plugins()",
+      "id": "flutter_generated_plugin_registrant_fl_register_plugins"
+    },
+    {
+      "label": "build.gradle.kts",
+      "file_type": "code",
+      "source_file": "android/build.gradle.kts",
+      "source_location": "L1",
+      "community": 24,
+      "norm_label": "build.gradle.kts",
+      "id": "android_build_gradle_kts"
+    },
+    {
+      "label": "settings.gradle.kts",
+      "file_type": "code",
+      "source_file": "android/settings.gradle.kts",
+      "source_location": "L1",
+      "community": 25,
+      "norm_label": "settings.gradle.kts",
+      "id": "android_settings_gradle_kts"
+    },
+    {
+      "label": ".registerWith()",
+      "file_type": "code",
+      "source_file": "android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java",
+      "source_location": "L17",
+      "community": 4,
+      "norm_label": ".registerwith()",
+      "id": "plugins_generatedpluginregistrant_generatedpluginregistrant_registerwith"
+    },
+    {
+      "label": "MainActivity",
+      "file_type": "code",
+      "source_file": "android/app/src/main/kotlin/com/example/stolity_desktop/MainActivity.kt",
+      "source_location": "L5",
+      "community": 26,
+      "norm_label": "mainactivity",
+      "id": "stolity_desktop_mainactivity_mainactivity"
+    },
+    {
+      "label": "main.dart",
+      "file_type": "code",
+      "source_file": "lib/main.dart",
+      "source_location": null,
+      "community": 5,
+      "norm_label": "main.dart",
+      "id": "lib_main_dart"
+    },
+    {
+      "label": "StolityApp",
+      "file_type": "code",
+      "source_file": "lib/main.dart",
+      "source_location": null,
+      "community": 5,
+      "norm_label": "stolityapp",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_main_dart_stolityapp"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "lib/main.dart",
+      "source_location": null,
+      "community": 5,
+      "norm_label": "build",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_main_dart_build"
+    },
+    {
+      "label": "MaterialApp",
+      "file_type": "code",
+      "source_file": "lib/main.dart",
+      "source_location": null,
+      "community": 5,
+      "norm_label": "materialapp",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_main_dart_materialapp"
+    },
+    {
+      "label": "package:flutter/material.dart",
+      "file_type": "code",
+      "source_file": "lib/main.dart",
+      "source_location": null,
+      "community": 5,
+      "norm_label": "package:flutter/material.dart",
+      "id": "package_flutter_material_dart"
+    },
+    {
+      "label": "package:window_manager/window_manager.dart",
+      "file_type": "code",
+      "source_file": "lib/main.dart",
+      "source_location": null,
+      "community": 5,
+      "norm_label": "package:window_manager/window_manager.dart",
+      "id": "package_window_manager_window_manager_dart"
+    },
+    {
+      "label": "webview_screen.dart",
+      "file_type": "code",
+      "source_file": "lib/main.dart",
+      "source_location": null,
+      "community": 0,
+      "norm_label": "webview_screen.dart",
+      "id": "webview_screen_dart"
+    },
+    {
+      "label": "StolityWebView",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 0,
+      "norm_label": "stolitywebview",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_stolitywebview"
+    },
+    {
+      "label": "_NavPillIconButton",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 0,
+      "norm_label": "_navpilliconbutton",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_navpilliconbutton"
+    },
+    {
+      "label": "_NavPillIconButtonState",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 0,
+      "norm_label": "_navpilliconbuttonstate",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_navpilliconbuttonstate"
+    },
+    {
+      "label": "initState",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 0,
+      "norm_label": "initstate",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_initstate"
+    },
+    {
+      "label": "dispose",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 0,
+      "norm_label": "dispose",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_dispose"
+    },
+    {
+      "label": "_isAuthFlowUrl",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 0,
+      "norm_label": "_isauthflowurl",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_isauthflowurl"
+    },
+    {
+      "label": "_handleRouteUpdate",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 0,
+      "norm_label": "_handlerouteupdate",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_handlerouteupdate"
+    },
+    {
+      "label": "_onPillInteraction",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 0,
+      "norm_label": "_onpillinteraction",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_onpillinteraction"
+    },
+    {
+      "label": "_setPillHover",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 0,
+      "norm_label": "_setpillhover",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_setpillhover"
+    },
+    {
+      "label": "_startNavigationStateTracking",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 0,
+      "norm_label": "_startnavigationstatetracking",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_startnavigationstatetracking"
+    },
+    {
+      "label": "_updateNavigationState",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 0,
+      "norm_label": "_updatenavigationstate",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_updatenavigationstate"
+    },
+    {
+      "label": "_buildNavigationPill",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 0,
+      "norm_label": "_buildnavigationpill",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_buildnavigationpill"
+    },
+    {
+      "label": "SafeArea",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 0,
+      "norm_label": "safearea",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_safearea"
+    },
+    {
+      "label": "initializeWindow",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 0,
+      "norm_label": "initializewindow",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_initializewindow"
+    },
+    {
+      "label": "_stolityPrevent",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 0,
+      "norm_label": "_stolityprevent",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_stolityprevent"
+    },
+    {
+      "label": "sendMessage",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 0,
+      "norm_label": "sendmessage",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_sendmessage"
+    },
+    {
+      "label": "notifyRoute",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 0,
+      "norm_label": "notifyroute",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_notifyroute"
+    },
+    {
+      "label": "isDownloadAnchor",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 0,
+      "norm_label": "isdownloadanchor",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_isdownloadanchor"
+    },
+    {
+      "label": "_openWindowsPopup",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 0,
+      "norm_label": "_openwindowspopup",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_openwindowspopup"
+    },
+    {
+      "label": "_openMacPopup",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 0,
+      "norm_label": "_openmacpopup",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_openmacpopup"
+    },
+    {
+      "label": "patchInput",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 0,
+      "norm_label": "patchinput",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_patchinput"
+    },
+    {
+      "label": "MutationObserver",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 0,
+      "norm_label": "mutationobserver",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_mutationobserver"
+    },
+    {
+      "label": "_handleDownloadMessage",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 0,
+      "norm_label": "_handledownloadmessage",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_handledownloadmessage"
+    },
+    {
+      "label": "handleFilePick",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 0,
+      "norm_label": "handlefilepick",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_handlefilepick"
+    },
+    {
+      "label": "Dialog",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 0,
+      "norm_label": "dialog",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_dialog"
+    },
+    {
+      "label": "Scaffold",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 0,
+      "norm_label": "scaffold",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_scaffold"
+    },
+    {
+      "label": "ColoredBox",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 0,
+      "norm_label": "coloredbox",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_coloredbox"
+    },
+    {
+      "label": "Padding",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 0,
+      "norm_label": "padding",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_padding"
+    },
+    {
+      "label": "dart:convert",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 2,
+      "norm_label": "dart:convert",
+      "id": "dart_convert"
+    },
+    {
+      "label": "dart:async",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 0,
+      "norm_label": "dart:async",
+      "id": "dart_async"
+    },
+    {
+      "label": "dart:io",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 2,
+      "norm_label": "dart:io",
+      "id": "dart_io"
+    },
+    {
+      "label": "dart:ui",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 0,
+      "norm_label": "dart:ui",
+      "id": "dart_ui"
+    },
+    {
+      "label": "package:webview_flutter/webview_flutter.dart",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 2,
+      "norm_label": "package:webview_flutter/webview_flutter.dart",
+      "id": "package_webview_flutter_webview_flutter_dart"
+    },
+    {
+      "label": "package:webview_windows/webview_windows.dart",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 2,
+      "norm_label": "package:webview_windows/webview_windows.dart",
+      "id": "package_webview_windows_webview_windows_dart"
+    },
+    {
+      "label": "constants.dart",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 5,
+      "norm_label": "constants.dart",
+      "id": "constants_dart"
+    },
+    {
+      "label": "services/file_picker_service.dart",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 0,
+      "norm_label": "services/file_picker_service.dart",
+      "id": "services_file_picker_service_dart"
+    },
+    {
+      "label": "services/window_service.dart",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 0,
+      "norm_label": "services/window_service.dart",
+      "id": "services_window_service_dart"
+    },
+    {
+      "label": "services/download_service.dart",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 0,
+      "norm_label": "services/download_service.dart",
+      "id": "services_download_service_dart"
+    },
+    {
+      "label": "services/snackbar_service.dart",
+      "file_type": "code",
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "community": 0,
+      "norm_label": "services/snackbar_service.dart",
+      "id": "services_snackbar_service_dart"
+    },
+    {
+      "label": "mime_types.dart",
+      "file_type": "code",
+      "source_file": "lib/utils/mime_types.dart",
+      "source_location": null,
+      "community": 16,
+      "norm_label": "mime_types.dart",
+      "id": "lib_utils_mime_types_dart"
+    },
+    {
+      "label": "getMimeType",
+      "file_type": "code",
+      "source_file": "lib/utils/mime_types.dart",
+      "source_location": null,
+      "community": 16,
+      "norm_label": "getmimetype",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_utils_mime_types_dart_getmimetype"
+    },
+    {
+      "label": "download_service.dart",
+      "file_type": "code",
+      "source_file": "lib/services/download_service.dart",
+      "source_location": null,
+      "community": 2,
+      "norm_label": "download_service.dart",
+      "id": "lib_services_download_service_dart"
+    },
+    {
+      "label": "DownloadService",
+      "file_type": "code",
+      "source_file": "lib/services/download_service.dart",
+      "source_location": null,
+      "community": 2,
+      "norm_label": "downloadservice",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_services_download_service_dart_downloadservice"
+    },
+    {
+      "label": "_downloadsDirectory",
+      "file_type": "code",
+      "source_file": "lib/services/download_service.dart",
+      "source_location": null,
+      "community": 2,
+      "norm_label": "_downloadsdirectory",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_services_download_service_dart_downloadsdirectory"
+    },
+    {
+      "label": "Directory",
+      "file_type": "code",
+      "source_file": "lib/services/download_service.dart",
+      "source_location": null,
+      "community": 2,
+      "norm_label": "directory",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_services_download_service_dart_directory"
+    },
+    {
+      "label": "_sanitizeFileName",
+      "file_type": "code",
+      "source_file": "lib/services/download_service.dart",
+      "source_location": null,
+      "community": 2,
+      "norm_label": "_sanitizefilename",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_services_download_service_dart_sanitizefilename"
+    },
+    {
+      "label": "_filenameFromUrl",
+      "file_type": "code",
+      "source_file": "lib/services/download_service.dart",
+      "source_location": null,
+      "community": 2,
+      "norm_label": "_filenamefromurl",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_services_download_service_dart_filenamefromurl"
+    },
+    {
+      "label": "HttpException",
+      "file_type": "code",
+      "source_file": "lib/services/download_service.dart",
+      "source_location": null,
+      "community": 2,
+      "norm_label": "httpexception",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_services_download_service_dart_httpexception"
+    },
+    {
+      "label": "saveBytes",
+      "file_type": "code",
+      "source_file": "lib/services/download_service.dart",
+      "source_location": null,
+      "community": 2,
+      "norm_label": "savebytes",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_services_download_service_dart_savebytes"
+    },
+    {
+      "label": "dart:typed_data",
+      "file_type": "code",
+      "source_file": "lib/services/download_service.dart",
+      "source_location": null,
+      "community": 2,
+      "norm_label": "dart:typed_data",
+      "id": "dart_typed_data"
+    },
+    {
+      "label": "snackbar_service.dart",
+      "file_type": "code",
+      "source_file": "lib/services/snackbar_service.dart",
+      "source_location": null,
+      "community": 5,
+      "norm_label": "snackbar_service.dart",
+      "id": "lib_services_snackbar_service_dart"
+    },
+    {
+      "label": "showReusableSnackbar",
+      "file_type": "code",
+      "source_file": "lib/services/snackbar_service.dart",
+      "source_location": null,
+      "community": 5,
+      "norm_label": "showreusablesnackbar",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_services_snackbar_service_dart_showreusablesnackbar"
+    },
+    {
+      "label": "window_service.dart",
+      "file_type": "code",
+      "source_file": "lib/services/window_service.dart",
+      "source_location": null,
+      "community": 5,
+      "norm_label": "window_service.dart",
+      "id": "lib_services_window_service_dart"
+    },
+    {
+      "label": "file_picker_service.dart",
+      "file_type": "code",
+      "source_file": "lib/services/file_picker_service.dart",
+      "source_location": null,
+      "community": 2,
+      "norm_label": "file_picker_service.dart",
+      "id": "lib_services_file_picker_service_dart"
+    },
+    {
+      "label": "_escapeJsString",
+      "file_type": "code",
+      "source_file": "lib/services/file_picker_service.dart",
+      "source_location": null,
+      "community": 2,
+      "norm_label": "_escapejsstring",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_services_file_picker_service_dart_escapejsstring"
+    },
+    {
+      "label": "handleFolderPick",
+      "file_type": "code",
+      "source_file": "lib/services/file_picker_service.dart",
+      "source_location": null,
+      "community": 2,
+      "norm_label": "handlefolderpick",
+      "id": "users_atharvasadavarte_documents_stolity_desktop_lib_services_file_picker_service_dart_handlefolderpick"
+    },
+    {
+      "label": "package:file_picker/file_picker.dart",
+      "file_type": "code",
+      "source_file": "lib/services/file_picker_service.dart",
+      "source_location": null,
+      "community": 2,
+      "norm_label": "package:file_picker/file_picker.dart",
+      "id": "package_file_picker_file_picker_dart"
+    },
+    {
+      "label": "../utils/mime_types.dart",
+      "file_type": "code",
+      "source_file": "lib/services/file_picker_service.dart",
+      "source_location": null,
+      "community": 2,
+      "norm_label": "../utils/mime_types.dart",
+      "id": "utils_mime_types_dart"
+    },
+    {
+      "label": "flutter_window.cpp",
+      "file_type": "code",
+      "source_file": "windows/runner/flutter_window.cpp",
+      "source_location": "L1",
+      "community": 1,
+      "norm_label": "flutter_window.cpp",
+      "id": "windows_runner_flutter_window_cpp"
+    },
+    {
+      "label": "utils.h",
+      "file_type": "code",
+      "source_file": "windows/runner/utils.h",
+      "source_location": "L1",
+      "community": 27,
+      "norm_label": "utils.h",
+      "id": "windows_runner_utils_h"
+    },
+    {
+      "label": "utils.cpp",
+      "file_type": "code",
+      "source_file": "windows/runner/utils.cpp",
+      "source_location": "L1",
+      "community": 7,
+      "norm_label": "utils.cpp",
+      "id": "windows_runner_utils_cpp"
+    },
+    {
+      "label": "CreateAndAttachConsole()",
+      "file_type": "code",
+      "source_file": "windows/runner/utils.cpp",
+      "source_location": "L10",
+      "community": 7,
+      "norm_label": "createandattachconsole()",
+      "id": "runner_utils_createandattachconsole"
+    },
+    {
+      "label": "GetCommandLineArguments()",
+      "file_type": "code",
+      "source_file": "windows/runner/utils.cpp",
+      "source_location": "L24",
+      "community": 7,
+      "norm_label": "getcommandlinearguments()",
+      "id": "runner_utils_getcommandlinearguments"
+    },
+    {
+      "label": "Utf8FromUtf16()",
+      "file_type": "code",
+      "source_file": "windows/runner/utils.cpp",
+      "source_location": "L44",
+      "community": 7,
+      "norm_label": "utf8fromutf16()",
+      "id": "runner_utils_utf8fromutf16"
+    },
+    {
+      "label": "win32_window.h",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.h",
+      "source_location": "L1",
+      "community": 1,
+      "norm_label": "win32_window.h",
+      "id": "windows_runner_win32_window_h"
+    },
+    {
+      "label": "win32_window.cpp",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L1",
+      "community": 1,
+      "norm_label": "win32_window.cpp",
+      "id": "windows_runner_win32_window_cpp"
+    },
+    {
+      "label": "Scale()",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L36",
+      "community": 1,
+      "norm_label": "scale()",
+      "id": "runner_win32_window_scale"
+    },
+    {
+      "label": "EnableFullDpiSupportIfAvailable()",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L42",
+      "community": 1,
+      "norm_label": "enablefulldpisupportifavailable()",
+      "id": "runner_win32_window_enablefulldpisupportifavailable"
+    },
+    {
+      "label": "WindowClassRegistrar",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L59",
+      "community": 1,
+      "norm_label": "windowclassregistrar",
+      "id": "runner_win32_window_windowclassregistrar"
+    },
+    {
+      "label": "GetWindowClass()",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L89",
+      "community": 1,
+      "norm_label": "getwindowclass()",
+      "id": "runner_win32_window_getwindowclass"
+    },
+    {
+      "label": "UnregisterWindowClass()",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L109",
+      "community": 1,
+      "norm_label": "unregisterwindowclass()",
+      "id": "runner_win32_window_unregisterwindowclass"
+    },
+    {
+      "label": "Create()",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L123",
+      "community": 1,
+      "norm_label": "create()",
+      "id": "runner_win32_window_create"
+    },
+    {
+      "label": "Show()",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L152",
+      "community": 1,
+      "norm_label": "show()",
+      "id": "runner_win32_window_show"
+    },
+    {
+      "label": "WndProc()",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L157",
+      "community": 1,
+      "norm_label": "wndproc()",
+      "id": "runner_win32_window_wndproc"
+    },
+    {
+      "label": "MessageHandler()",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L176",
+      "community": 1,
+      "norm_label": "messagehandler()",
+      "id": "runner_win32_window_messagehandler"
+    },
+    {
+      "label": "Destroy()",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L224",
+      "community": 1,
+      "norm_label": "destroy()",
+      "id": "runner_win32_window_destroy"
+    },
+    {
+      "label": "GetThisFromHandle()",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L236",
+      "community": 1,
+      "norm_label": "getthisfromhandle()",
+      "id": "runner_win32_window_getthisfromhandle"
+    },
+    {
+      "label": "SetChildContent()",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L241",
+      "community": 1,
+      "norm_label": "setchildcontent()",
+      "id": "runner_win32_window_setchildcontent"
+    },
+    {
+      "label": "GetClientArea()",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L252",
+      "community": 1,
+      "norm_label": "getclientarea()",
+      "id": "runner_win32_window_getclientarea"
+    },
+    {
+      "label": "GetHandle()",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L258",
+      "community": 1,
+      "norm_label": "gethandle()",
+      "id": "runner_win32_window_gethandle"
+    },
+    {
+      "label": "SetQuitOnClose()",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L262",
+      "community": 1,
+      "norm_label": "setquitonclose()",
+      "id": "runner_win32_window_setquitonclose"
+    },
+    {
+      "label": "OnCreate()",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L266",
+      "community": 1,
+      "norm_label": "oncreate()",
+      "id": "runner_win32_window_oncreate"
+    },
+    {
+      "label": "UpdateTheme()",
+      "file_type": "code",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L275",
+      "community": 1,
+      "norm_label": "updatetheme()",
+      "id": "runner_win32_window_updatetheme"
+    },
+    {
+      "label": "resource.h",
+      "file_type": "code",
+      "source_file": "windows/runner/resource.h",
+      "source_location": "L1",
+      "community": 28,
+      "norm_label": "resource.h",
+      "id": "windows_runner_resource_h"
+    },
+    {
+      "label": "main.cpp",
+      "file_type": "code",
+      "source_file": "windows/runner/main.cpp",
+      "source_location": "L1",
+      "community": 7,
+      "norm_label": "main.cpp",
+      "id": "windows_runner_main_cpp"
+    },
+    {
+      "label": "wWinMain()",
+      "file_type": "code",
+      "source_file": "windows/runner/main.cpp",
+      "source_location": "L8",
+      "community": 7,
+      "norm_label": "wwinmain()",
+      "id": "runner_main_wwinmain"
+    },
+    {
+      "label": "flutter_window.h",
+      "file_type": "code",
+      "source_file": "windows/runner/flutter_window.h",
+      "source_location": "L1",
+      "community": 1,
+      "norm_label": "flutter_window.h",
+      "id": "windows_runner_flutter_window_h"
+    },
+    {
+      "label": "RegisterPlugins()",
+      "file_type": "code",
+      "source_file": "windows/flutter/generated_plugin_registrant.cc",
+      "source_location": "L13",
+      "community": 4,
+      "norm_label": "registerplugins()",
+      "id": "flutter_generated_plugin_registrant_registerplugins"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/RunnerTests/RunnerTests.swift",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "runnertests_runnertests_runnertests",
+      "target": "ios_runnertests_runnertests_swift"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/RunnerTests/RunnerTests.swift",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "runnertests_runnertests_runnertests",
+      "target": "xctestcase"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/RunnerTests/RunnerTests.swift",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "runnertests_runnertests_runnertests",
+      "target": "runnertests_runnertests_runnertests_testexample"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/Runner/MainFlutterWindow.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "macos_runner_mainflutterwindow_swift",
+      "target": "nswindow"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/Runner/MainFlutterWindow.swift",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "macos_runner_mainflutterwindow_swift",
+      "target": "runner_mainflutterwindow_mainflutterwindow_awakefromnib"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "macos/Runner/MainFlutterWindow.swift",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "runner_mainflutterwindow_mainflutterwindow_awakefromnib",
+      "target": "flutter_generatedpluginregistrant_registergeneratedplugins"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/Runner/AppDelegate.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "flutterappdelegate",
+      "target": "ios_runner_appdelegate_swift"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/Runner/AppDelegate.swift",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "runner_appdelegate_appdelegate_applicationshouldterminateafterlastwindowclosed",
+      "target": "ios_runner_appdelegate_swift"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/Runner/AppDelegate.swift",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "runner_appdelegate_appdelegate_applicationsupportssecurerestorablestate",
+      "target": "ios_runner_appdelegate_swift"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/Flutter/GeneratedPluginRegistrant.swift",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "flutter_generatedpluginregistrant_registergeneratedplugins",
+      "target": "ios_runner_generatedpluginregistrant_h"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/Pods/Target Support Files/window_manager/window_manager-dummy.m",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "macos_pods_target_support_files_window_manager_window_manager_dummy_m",
+      "target": "window_manager_window_manager_dummy_podsdummy_window_manager"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/Pods/Target Support Files/screen_retriever/screen_retriever-dummy.m",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "macos_pods_target_support_files_screen_retriever_screen_retriever_dummy_m",
+      "target": "screen_retriever_screen_retriever_dummy_podsdummy_screen_retriever"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/Pods/Target Support Files/webview_flutter_wkwebview/webview_flutter_wkwebview-dummy.m",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "macos_pods_target_support_files_webview_flutter_wkwebview_webview_flutter_wkwebview_dummy_m",
+      "target": "webview_flutter_wkwebview_webview_flutter_wkwebview_dummy_podsdummy_webview_flutter_wkwebview"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/Pods/Target Support Files/Pods-RunnerTests/Pods-RunnerTests-dummy.m",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "macos_pods_target_support_files_pods_runner_pods_runner_dummy_m",
+      "target": "pods_runner_pods_runner_dummy_podsdummy_pods_runner"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/Pods/Target Support Files/file_picker/file_picker-dummy.m",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "macos_pods_target_support_files_file_picker_file_picker_dummy_m",
+      "target": "file_picker_file_picker_dummy_podsdummy_file_picker"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/widget_test.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "test_widget_test_dart",
+      "target": "runner_main_main"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/widget_test.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "test_widget_test_dart",
+      "target": "package_flutter_test_flutter_test_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/widget_test.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "test_widget_test_dart",
+      "target": "package_stolity_desktop_main_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/widget_test.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "test_widget_test_dart",
+      "target": "package_stolity_desktop_webview_screen_dart"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/Runner/GeneratedPluginRegistrant.m",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ios_runner_generatedpluginregistrant_h",
+      "target": "runner_generatedpluginregistrant_generatedpluginregistrant_registerwithregistry"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "linux/flutter/generated_plugin_registrant.cc",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ios_runner_generatedpluginregistrant_h",
+      "target": "flutter_generated_plugin_registrant_fl_register_plugins"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ios_runner_generatedpluginregistrant_h",
+      "target": "plugins_generatedpluginregistrant_generatedpluginregistrant_registerwith"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/flutter/generated_plugin_registrant.cc",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ios_runner_generatedpluginregistrant_h",
+      "target": "flutter_generated_plugin_registrant_registerplugins"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/Runner/AppDelegate.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ios_runner_appdelegate_swift",
+      "target": "flutterimplicitenginedelegate"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/Runner/AppDelegate.swift",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ios_runner_appdelegate_swift",
+      "target": "runner_appdelegate_appdelegate_application"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/Runner/AppDelegate.swift",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ios_runner_appdelegate_swift",
+      "target": "runner_appdelegate_appdelegate_didinitializeimplicitflutterengine"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/Runner/SceneDelegate.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ios_runner_scenedelegate_swift",
+      "target": "runner_scenedelegate_scenedelegate"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/Runner/SceneDelegate.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "runner_scenedelegate_scenedelegate",
+      "target": "flutterscenedelegate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/Flutter/ephemeral/flutter_lldb_helper.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ios_flutter_ephemeral_flutter_lldb_helper_py",
+      "target": "ephemeral_flutter_lldb_helper_handle_new_rx_page"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/Flutter/ephemeral/flutter_lldb_helper.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ios_flutter_ephemeral_flutter_lldb_helper_py",
+      "target": "ephemeral_flutter_lldb_helper_lldb_init_module"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "ios/Flutter/ephemeral/flutter_lldb_helper.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ephemeral_flutter_lldb_helper_handle_new_rx_page",
+      "target": "ephemeral_flutter_lldb_helper_rationale_8"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "linux/runner/main.cc",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "linux_runner_main_cc",
+      "target": "runner_main_main"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/main.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "runner_main_main",
+      "target": "lib_main_dart"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "linux/runner/main.cc",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "runner_main_main",
+      "target": "linux_runner_my_application_h"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "linux_runner_my_application_h",
+      "target": "runner_my_application_first_frame_cb"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "linux_runner_my_application_h",
+      "target": "runner_my_application_my_application_activate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L82",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "linux_runner_my_application_h",
+      "target": "runner_my_application_my_application_local_command_line"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L103",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "linux_runner_my_application_h",
+      "target": "runner_my_application_my_application_startup"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L112",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "linux_runner_my_application_h",
+      "target": "runner_my_application_my_application_shutdown"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L121",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "linux_runner_my_application_h",
+      "target": "runner_my_application_my_application_dispose"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L127",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "linux_runner_my_application_h",
+      "target": "runner_my_application_my_application_class_init"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L136",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "linux_runner_my_application_h",
+      "target": "runner_my_application_my_application_init"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "linux/runner/my_application.cc",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "runner_my_application_my_application_activate",
+      "target": "flutter_generated_plugin_registrant_fl_register_plugins"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/main.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_main_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_main_dart_stolityapp"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/main.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_main_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_main_dart_build"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/main.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_main_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_main_dart_materialapp"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/main.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_main_dart",
+      "target": "package_flutter_material_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/main.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_main_dart",
+      "target": "package_window_manager_window_manager_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/main.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_main_dart",
+      "target": "webview_screen_dart"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "users_atharvasadavarte_documents_stolity_desktop_lib_main_dart_build",
+      "target": "webview_screen_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "package_flutter_material_dart",
+      "target": "webview_screen_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/constants.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "package_flutter_material_dart",
+      "target": "constants_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/services/snackbar_service.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "package_flutter_material_dart",
+      "target": "lib_services_snackbar_service_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/services/window_service.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "package_flutter_material_dart",
+      "target": "lib_services_window_service_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/services/window_service.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "package_window_manager_window_manager_dart",
+      "target": "lib_services_window_service_dart"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_stolitywebview"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_navpilliconbutton"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_navpilliconbuttonstate"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_initstate"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_dispose"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_isauthflowurl"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_handlerouteupdate"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_onpillinteraction"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_setpillhover"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_startnavigationstatetracking"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_updatenavigationstate"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_buildnavigationpill"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_safearea"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_initializewindow"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_stolityprevent"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_sendmessage"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_notifyroute"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_isdownloadanchor"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_openwindowspopup"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_openmacpopup"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_patchinput"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_mutationobserver"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_handledownloadmessage"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_handlefilepick"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_dialog"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_scaffold"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_coloredbox"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_padding"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "dart_convert"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "dart_async"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "dart_io"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "dart_ui"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "package_webview_flutter_webview_flutter_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "package_webview_windows_webview_windows_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "constants_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "services_file_picker_service_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "services_window_service_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "services_download_service_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/webview_screen.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "webview_screen_dart",
+      "target": "services_snackbar_service_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/services/download_service.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "dart_convert",
+      "target": "lib_services_download_service_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/services/file_picker_service.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "dart_convert",
+      "target": "lib_services_file_picker_service_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/services/download_service.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "dart_io",
+      "target": "lib_services_download_service_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/services/file_picker_service.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "dart_io",
+      "target": "lib_services_file_picker_service_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/services/file_picker_service.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "package_webview_flutter_webview_flutter_dart",
+      "target": "lib_services_file_picker_service_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/services/file_picker_service.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "package_webview_windows_webview_windows_dart",
+      "target": "lib_services_file_picker_service_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/services/window_service.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "constants_dart",
+      "target": "lib_services_window_service_dart"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/utils/mime_types.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_utils_mime_types_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_utils_mime_types_dart_getmimetype"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/services/download_service.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_services_download_service_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_services_download_service_dart_downloadservice"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/services/download_service.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_services_download_service_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_services_download_service_dart_downloadsdirectory"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/services/download_service.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_services_download_service_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_services_download_service_dart_directory"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/services/download_service.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_services_download_service_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_services_download_service_dart_sanitizefilename"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/services/download_service.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_services_download_service_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_services_download_service_dart_filenamefromurl"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/services/download_service.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_services_download_service_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_services_download_service_dart_httpexception"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/services/download_service.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_services_download_service_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_services_download_service_dart_savebytes"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/services/download_service.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_services_download_service_dart",
+      "target": "dart_typed_data"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/services/snackbar_service.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_services_snackbar_service_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_services_snackbar_service_dart_showreusablesnackbar"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/services/file_picker_service.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_services_file_picker_service_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_services_file_picker_service_dart_escapejsstring"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/services/file_picker_service.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_services_file_picker_service_dart",
+      "target": "users_atharvasadavarte_documents_stolity_desktop_lib_services_file_picker_service_dart_handlefolderpick"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/services/file_picker_service.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_services_file_picker_service_dart",
+      "target": "package_file_picker_file_picker_dart"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/services/file_picker_service.dart",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "lib_services_file_picker_service_dart",
+      "target": "utils_mime_types_dart"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/flutter_window.cpp",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "windows_runner_flutter_window_cpp",
+      "target": "windows_runner_flutter_window_h"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/flutter_window.cpp",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "windows_runner_flutter_window_cpp",
+      "target": "runner_win32_window_oncreate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/flutter_window.cpp",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "windows_runner_flutter_window_cpp",
+      "target": "runner_win32_window_destroy"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/flutter_window.cpp",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "windows_runner_flutter_window_cpp",
+      "target": "runner_win32_window_messagehandler"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/utils.cpp",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "windows_runner_utils_cpp",
+      "target": "runner_utils_createandattachconsole"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/utils.cpp",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "windows_runner_utils_cpp",
+      "target": "runner_utils_getcommandlinearguments"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/utils.cpp",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "windows_runner_utils_cpp",
+      "target": "runner_utils_utf8fromutf16"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "windows/runner/main.cpp",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "runner_utils_createandattachconsole",
+      "target": "runner_main_wwinmain"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/utils.cpp",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "runner_utils_getcommandlinearguments",
+      "target": "runner_utils_utf8fromutf16"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "windows/runner/main.cpp",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "runner_utils_getcommandlinearguments",
+      "target": "runner_main_wwinmain"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L118",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "windows_runner_win32_window_h",
+      "target": "windows_runner_win32_window_cpp"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L120",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "windows_runner_win32_window_h",
+      "target": "runner_win32_window_destroy"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_scale"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_enablefulldpisupportifavailable"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L59",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_windowclassregistrar"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L89",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_getwindowclass"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L109",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_unregisterwindowclass"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L123",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_create"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L152",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_show"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L157",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_wndproc"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L176",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_messagehandler"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L271",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_destroy"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L236",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_getthisfromhandle"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L241",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_setchildcontent"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L252",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_getclientarea"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L258",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_gethandle"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L262",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_setquitonclose"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L266",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_oncreate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L275",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "windows_runner_win32_window_cpp",
+      "target": "runner_win32_window_updatetheme"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L139",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "runner_win32_window_scale",
+      "target": "runner_win32_window_create"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L167",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "runner_win32_window_enablefulldpisupportifavailable",
+      "target": "runner_win32_window_wndproc"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L129",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "runner_win32_window_getwindowclass",
+      "target": "runner_win32_window_create"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L232",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "runner_win32_window_unregisterwindowclass",
+      "target": "runner_win32_window_destroy"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L126",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "runner_win32_window_create",
+      "target": "runner_win32_window_destroy"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L147",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "runner_win32_window_create",
+      "target": "runner_win32_window_updatetheme"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L149",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "runner_win32_window_create",
+      "target": "runner_win32_window_oncreate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L169",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "runner_win32_window_wndproc",
+      "target": "runner_win32_window_getthisfromhandle"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L170",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "runner_win32_window_wndproc",
+      "target": "runner_win32_window_messagehandler"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L184",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "runner_win32_window_messagehandler",
+      "target": "runner_win32_window_destroy"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L201",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "runner_win32_window_messagehandler",
+      "target": "runner_win32_window_getclientarea"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L217",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "runner_win32_window_messagehandler",
+      "target": "runner_win32_window_updatetheme"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/win32_window.cpp",
+      "source_location": "L244",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "runner_win32_window_setchildcontent",
+      "target": "runner_win32_window_getclientarea"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "windows/runner/flutter_window.cpp",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "runner_win32_window_setchildcontent",
+      "target": "runner_win32_window_oncreate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "windows/runner/flutter_window.cpp",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "runner_win32_window_getclientarea",
+      "target": "runner_win32_window_oncreate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "windows/runner/flutter_window.cpp",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "runner_win32_window_oncreate",
+      "target": "flutter_generated_plugin_registrant_registerplugins"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "windows/runner/main.cpp",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "windows_runner_main_cpp",
+      "target": "runner_main_wwinmain"
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "45c315cd29b92c736c191f64b3f97bc358e367bb"
+}
