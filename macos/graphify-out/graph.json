@@ -1,0 +1,1563 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "RunnerTests.swift",
+      "file_type": "code",
+      "source_file": "RunnerTests/RunnerTests.swift",
+      "source_location": "L1",
+      "id": "runnertests_runnertests_swift",
+      "community": 5,
+      "norm_label": "runnertests.swift"
+    },
+    {
+      "label": "RunnerTests",
+      "file_type": "code",
+      "source_file": "RunnerTests/RunnerTests.swift",
+      "source_location": "L5",
+      "id": "runnertests_runnertests_runnertests",
+      "community": 5,
+      "norm_label": "runnertests"
+    },
+    {
+      "label": "XCTestCase",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "xctestcase",
+      "community": 5,
+      "norm_label": "xctestcase"
+    },
+    {
+      "label": ".testExample()",
+      "file_type": "code",
+      "source_file": "RunnerTests/RunnerTests.swift",
+      "source_location": "L7",
+      "id": "runnertests_runnertests_runnertests_testexample",
+      "community": 5,
+      "norm_label": ".testexample()"
+    },
+    {
+      "label": "MainFlutterWindow.swift",
+      "file_type": "code",
+      "source_file": "Runner/MainFlutterWindow.swift",
+      "source_location": "L1",
+      "id": "runner_mainflutterwindow_swift",
+      "community": 3,
+      "norm_label": "mainflutterwindow.swift"
+    },
+    {
+      "label": "MainFlutterWindow",
+      "file_type": "code",
+      "source_file": "Runner/MainFlutterWindow.swift",
+      "source_location": "L4",
+      "id": "runner_mainflutterwindow_mainflutterwindow",
+      "community": 3,
+      "norm_label": "mainflutterwindow"
+    },
+    {
+      "label": "NSWindow",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "nswindow",
+      "community": 3,
+      "norm_label": "nswindow"
+    },
+    {
+      "label": ".awakeFromNib()",
+      "file_type": "code",
+      "source_file": "Runner/MainFlutterWindow.swift",
+      "source_location": "L5",
+      "id": "runner_mainflutterwindow_mainflutterwindow_awakefromnib",
+      "community": 3,
+      "norm_label": ".awakefromnib()"
+    },
+    {
+      "label": "AppDelegate.swift",
+      "file_type": "code",
+      "source_file": "Runner/AppDelegate.swift",
+      "source_location": "L1",
+      "id": "runner_appdelegate_swift",
+      "community": 4,
+      "norm_label": "appdelegate.swift"
+    },
+    {
+      "label": "AppDelegate",
+      "file_type": "code",
+      "source_file": "Runner/AppDelegate.swift",
+      "source_location": "L4",
+      "id": "runner_appdelegate_appdelegate",
+      "community": 4,
+      "norm_label": "appdelegate"
+    },
+    {
+      "label": "FlutterAppDelegate",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "flutterappdelegate",
+      "community": 4,
+      "norm_label": "flutterappdelegate"
+    },
+    {
+      "label": ".applicationShouldTerminateAfterLastWindowClosed()",
+      "file_type": "code",
+      "source_file": "Runner/AppDelegate.swift",
+      "source_location": "L6",
+      "id": "runner_appdelegate_appdelegate_applicationshouldterminateafterlastwindowclosed",
+      "community": 4,
+      "norm_label": ".applicationshouldterminateafterlastwindowclosed()"
+    },
+    {
+      "label": ".applicationSupportsSecureRestorableState()",
+      "file_type": "code",
+      "source_file": "Runner/AppDelegate.swift",
+      "source_location": "L10",
+      "id": "runner_appdelegate_appdelegate_applicationsupportssecurerestorablestate",
+      "community": 4,
+      "norm_label": ".applicationsupportssecurerestorablestate()"
+    },
+    {
+      "label": "GeneratedPluginRegistrant.swift",
+      "file_type": "code",
+      "source_file": "Flutter/GeneratedPluginRegistrant.swift",
+      "source_location": "L1",
+      "id": "flutter_generatedpluginregistrant_swift",
+      "community": 3,
+      "norm_label": "generatedpluginregistrant.swift"
+    },
+    {
+      "label": "RegisterGeneratedPlugins()",
+      "file_type": "code",
+      "source_file": "Flutter/GeneratedPluginRegistrant.swift",
+      "source_location": "L14",
+      "id": "flutter_generatedpluginregistrant_registergeneratedplugins",
+      "community": 3,
+      "norm_label": "registergeneratedplugins()"
+    },
+    {
+      "label": "window_manager-umbrella.h",
+      "file_type": "code",
+      "source_file": "Pods/Target Support Files/window_manager/window_manager-umbrella.h",
+      "source_location": "L1",
+      "id": "pods_target_support_files_window_manager_window_manager_umbrella_h",
+      "community": 14,
+      "norm_label": "window_manager-umbrella.h"
+    },
+    {
+      "label": "window_manager-dummy.m",
+      "file_type": "code",
+      "source_file": "Pods/Target Support Files/window_manager/window_manager-dummy.m",
+      "source_location": "L1",
+      "id": "pods_target_support_files_window_manager_window_manager_dummy_m",
+      "community": 6,
+      "norm_label": "window_manager-dummy.m"
+    },
+    {
+      "label": "PodsDummy_window_manager",
+      "file_type": "code",
+      "source_file": "Pods/Target Support Files/window_manager/window_manager-dummy.m",
+      "source_location": "L2",
+      "id": "window_manager_window_manager_dummy_podsdummy_window_manager",
+      "community": 6,
+      "norm_label": "podsdummy_window_manager"
+    },
+    {
+      "label": "flutter_secure_storage_darwin-dummy.m",
+      "file_type": "code",
+      "source_file": "Pods/Target Support Files/flutter_secure_storage_darwin/flutter_secure_storage_darwin-dummy.m",
+      "source_location": "L1",
+      "id": "pods_target_support_files_flutter_secure_storage_darwin_flutter_secure_storage_darwin_dummy_m",
+      "community": 7,
+      "norm_label": "flutter_secure_storage_darwin-dummy.m"
+    },
+    {
+      "label": "PodsDummy_flutter_secure_storage_darwin",
+      "file_type": "code",
+      "source_file": "Pods/Target Support Files/flutter_secure_storage_darwin/flutter_secure_storage_darwin-dummy.m",
+      "source_location": "L2",
+      "id": "flutter_secure_storage_darwin_flutter_secure_storage_darwin_dummy_podsdummy_flutter_secure_storage_darwin",
+      "community": 7,
+      "norm_label": "podsdummy_flutter_secure_storage_darwin"
+    },
+    {
+      "label": "flutter_secure_storage_darwin-umbrella.h",
+      "file_type": "code",
+      "source_file": "Pods/Target Support Files/flutter_secure_storage_darwin/flutter_secure_storage_darwin-umbrella.h",
+      "source_location": "L1",
+      "id": "pods_target_support_files_flutter_secure_storage_darwin_flutter_secure_storage_darwin_umbrella_h",
+      "community": 15,
+      "norm_label": "flutter_secure_storage_darwin-umbrella.h"
+    },
+    {
+      "label": "screen_retriever-dummy.m",
+      "file_type": "code",
+      "source_file": "Pods/Target Support Files/screen_retriever/screen_retriever-dummy.m",
+      "source_location": "L1",
+      "id": "pods_target_support_files_screen_retriever_screen_retriever_dummy_m",
+      "community": 8,
+      "norm_label": "screen_retriever-dummy.m"
+    },
+    {
+      "label": "PodsDummy_screen_retriever",
+      "file_type": "code",
+      "source_file": "Pods/Target Support Files/screen_retriever/screen_retriever-dummy.m",
+      "source_location": "L2",
+      "id": "screen_retriever_screen_retriever_dummy_podsdummy_screen_retriever",
+      "community": 8,
+      "norm_label": "podsdummy_screen_retriever"
+    },
+    {
+      "label": "screen_retriever-umbrella.h",
+      "file_type": "code",
+      "source_file": "Pods/Target Support Files/screen_retriever/screen_retriever-umbrella.h",
+      "source_location": "L1",
+      "id": "pods_target_support_files_screen_retriever_screen_retriever_umbrella_h",
+      "community": 16,
+      "norm_label": "screen_retriever-umbrella.h"
+    },
+    {
+      "label": "OrderedSet-umbrella.h",
+      "file_type": "code",
+      "source_file": "Pods/Target Support Files/OrderedSet/OrderedSet-umbrella.h",
+      "source_location": "L1",
+      "id": "pods_target_support_files_orderedset_orderedset_umbrella_h",
+      "community": 17,
+      "norm_label": "orderedset-umbrella.h"
+    },
+    {
+      "label": "OrderedSet-dummy.m",
+      "file_type": "code",
+      "source_file": "Pods/Target Support Files/OrderedSet/OrderedSet-dummy.m",
+      "source_location": "L1",
+      "id": "pods_target_support_files_orderedset_orderedset_dummy_m",
+      "community": 9,
+      "norm_label": "orderedset-dummy.m"
+    },
+    {
+      "label": "PodsDummy_OrderedSet",
+      "file_type": "code",
+      "source_file": "Pods/Target Support Files/OrderedSet/OrderedSet-dummy.m",
+      "source_location": "L2",
+      "id": "orderedset_orderedset_dummy_podsdummy_orderedset",
+      "community": 9,
+      "norm_label": "podsdummy_orderedset"
+    },
+    {
+      "label": "flutter_inappwebview_macos-umbrella.h",
+      "file_type": "code",
+      "source_file": "Pods/Target Support Files/flutter_inappwebview_macos/flutter_inappwebview_macos-umbrella.h",
+      "source_location": "L1",
+      "id": "pods_target_support_files_flutter_inappwebview_macos_flutter_inappwebview_macos_umbrella_h",
+      "community": 18,
+      "norm_label": "flutter_inappwebview_macos-umbrella.h"
+    },
+    {
+      "label": "flutter_inappwebview_macos-dummy.m",
+      "file_type": "code",
+      "source_file": "Pods/Target Support Files/flutter_inappwebview_macos/flutter_inappwebview_macos-dummy.m",
+      "source_location": "L1",
+      "id": "pods_target_support_files_flutter_inappwebview_macos_flutter_inappwebview_macos_dummy_m",
+      "community": 10,
+      "norm_label": "flutter_inappwebview_macos-dummy.m"
+    },
+    {
+      "label": "PodsDummy_flutter_inappwebview_macos",
+      "file_type": "code",
+      "source_file": "Pods/Target Support Files/flutter_inappwebview_macos/flutter_inappwebview_macos-dummy.m",
+      "source_location": "L2",
+      "id": "flutter_inappwebview_macos_flutter_inappwebview_macos_dummy_podsdummy_flutter_inappwebview_macos",
+      "community": 10,
+      "norm_label": "podsdummy_flutter_inappwebview_macos"
+    },
+    {
+      "label": "Pods-Runner-umbrella.h",
+      "file_type": "code",
+      "source_file": "Pods/Target Support Files/Pods-Runner/Pods-Runner-umbrella.h",
+      "source_location": "L1",
+      "id": "pods_target_support_files_pods_runner_pods_runner_umbrella_h",
+      "community": 19,
+      "norm_label": "pods-runner-umbrella.h"
+    },
+    {
+      "label": "Pods-Runner-dummy.m",
+      "file_type": "code",
+      "source_file": "Pods/Target Support Files/Pods-Runner/Pods-Runner-dummy.m",
+      "source_location": "L1",
+      "id": "pods_target_support_files_pods_runner_pods_runner_dummy_m",
+      "community": 11,
+      "norm_label": "pods-runner-dummy.m"
+    },
+    {
+      "label": "PodsDummy_Pods_Runner",
+      "file_type": "code",
+      "source_file": "Pods/Target Support Files/Pods-Runner/Pods-Runner-dummy.m",
+      "source_location": "L2",
+      "id": "pods_runner_pods_runner_dummy_podsdummy_pods_runner",
+      "community": 11,
+      "norm_label": "podsdummy_pods_runner"
+    },
+    {
+      "label": "Pods-RunnerTests-dummy.m",
+      "file_type": "code",
+      "source_file": "Pods/Target Support Files/Pods-RunnerTests/Pods-RunnerTests-dummy.m",
+      "source_location": "L1",
+      "id": "pods_target_support_files_pods_runnertests_pods_runnertests_dummy_m",
+      "community": 12,
+      "norm_label": "pods-runnertests-dummy.m"
+    },
+    {
+      "label": "PodsDummy_Pods_RunnerTests",
+      "file_type": "code",
+      "source_file": "Pods/Target Support Files/Pods-RunnerTests/Pods-RunnerTests-dummy.m",
+      "source_location": "L2",
+      "id": "pods_runnertests_pods_runnertests_dummy_podsdummy_pods_runnertests",
+      "community": 12,
+      "norm_label": "podsdummy_pods_runnertests"
+    },
+    {
+      "label": "Pods-RunnerTests-umbrella.h",
+      "file_type": "code",
+      "source_file": "Pods/Target Support Files/Pods-RunnerTests/Pods-RunnerTests-umbrella.h",
+      "source_location": "L1",
+      "id": "pods_target_support_files_pods_runnertests_pods_runnertests_umbrella_h",
+      "community": 20,
+      "norm_label": "pods-runnertests-umbrella.h"
+    },
+    {
+      "label": "file_picker-dummy.m",
+      "file_type": "code",
+      "source_file": "Pods/Target Support Files/file_picker/file_picker-dummy.m",
+      "source_location": "L1",
+      "id": "pods_target_support_files_file_picker_file_picker_dummy_m",
+      "community": 13,
+      "norm_label": "file_picker-dummy.m"
+    },
+    {
+      "label": "PodsDummy_file_picker",
+      "file_type": "code",
+      "source_file": "Pods/Target Support Files/file_picker/file_picker-dummy.m",
+      "source_location": "L2",
+      "id": "file_picker_file_picker_dummy_podsdummy_file_picker",
+      "community": 13,
+      "norm_label": "podsdummy_file_picker"
+    },
+    {
+      "label": "file_picker-umbrella.h",
+      "file_type": "code",
+      "source_file": "Pods/Target Support Files/file_picker/file_picker-umbrella.h",
+      "source_location": "L1",
+      "id": "pods_target_support_files_file_picker_file_picker_umbrella_h",
+      "community": 21,
+      "norm_label": "file_picker-umbrella.h"
+    },
+    {
+      "label": "OrderedSet.swift",
+      "file_type": "code",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L1",
+      "id": "pods_orderedset_sources_orderedset_swift",
+      "community": 0,
+      "norm_label": "orderedset.swift"
+    },
+    {
+      "label": "OrderedSet",
+      "file_type": "code",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L5",
+      "id": "sources_orderedset_orderedset",
+      "community": 0,
+      "norm_label": "orderedset"
+    },
+    {
+      "label": "SequencedContents",
+      "file_type": "code",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L9",
+      "id": "sources_orderedset_sequencedcontents",
+      "community": 1,
+      "norm_label": "sequencedcontents"
+    },
+    {
+      "label": ".append()",
+      "file_type": "code",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L12",
+      "id": "sources_orderedset_sequencedcontents_append",
+      "community": 0,
+      "norm_label": ".append()"
+    },
+    {
+      "label": ".index()",
+      "file_type": "code",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L16",
+      "id": "sources_orderedset_sequencedcontents_index",
+      "community": 0,
+      "norm_label": ".index()"
+    },
+    {
+      "label": ".insert()",
+      "file_type": "code",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L20",
+      "id": "sources_orderedset_sequencedcontents_insert",
+      "community": 1,
+      "norm_label": ".insert()"
+    },
+    {
+      "label": ".remove()",
+      "file_type": "code",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L28",
+      "id": "sources_orderedset_sequencedcontents_remove",
+      "community": 1,
+      "norm_label": ".remove()"
+    },
+    {
+      "label": ".removeAll()",
+      "file_type": "code",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L33",
+      "id": "sources_orderedset_sequencedcontents_removeall",
+      "community": 1,
+      "norm_label": ".removeall()"
+    },
+    {
+      "label": ".subscript()",
+      "file_type": "code",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L37",
+      "id": "sources_orderedset_sequencedcontents_subscript",
+      "community": 1,
+      "norm_label": ".subscript()"
+    },
+    {
+      "label": ".copy()",
+      "file_type": "code",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L42",
+      "id": "sources_orderedset_sequencedcontents_copy",
+      "community": 1,
+      "norm_label": ".copy()"
+    },
+    {
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L58",
+      "id": "sources_orderedset_orderedset_init",
+      "community": 0,
+      "norm_label": ".init()"
+    },
+    {
+      "label": ".index()",
+      "file_type": "code",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L94",
+      "id": "sources_orderedset_orderedset_index",
+      "community": 0,
+      "norm_label": ".index()"
+    },
+    {
+      "label": ".append()",
+      "file_type": "code",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L106",
+      "id": "sources_orderedset_orderedset_append",
+      "community": 0,
+      "norm_label": ".append()"
+    },
+    {
+      "label": ".remove()",
+      "file_type": "code",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L142",
+      "id": "sources_orderedset_orderedset_remove",
+      "community": 1,
+      "norm_label": ".remove()"
+    },
+    {
+      "label": ".removeObject()",
+      "file_type": "code",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L194",
+      "id": "sources_orderedset_orderedset_removeobject",
+      "community": 1,
+      "norm_label": ".removeobject()"
+    },
+    {
+      "label": ".removeAllObjects()",
+      "file_type": "code",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L207",
+      "id": "sources_orderedset_orderedset_removeallobjects",
+      "community": 1,
+      "norm_label": ".removeallobjects()"
+    },
+    {
+      "label": ".swapObject()",
+      "file_type": "code",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L244",
+      "id": "sources_orderedset_orderedset_swapobject",
+      "community": 1,
+      "norm_label": ".swapobject()"
+    },
+    {
+      "label": ".intersects()",
+      "file_type": "code",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L264",
+      "id": "sources_orderedset_orderedset_intersects",
+      "community": 0,
+      "norm_label": ".intersects()"
+    },
+    {
+      "label": ".isSubset()",
+      "file_type": "code",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L280",
+      "id": "sources_orderedset_orderedset_issubset",
+      "community": 0,
+      "norm_label": ".issubset()"
+    },
+    {
+      "label": ".moveObject()",
+      "file_type": "code",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L298",
+      "id": "sources_orderedset_orderedset_moveobject",
+      "community": 1,
+      "norm_label": ".moveobject()"
+    },
+    {
+      "label": ".insert()",
+      "file_type": "code",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L356",
+      "id": "sources_orderedset_orderedset_insert",
+      "community": 1,
+      "norm_label": ".insert()"
+    },
+    {
+      "label": "ExpressibleByArrayLiteral",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "expressiblebyarrayliteral",
+      "community": 0,
+      "norm_label": "expressiblebyarrayliteral"
+    },
+    {
+      "label": ".subscript()",
+      "file_type": "code",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L447",
+      "id": "sources_orderedset_orderedset_subscript",
+      "community": 0,
+      "norm_label": ".subscript()"
+    },
+    {
+      "label": "+()",
+      "file_type": "code",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L474",
+      "id": "sources_orderedset",
+      "community": 0,
+      "norm_label": "+()"
+    },
+    {
+      "label": "Equatable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "equatable",
+      "community": 0,
+      "norm_label": "equatable"
+    },
+    {
+      "label": "CustomStringConvertible",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "customstringconvertible",
+      "community": 0,
+      "norm_label": "customstringconvertible"
+    },
+    {
+      "label": "RandomAccessCollection",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "randomaccesscollection",
+      "community": 0,
+      "norm_label": "randomaccesscollection"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "Pods/OrderedSet/README.md",
+      "source_location": "L1",
+      "id": "pods_orderedset_readme_md",
+      "community": 2,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Introduction",
+      "file_type": "document",
+      "source_file": "Pods/OrderedSet/README.md",
+      "source_location": "L1",
+      "id": "orderedset_readme_introduction",
+      "community": 2,
+      "norm_label": "introduction"
+    },
+    {
+      "label": "Usage",
+      "file_type": "document",
+      "source_file": "Pods/OrderedSet/README.md",
+      "source_location": "L5",
+      "id": "orderedset_readme_usage",
+      "community": 2,
+      "norm_label": "usage"
+    },
+    {
+      "label": "code:swift (var set = OrderedSet<Int>())",
+      "file_type": "document",
+      "source_file": "Pods/OrderedSet/README.md",
+      "source_location": "L9",
+      "id": "orderedset_readme_codeblock_1",
+      "community": 2,
+      "norm_label": "code:swift (var set = orderedset<int>())"
+    },
+    {
+      "label": "Installation",
+      "file_type": "document",
+      "source_file": "Pods/OrderedSet/README.md",
+      "source_location": "L27",
+      "id": "orderedset_readme_installation",
+      "community": 2,
+      "norm_label": "installation"
+    },
+    {
+      "label": "code:ruby (pod 'OrderedSet', '5.0')",
+      "file_type": "document",
+      "source_file": "Pods/OrderedSet/README.md",
+      "source_location": "L31",
+      "id": "orderedset_readme_codeblock_2",
+      "community": 2,
+      "norm_label": "code:ruby (pod 'orderedset', '5.0')"
+    },
+    {
+      "label": "code:block3 (github \"Weebly/OrderedSet\")",
+      "file_type": "document",
+      "source_file": "Pods/OrderedSet/README.md",
+      "source_location": "L37",
+      "id": "orderedset_readme_codeblock_3",
+      "community": 2,
+      "norm_label": "code:block3 (github \"weebly/orderedset\")"
+    },
+    {
+      "label": "code:swift (import OrderedSet)",
+      "file_type": "document",
+      "source_file": "Pods/OrderedSet/README.md",
+      "source_location": "L45",
+      "id": "orderedset_readme_codeblock_4",
+      "community": 2,
+      "norm_label": "code:swift (import orderedset)"
+    },
+    {
+      "label": "code:swift (package.append(.package(url: \"https://github.com/Weebly/Orde)",
+      "file_type": "document",
+      "source_file": "Pods/OrderedSet/README.md",
+      "source_location": "L51",
+      "id": "orderedset_readme_codeblock_5",
+      "community": 2,
+      "norm_label": "code:swift (package.append(.package(url: \"https://github.com/weebly/orde)"
+    },
+    {
+      "label": "License",
+      "file_type": "document",
+      "source_file": "Pods/OrderedSet/README.md",
+      "source_location": "L55",
+      "id": "orderedset_readme_license",
+      "community": 2,
+      "norm_label": "license"
+    },
+    {
+      "label": "CONTRIBUTING",
+      "file_type": "document",
+      "source_file": "Pods/OrderedSet/README.md",
+      "source_location": "L59",
+      "id": "orderedset_readme_contributing",
+      "community": 2,
+      "norm_label": "contributing"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "RunnerTests/RunnerTests.swift",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "runnertests_runnertests_swift",
+      "target": "runnertests_runnertests_runnertests"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "RunnerTests/RunnerTests.swift",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "runnertests_runnertests_runnertests",
+      "target": "xctestcase"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "RunnerTests/RunnerTests.swift",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "runnertests_runnertests_runnertests",
+      "target": "runnertests_runnertests_runnertests_testexample"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Runner/MainFlutterWindow.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "runner_mainflutterwindow_swift",
+      "target": "runner_mainflutterwindow_mainflutterwindow"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Runner/MainFlutterWindow.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "runner_mainflutterwindow_mainflutterwindow",
+      "target": "nswindow"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Runner/MainFlutterWindow.swift",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "runner_mainflutterwindow_mainflutterwindow",
+      "target": "runner_mainflutterwindow_mainflutterwindow_awakefromnib"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "Runner/MainFlutterWindow.swift",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "runner_mainflutterwindow_mainflutterwindow_awakefromnib",
+      "target": "flutter_generatedpluginregistrant_registergeneratedplugins"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Runner/AppDelegate.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "runner_appdelegate_swift",
+      "target": "runner_appdelegate_appdelegate"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Runner/AppDelegate.swift",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "runner_appdelegate_appdelegate",
+      "target": "flutterappdelegate"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Runner/AppDelegate.swift",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "runner_appdelegate_appdelegate",
+      "target": "runner_appdelegate_appdelegate_applicationshouldterminateafterlastwindowclosed"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Runner/AppDelegate.swift",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "runner_appdelegate_appdelegate",
+      "target": "runner_appdelegate_appdelegate_applicationsupportssecurerestorablestate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Flutter/GeneratedPluginRegistrant.swift",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "flutter_generatedpluginregistrant_swift",
+      "target": "flutter_generatedpluginregistrant_registergeneratedplugins"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/Target Support Files/window_manager/window_manager-dummy.m",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pods_target_support_files_window_manager_window_manager_dummy_m",
+      "target": "window_manager_window_manager_dummy_podsdummy_window_manager"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/Target Support Files/flutter_secure_storage_darwin/flutter_secure_storage_darwin-dummy.m",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pods_target_support_files_flutter_secure_storage_darwin_flutter_secure_storage_darwin_dummy_m",
+      "target": "flutter_secure_storage_darwin_flutter_secure_storage_darwin_dummy_podsdummy_flutter_secure_storage_darwin"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/Target Support Files/screen_retriever/screen_retriever-dummy.m",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pods_target_support_files_screen_retriever_screen_retriever_dummy_m",
+      "target": "screen_retriever_screen_retriever_dummy_podsdummy_screen_retriever"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/Target Support Files/OrderedSet/OrderedSet-dummy.m",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pods_target_support_files_orderedset_orderedset_dummy_m",
+      "target": "orderedset_orderedset_dummy_podsdummy_orderedset"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/Target Support Files/flutter_inappwebview_macos/flutter_inappwebview_macos-dummy.m",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pods_target_support_files_flutter_inappwebview_macos_flutter_inappwebview_macos_dummy_m",
+      "target": "flutter_inappwebview_macos_flutter_inappwebview_macos_dummy_podsdummy_flutter_inappwebview_macos"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/Target Support Files/Pods-Runner/Pods-Runner-dummy.m",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pods_target_support_files_pods_runner_pods_runner_dummy_m",
+      "target": "pods_runner_pods_runner_dummy_podsdummy_pods_runner"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/Target Support Files/Pods-RunnerTests/Pods-RunnerTests-dummy.m",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pods_target_support_files_pods_runnertests_pods_runnertests_dummy_m",
+      "target": "pods_runnertests_pods_runnertests_dummy_podsdummy_pods_runnertests"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/Target Support Files/file_picker/file_picker-dummy.m",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pods_target_support_files_file_picker_file_picker_dummy_m",
+      "target": "file_picker_file_picker_dummy_podsdummy_file_picker"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L517",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pods_orderedset_sources_orderedset_swift",
+      "target": "sources_orderedset_orderedset"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pods_orderedset_sources_orderedset_swift",
+      "target": "sources_orderedset_sequencedcontents"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L498",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pods_orderedset_sources_orderedset_swift",
+      "target": "sources_orderedset"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L78",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset",
+      "target": "sources_orderedset_orderedset_init"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L433",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset",
+      "target": "sources_orderedset_orderedset_index"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L127",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset",
+      "target": "sources_orderedset_orderedset_append"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L172",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset",
+      "target": "sources_orderedset_orderedset_remove"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L194",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset",
+      "target": "sources_orderedset_orderedset_removeobject"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L224",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset",
+      "target": "sources_orderedset_orderedset_removeallobjects"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L244",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset",
+      "target": "sources_orderedset_orderedset_swapobject"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L264",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset",
+      "target": "sources_orderedset_orderedset_intersects"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L280",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset",
+      "target": "sources_orderedset_orderedset_issubset"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L341",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset",
+      "target": "sources_orderedset_orderedset_moveobject"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L381",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset",
+      "target": "sources_orderedset_orderedset_insert"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L414",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset",
+      "target": "expressiblebyarrayliteral"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L447",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset",
+      "target": "sources_orderedset_orderedset_subscript"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L496",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset",
+      "target": "equatable"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L510",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset",
+      "target": "customstringconvertible"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L517",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset",
+      "target": "randomaccesscollection"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_sequencedcontents",
+      "target": "sources_orderedset_sequencedcontents_append"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_sequencedcontents",
+      "target": "sources_orderedset_sequencedcontents_index"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_sequencedcontents",
+      "target": "sources_orderedset_sequencedcontents_insert"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_sequencedcontents",
+      "target": "sources_orderedset_sequencedcontents_remove"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_sequencedcontents",
+      "target": "sources_orderedset_sequencedcontents_removeall"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_sequencedcontents",
+      "target": "sources_orderedset_sequencedcontents_subscript"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_sequencedcontents_copy",
+      "target": "sources_orderedset_sequencedcontents"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L150",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset_remove",
+      "target": "sources_orderedset_sequencedcontents"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L199",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset_removeobject",
+      "target": "sources_orderedset_sequencedcontents"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L253",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset_swapobject",
+      "target": "sources_orderedset_sequencedcontents"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L319",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset_moveobject",
+      "target": "sources_orderedset_sequencedcontents"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L404",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset_insert",
+      "target": "sources_orderedset_sequencedcontents"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_sequencedcontents_append",
+      "target": "sources_orderedset_orderedset_append"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_sequencedcontents_index",
+      "target": "sources_orderedset_orderedset_index"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_sequencedcontents_insert",
+      "target": "sources_orderedset_orderedset_insert"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_sequencedcontents_remove",
+      "target": "sources_orderedset_orderedset_remove"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L225",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset_removeallobjects",
+      "target": "sources_orderedset_sequencedcontents_removeall"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L115",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset_append",
+      "target": "sources_orderedset_sequencedcontents_copy"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L148",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset_remove",
+      "target": "sources_orderedset_sequencedcontents_copy"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L228",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset_removeallobjects",
+      "target": "sources_orderedset_sequencedcontents_copy"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L251",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset_swapobject",
+      "target": "sources_orderedset_sequencedcontents_copy"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L312",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset_moveobject",
+      "target": "sources_orderedset_sequencedcontents_copy"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L389",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset_insert",
+      "target": "sources_orderedset_sequencedcontents_copy"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L74",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset_init",
+      "target": "sources_orderedset_orderedset_append"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L108",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset_append",
+      "target": "sources_orderedset_orderedset_index"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L177",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset_remove",
+      "target": "sources_orderedset_orderedset_index"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L178",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset_remove",
+      "target": "sources_orderedset_orderedset_append"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L366",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset_insert",
+      "target": "sources_orderedset_orderedset_append"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L215",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset_removeallobjects",
+      "target": "sources_orderedset_orderedset_append"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L476",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset",
+      "target": "sources_orderedset_orderedset_append"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L199",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset_removeobject",
+      "target": "sources_orderedset_orderedset_remove"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L214",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset_removeallobjects",
+      "target": "sources_orderedset_orderedset_remove"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L487",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset",
+      "target": "sources_orderedset_orderedset_remove"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/Sources/OrderedSet.swift",
+      "source_location": "L369",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sources_orderedset_orderedset_insert",
+      "target": "sources_orderedset_orderedset_swapobject"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pods_orderedset_readme_md",
+      "target": "orderedset_readme_introduction"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/README.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pods_orderedset_readme_md",
+      "target": "orderedset_readme_usage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/README.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pods_orderedset_readme_md",
+      "target": "orderedset_readme_installation"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/README.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pods_orderedset_readme_md",
+      "target": "orderedset_readme_license"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/README.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "pods_orderedset_readme_md",
+      "target": "orderedset_readme_contributing"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/README.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "orderedset_readme_usage",
+      "target": "orderedset_readme_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/README.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "orderedset_readme_installation",
+      "target": "orderedset_readme_codeblock_2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/README.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "orderedset_readme_installation",
+      "target": "orderedset_readme_codeblock_3"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/README.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "orderedset_readme_installation",
+      "target": "orderedset_readme_codeblock_4"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Pods/OrderedSet/README.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "orderedset_readme_installation",
+      "target": "orderedset_readme_codeblock_5"
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "da6a03bf223e1ad0e183958efac647e0b46d327f"
+}

@@ -1,0 +1,118 @@
+{
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/RunnerTests/RunnerTests.swift": {
+    "mtime": 1777959827.972238,
+    "hash": "97d3a20fd20a063c192e886d1822b4a8"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Runner/MainFlutterWindow.swift": {
+    "mtime": 1777962776.9619308,
+    "hash": "3f25fe4d6ee5c18ec5894f85fa236119"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Runner/AppDelegate.swift": {
+    "mtime": 1778233626.536463,
+    "hash": "2a7411ae3e7c6715525b94b6f8d2e80b"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Flutter/GeneratedPluginRegistrant.swift": {
+    "mtime": 1778233890.8032718,
+    "hash": "e45a83bc606b96d705ce39acb0e2e17b"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/Target Support Files/window_manager/window_manager-umbrella.h": {
+    "mtime": 1777962989.192968,
+    "hash": "37423e11783e967555ae49070f575aef"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/Target Support Files/window_manager/window_manager-dummy.m": {
+    "mtime": 1777962989.1942086,
+    "hash": "a856bcd871016590358faa9001fa82fe"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/Target Support Files/flutter_secure_storage_darwin/flutter_secure_storage_darwin-dummy.m": {
+    "mtime": 1778149589.4749396,
+    "hash": "58ad0193f8621030793f0b1901e7c402"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/Target Support Files/flutter_secure_storage_darwin/flutter_secure_storage_darwin-umbrella.h": {
+    "mtime": 1778149589.473427,
+    "hash": "a36d4f58b20f7453bb28088237885242"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/Target Support Files/screen_retriever/screen_retriever-dummy.m": {
+    "mtime": 1777962989.185457,
+    "hash": "d66f91904dcecb833677caf5e7d0153f"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/Target Support Files/screen_retriever/screen_retriever-umbrella.h": {
+    "mtime": 1777962989.1836932,
+    "hash": "dd45ffabdc76e6c6f784a93575c3ca7c"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/Target Support Files/OrderedSet/OrderedSet-umbrella.h": {
+    "mtime": 1778236549.6206937,
+    "hash": "9b2f1f435f2efd755f3ee4f05ec6b6ec"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/Target Support Files/OrderedSet/OrderedSet-dummy.m": {
+    "mtime": 1778236549.6219535,
+    "hash": "bce73ef2c144ee0cd41ad1e017c48017"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/Target Support Files/flutter_inappwebview_macos/flutter_inappwebview_macos-umbrella.h": {
+    "mtime": 1778236549.631674,
+    "hash": "49de2b42b344f6e42854f0ce26527b52"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/Target Support Files/flutter_inappwebview_macos/flutter_inappwebview_macos-dummy.m": {
+    "mtime": 1778236549.6327446,
+    "hash": "d5e0c61ea6c675fad90a1da4b1a8aa94"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/Target Support Files/Pods-Runner/Pods-Runner-umbrella.h": {
+    "mtime": 1777961481.904778,
+    "hash": "814a4c2d3024597e419f66f6f048d39e"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/Target Support Files/Pods-Runner/Pods-Runner-dummy.m": {
+    "mtime": 1777961481.9078147,
+    "hash": "d3f88e6bc5bffb456bd31d3ae36c9256"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/Target Support Files/Pods-RunnerTests/Pods-RunnerTests-dummy.m": {
+    "mtime": 1777961481.9103718,
+    "hash": "097dfaf08332f413805fcca47157791c"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/Target Support Files/Pods-RunnerTests/Pods-RunnerTests-umbrella.h": {
+    "mtime": 1777961481.9092627,
+    "hash": "c23802aedf43339011f9ddde1d7d0c49"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/Target Support Files/file_picker/file_picker-dummy.m": {
+    "mtime": 1777981301.9321334,
+    "hash": "b45f1c8a2558a1fa4e5b3e217add9ad5"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/Target Support Files/file_picker/file_picker-umbrella.h": {
+    "mtime": 1777981301.9290783,
+    "hash": "6e42e908f87ebdb630e3e154d55058bc"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/OrderedSet/Sources/OrderedSet.swift": {
+    "mtime": 1778236549.5351348,
+    "hash": "c7b72b7b8982fe3e68e6656f17bb9893"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/OrderedSet/README.md": {
+    "mtime": 1778236549.5348117,
+    "hash": "ac4585e0496edf486b4fece0ec0297ee"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_16.png": {
+    "mtime": 1777959140.6072233,
+    "hash": "8bf511604bc6ed0a6aeb380c5113fdcf"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_1024.png": {
+    "mtime": 1777959140.6080167,
+    "hash": "c9becc9105f8cabce934d20c7bfb6aac"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_256.png": {
+    "mtime": 1777959140.6082127,
+    "hash": "dfe2c93d1536ae02f085cc63faa3430e"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_64.png": {
+    "mtime": 1777959140.6067379,
+    "hash": "04e7b6ef05346c70b663ca1d97de3ad5"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_512.png": {
+    "mtime": 1777959140.6071093,
+    "hash": "0ad44039155424738917502c69667699"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_128.png": {
+    "mtime": 1777959140.6069443,
+    "hash": "3ded30823804caaa5ccc944067c54a36"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_32.png": {
+    "mtime": 1777959140.6073263,
+    "hash": "8e0ae58e362a6636bdfccbc04da2c58c"
+  }
+}

@@ -3,9 +3,9 @@
 #
 
 list(APPEND FLUTTER_PLUGIN_LIST
+  flutter_inappwebview_windows
   flutter_secure_storage_windows
   screen_retriever
-  webview_windows
   window_manager
 )
 
