@@ -2,6 +2,21 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<!--
+	Validation commands:
+	/usr/libexec/PlistBuddy -c "Print :NSExtensionFileProviderDocumentGroup" \
+	  "$(find ~/Library/Developer/Xcode/DerivedData -name 'Info.plist' \
+	  -path '*StolityFileProvider*' 2>/dev/null | head -1)"
+	# Expected output: group.com.stolity.fileprovider
+	codesign -d --entitlements :- \
+	  "$(find ~/Library/Developer/Xcode/DerivedData \
+	  -name 'StolityFileProvider.appex' 2>/dev/null | head -1)"
+	log stream --predicate 'subsystem == "com.apple.fileprovider"' --level debug
+	-->
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.com.stolity.fileprovider</string>
+	</array>
 	<key>com.apple.security.app-sandbox</key>
 	<true/>
 	<key>com.apple.security.cs.allow-jit</key>
@@ -15,6 +30,8 @@
 	<key>com.apple.security.network.server</key>
 	<true/>
 	<key>keychain-access-groups</key>
-	<array/>
+	<array>
+		<string>$(AppIdentifierPrefix)com.stolity.shared</string>
+	</array>
 </dict>
 </plist>

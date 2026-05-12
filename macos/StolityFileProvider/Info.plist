@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!--
+	Validation commands:
+	/usr/libexec/PlistBuddy -c "Print :NSExtensionFileProviderDocumentGroup" \
+	  "$(find ~/Library/Developer/Xcode/DerivedData -name 'Info.plist' \
+	  -path '*StolityFileProvider*' 2>/dev/null | head -1)"
+	# Expected output: group.com.stolity.fileprovider
+	codesign -d --entitlements :- \
+	  "$(find ~/Library/Developer/Xcode/DerivedData \
+	  -name 'StolityFileProvider.appex' 2>/dev/null | head -1)"
+	log stream --predicate 'subsystem == "com.apple.fileprovider"' --level debug
+	-->
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Stolity</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>XPC!</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+	<key>NSExtension</key>
+	<dict>
+		<key>NSExtensionFileProviderEnabledByDefault</key>
+		<true/>
+		<key>NSExtensionFileProviderAllowsProvidingData</key>
+		<true/>
+		<key>NSExtensionFileProviderDocumentGroup</key>
+		<string>group.com.stolity.fileprovider</string>
+		<key>NSExtensionFileProviderSupportsPickingItems</key>
+		<false/>
+		<key>NSExtensionFileProviderSupportsEnumeration</key>
+		<true/>
+		<key>NSExtensionPointIdentifier</key>
+		<string>com.apple.fileprovider-nonui</string>
+		<key>NSExtensionPrincipalClass</key>
+		<string>$(PRODUCT_MODULE_NAME).FileProviderExtension</string>
+	</dict>
+</dict>
+</plist>
