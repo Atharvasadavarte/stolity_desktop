@@ -1,4 +1,5 @@
 import FileProvider
+import UniformTypeIdentifiers
 
 // NSExtensionPrincipalClass = $(PRODUCT_MODULE_NAME).FileProviderExtension
 final class FileProviderExtension: NSObject, NSFileProviderReplicatedExtension {
@@ -64,7 +65,14 @@ final class FileProviderExtension: NSObject, NSFileProviderReplicatedExtension {
         request: NSFileProviderRequest,
         completionHandler: @escaping (NSFileProviderItem?, NSFileProviderItemFields, Bool, Error?) -> Void
     ) -> Progress {
-        completionHandler(nil, [], false, NSFileProviderError(.serverUnreachable))
+        let contentType = itemTemplate.contentType ?? .data
+        let newItem = StolityFileItem(
+            identifier: NSFileProviderItemIdentifier(UUID().uuidString),
+            parentIdentifier: itemTemplate.parentItemIdentifier,
+            filename: itemTemplate.filename,
+            contentType: contentType
+        )
+        completionHandler(newItem, [], false, nil)
         return Progress(totalUnitCount: 1)
     }
 

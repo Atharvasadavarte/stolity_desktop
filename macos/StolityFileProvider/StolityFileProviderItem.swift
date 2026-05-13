@@ -34,7 +34,12 @@ final class FileProviderItem: NSObject, NSFileProviderItem {
             parentItemIdentifier: .rootContainer,
             filename: "/",
             contentType: .folder,
-            capabilities: [.allowsReading, .allowsContentEnumerating],
+            capabilities: [
+                .allowsReading,
+                .allowsWriting,
+                .allowsAddingSubItems,
+                .allowsContentEnumerating,
+            ],
             itemVersion: NSFileProviderItemVersion(
                 contentVersion: kVersionData,
                 metadataVersion: kVersionData
@@ -58,5 +63,33 @@ final class FileProviderItem: NSObject, NSFileProviderItem {
         self.contentType = contentType
         self.capabilities = capabilities
         self.itemVersion = itemVersion
+    }
+}
+
+/// Returned from `createItem` to accept Finder drops without persisting or uploading.
+final class StolityFileItem: NSObject, NSFileProviderItem {
+    let itemIdentifier: NSFileProviderItemIdentifier
+    let parentItemIdentifier: NSFileProviderItemIdentifier
+    let filename: String
+    let contentType: UTType
+    let capabilities: NSFileProviderItemCapabilities
+    let itemVersion: NSFileProviderItemVersion
+
+    init(
+        identifier: NSFileProviderItemIdentifier,
+        parentIdentifier: NSFileProviderItemIdentifier,
+        filename: String,
+        contentType: UTType
+    ) {
+        self.itemIdentifier = identifier
+        self.parentItemIdentifier = parentIdentifier
+        self.filename = filename
+        self.contentType = contentType
+        self.capabilities = [.allowsReading, .allowsWriting, .allowsDeleting]
+        self.itemVersion = NSFileProviderItemVersion(
+            contentVersion: kVersionData,
+            metadataVersion: kVersionData
+        )
+        super.init()
     }
 }
