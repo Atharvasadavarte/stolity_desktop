@@ -26,6 +26,8 @@
 		331D00012044A3C60003C00D /* StolityFileProviderEnumerators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D00012044A3C60003C008 /* StolityFileProviderEnumerators.swift */; };
 		331D00012044A3C60003C00E /* StolityFileProviderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D00012044A3C60003C009 /* StolityFileProviderExtension.swift */; };
 		331D00012044A3C60003C010 /* StolityFileProvider.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 331D00012044A3C60003C006 /* StolityFileProvider.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		331D00012044A3C60003C020 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D00012044A3C60003C01E /* KeychainHelper.swift */; };
+		331D00012044A3C60003C021 /* StolityUploadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D00012044A3C60003C01F /* StolityUploadService.swift */; };
 		335BBD1B22A9A15E00E9071D /* GeneratedPluginRegistrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335BBD1A22A9A15E00E9071D /* GeneratedPluginRegistrant.swift */; };
 		33CC10F12044A3C60003C045 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CC10F02044A3C60003C045 /* AppDelegate.swift */; };
 		33CC10F32044A3C60003C045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33CC10F22044A3C60003C045 /* Assets.xcassets */; };
@@ -93,6 +95,8 @@
 		331D00012044A3C60003C009 /* StolityFileProviderExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StolityFileProviderExtension.swift; sourceTree = "<group>"; };
 		331D00012044A3C60003C00A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		331D00012044A3C60003C00B /* StolityFileProvider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StolityFileProvider.entitlements; sourceTree = "<group>"; };
+		331D00012044A3C60003C01E /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		331D00012044A3C60003C01F /* StolityUploadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StolityUploadService.swift; sourceTree = "<group>"; };
 		333000ED22D3DE5D00554162 /* Warnings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Warnings.xcconfig; sourceTree = "<group>"; };
 		335BBD1A22A9A15E00E9071D /* GeneratedPluginRegistrant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratedPluginRegistrant.swift; sourceTree = "<group>"; };
 		33CC10ED2044A3C60003C045 /* Stolity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stolity.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -172,6 +176,8 @@
 				331D00012044A3C60003C007 /* StolityFileProviderItem.swift */,
 				331D00012044A3C60003C008 /* StolityFileProviderEnumerators.swift */,
 				331D00012044A3C60003C009 /* StolityFileProviderExtension.swift */,
+				331D00012044A3C60003C01E /* KeychainHelper.swift */,
+				331D00012044A3C60003C01F /* StolityUploadService.swift */,
 				331D00012044A3C60003C00A /* Info.plist */,
 				331D00012044A3C60003C00B /* StolityFileProvider.entitlements */,
 			);
@@ -519,6 +525,8 @@
 				331D00012044A3C60003C00C /* StolityFileProviderItem.swift in Sources */,
 				331D00012044A3C60003C00D /* StolityFileProviderEnumerators.swift in Sources */,
 				331D00012044A3C60003C00E /* StolityFileProviderExtension.swift in Sources */,
+				331D00012044A3C60003C020 /* KeychainHelper.swift in Sources */,
+				331D00012044A3C60003C021 /* StolityUploadService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,6 +621,7 @@
 		331D00012044A3C60003C019 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = StolityFileProvider/StolityFileProvider.entitlements;
@@ -621,9 +630,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZLL9J8KZ7J;
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				ENABLE_PREVIEWS = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = NO;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = StolityFileProvider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -644,6 +652,7 @@
 		331D00012044A3C60003C01A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = StolityFileProvider/StolityFileProvider.entitlements;
@@ -652,9 +661,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZLL9J8KZ7J;
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				ENABLE_PREVIEWS = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = NO;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = StolityFileProvider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -675,6 +683,7 @@
 		331D00012044A3C60003C01B /* Profile */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = StolityFileProvider/StolityFileProvider.entitlements;
@@ -683,9 +692,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZLL9J8KZ7J;
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				ENABLE_PREVIEWS = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = NO;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = StolityFileProvider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -19,6 +19,22 @@ final class RootEnumerator: NSObject, NSFileProviderEnumerator {
     }
 }
 
+// MARK: - Trash container enumerator
+
+/// Always-empty trash so macOS doesn't error looking for .trash.
+final class TrashEnumerator: NSObject, NSFileProviderEnumerator {
+
+    func invalidate() {}
+
+    func enumerateItems(
+        for observer: NSFileProviderEnumerationObserver,
+        startingAt page: NSFileProviderPage
+    ) {
+        observer.didEnumerate([])
+        observer.finishEnumerating(upTo: nil)
+    }
+}
+
 // MARK: - Working set enumerator
 
 /// Working-set enumerator required by NSFileProviderReplicatedExtension.

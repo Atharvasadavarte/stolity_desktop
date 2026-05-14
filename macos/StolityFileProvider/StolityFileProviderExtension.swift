@@ -1,8 +1,15 @@
 import FileProvider
 import UniformTypeIdentifiers
+import os.log
+
 
 // NSExtensionPrincipalClass = $(PRODUCT_MODULE_NAME).FileProviderExtension
 final class FileProviderExtension: NSObject, NSFileProviderReplicatedExtension {
+
+    private let logger = Logger(
+        subsystem: "com.stolity.StolityFileProvider",
+        category: "extension"
+    )
 
     // MARK: - Lifecycle
 
@@ -19,9 +26,12 @@ final class FileProviderExtension: NSObject, NSFileProviderReplicatedExtension {
         request: NSFileProviderRequest,
         completionHandler: @escaping (NSFileProviderItem?, Error?) -> Void
     ) -> Progress {
-        if identifier == .rootContainer {
+        switch identifier {
+        case .rootContainer:
             completionHandler(FileProviderItem.rootContainerItem(), nil)
-        } else {
+        case .trashContainer:
+            completionHandler(FileProviderItem.trashContainerItem(), nil)
+        default:
             completionHandler(nil, NSFileProviderError(.noSuchItem))
         }
         return Progress(totalUnitCount: 1)
@@ -36,6 +46,8 @@ final class FileProviderExtension: NSObject, NSFileProviderReplicatedExtension {
         switch containerItemIdentifier {
         case .rootContainer:
             return RootEnumerator()
+        case .trashContainer:
+            return TrashEnumerator()
         case .workingSet:
             return WorkingSetEnumerator()
         default:
@@ -65,6 +77,9 @@ final class FileProviderExtension: NSObject, NSFileProviderReplicatedExtension {
         request: NSFileProviderRequest,
         completionHandler: @escaping (NSFileProviderItem?, NSFileProviderItemFields, Bool, Error?) -> Void
     ) -> Progress {
+        logger.info("createItem called: \(itemTemplate.filename, privacy: .public)")
+        logger.info("Content URL present: \(url != nil, privacy: .public)")
+
         let contentType = itemTemplate.contentType ?? .data
         let newItem = StolityFileItem(
             identifier: NSFileProviderItemIdentifier(UUID().uuidString),
@@ -72,8 +87,38 @@ final class FileProviderExtension: NSObject, NSFileProviderReplicatedExtension {
             filename: itemTemplate.filename,
             contentType: contentType
         )
+
+        // Copy to a stable temp location BEFORE calling completionHandler.
+        // The url from fileproviderd is a temporary staging file that gets
+        // reclaimed the moment completionHandler returns.
+        var stableURL: URL? = nil
+        if let sourceURL = url {
+            let dest = FileManager.default.temporaryDirectory
+                .appendingPathComponent(UUID().uuidString + "_" + itemTemplate.filename)
+            do {
+                try FileManager.default.copyItem(at: sourceURL, to: dest)
+                stableURL = dest
+                logger.info("Copied to stable path: \(dest.lastPathComponent, privacy: .public)")
+            } catch {
+                logger.error("Failed to copy file to stable path: \(error.localizedDescription, privacy: .public)")
+            }
+        }
+
         completionHandler(newItem, [], false, nil)
-        return Progress(totalUnitCount: 1)
+        logger.info("completionHandler called, starting background upload")
+
+        if let uploadURL = stableURL {
+            Task {
+                await StolityUploadService.upload(
+                    fileURL: uploadURL,
+                    filename: itemTemplate.filename,
+                    token: KeychainHelper.readToken()
+                )
+                try? FileManager.default.removeItem(at: uploadURL)
+            }
+        }
+
+        return Progress()
     }
 
     func modifyItem(

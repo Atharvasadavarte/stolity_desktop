@@ -37,9 +37,26 @@ final class FileProviderItem: NSObject, NSFileProviderItem {
             capabilities: [
                 .allowsReading,
                 .allowsWriting,
+                .allowsDeleting,
                 .allowsAddingSubItems,
                 .allowsContentEnumerating,
+                // .allowsReparenting intentionally excluded — prevents move behavior
             ],
+            itemVersion: NSFileProviderItemVersion(
+                contentVersion: kVersionData,
+                metadataVersion: kVersionData
+            )
+        )
+    }
+
+    /// Returns an empty trash container so macOS doesn't crash looking for it.
+    static func trashContainerItem() -> FileProviderItem {
+        FileProviderItem(
+            itemIdentifier: .trashContainer,
+            parentItemIdentifier: .rootContainer,
+            filename: ".Trash",
+            contentType: .folder,
+            capabilities: [.allowsReading, .allowsContentEnumerating],
             itemVersion: NSFileProviderItemVersion(
                 contentVersion: kVersionData,
                 metadataVersion: kVersionData

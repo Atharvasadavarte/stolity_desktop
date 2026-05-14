@@ -19,5 +19,11 @@
 	<array>
 		<string>group.com.stolity.fileprovider</string>
 	</array>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>ZLL9J8KZ7J.com.stolity.shared</string>
+	</array>
+	<key>com.apple.security.network.client</key>
+	<true/>
 </dict>
 </plist>
