@@ -21,7 +21,7 @@ class AppDelegate: FlutterAppDelegate {
   /// Registers the File Provider domain exactly once, then signals the working set
   /// so fileproviderd completes the FPFS mount and Finder shows it under Locations.
   ///
-  /// - Domain is never removed/re-added (that corrupts fileproviderd state).
+  /// - Domain is never removed/re-added on first launch (that corrupts fileproviderd state).
   /// - Working set is signalled on every launch — this re-attaches the FPFS mount
   ///   if macOS dropped it between runs (e.g. after a reboot).
   private func registerFileProviderDomainIfNeeded() {
@@ -50,6 +50,35 @@ class AppDelegate: FlutterAppDelegate {
           self?.logger.info("File Provider domain registered — signalling working set")
           self?.signalWorkingSet(for: domain)
         }
+      }
+    }
+  }
+
+  /// Called by MainFlutterWindow after Flutter delivers a token (on login or app launch).
+  /// Re-registers the domain with userInfo["auth_token"] set so the File Provider
+  /// extension can read it without any Keychain access.
+  func updateDomainWithToken(_ token: String) {
+    let targetID = NSFileProviderDomainIdentifier("com.stolity.main")
+    NSFileProviderManager.getDomainsWithCompletionHandler { [weak self] domains, _ in
+      if let existing = domains.first(where: { $0.identifier == targetID }) {
+        NSFileProviderManager.remove(existing) { [weak self] _ in
+          self?.addDomain(id: targetID, token: token)
+        }
+      } else {
+        self?.addDomain(id: targetID, token: token)
+      }
+    }
+  }
+
+  private func addDomain(id: NSFileProviderDomainIdentifier, token: String) {
+    let domain = NSFileProviderDomain(identifier: id, displayName: "Stolity")
+    domain.userInfo = ["auth_token": token]
+    NSFileProviderManager.add(domain) { [weak self] error in
+      if let error = error {
+        self?.logger.error("domain registration failed: \(error.localizedDescription, privacy: .public)")
+      } else {
+        self?.logger.info("domain registered with token")
+        self?.signalWorkingSet(for: domain)
       }
     }
   }

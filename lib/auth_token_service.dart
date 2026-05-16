@@ -14,7 +14,7 @@ class AuthTokenService {
   static Future<void> saveToken(String keyName, String token) async {
     await _storage.write(key: _tokenKey, value: token);
     await _storage.write(key: _keyNameKey, value: keyName);
-    await _writeTokenToSharedContainer(token);
+    await _notifyDomain(token);
   }
 
   static Future<Map<String, String>?> loadTokenInfo() async {
@@ -22,7 +22,7 @@ class AuthTokenService {
       final token = await _storage.read(key: _tokenKey);
       final keyName = await _storage.read(key: _keyNameKey);
       if (token != null && keyName != null) {
-        await _writeTokenToSharedContainer(token);
+        await _notifyDomain(token);
         return {'key': keyName, 'token': token};
       }
     } catch (e) {
@@ -34,24 +34,17 @@ class AuthTokenService {
   static Future<void> clear() async {
     await _storage.delete(key: _tokenKey);
     await _storage.delete(key: _keyNameKey);
-    await _deleteTokenFromSharedContainer();
-  }
-
-  
-  static Future<void> _writeTokenToSharedContainer(String token) async {
-    if (!Platform.isMacOS) return;
-    try {
-      await _channel.invokeMethod('writeToken', token);
-      print('[AuthTokenService] Token written to app group container via native bridge');
-    } catch (e) {
-      print('[AuthTokenService] _writeTokenToSharedContainer error: $e');
+    if (Platform.isMacOS) {
+      try {
+        await _channel.invokeMethod('clearDomainToken');
+      } catch (_) {}
     }
   }
 
-  static Future<void> _deleteTokenFromSharedContainer() async {
+  static Future<void> _notifyDomain(String token) async {
     if (!Platform.isMacOS) return;
     try {
-      await _channel.invokeMethod('deleteToken');
+      await _channel.invokeMethod('updateDomainToken', token);
     } catch (_) {}
   }
 

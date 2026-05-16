@@ -11,10 +11,17 @@ final class FileProviderExtension: NSObject, NSFileProviderReplicatedExtension {
         category: "extension"
     )
 
+    private let domain: NSFileProviderDomain
+
     // MARK: - Lifecycle
 
-    init(domain: NSFileProviderDomain) {
+    required init(domain: NSFileProviderDomain) {
+        self.domain = domain
         super.init()
+    }
+
+    private func getToken() -> String? {
+        return domain.userInfo?["auth_token"] as? String
     }
 
     func invalidate() {}
@@ -131,11 +138,12 @@ final class FileProviderExtension: NSObject, NSFileProviderReplicatedExtension {
         logger.info("completionHandler called, starting background upload")
 
         if let uploadURL = stableURL {
+            let token = getToken()
             Task {
                 await StolityUploadService.upload(
                     fileURL: uploadURL,
                     filename: itemTemplate.filename,
-                    token: KeychainHelper.readToken()
+                    token: token
                 )
                 try? FileManager.default.removeItem(at: uploadURL)
             }

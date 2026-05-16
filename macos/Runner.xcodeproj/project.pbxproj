@@ -26,7 +26,6 @@
 		331D00012044A3C60003C00D /* StolityFileProviderEnumerators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D00012044A3C60003C008 /* StolityFileProviderEnumerators.swift */; };
 		331D00012044A3C60003C00E /* StolityFileProviderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D00012044A3C60003C009 /* StolityFileProviderExtension.swift */; };
 		331D00012044A3C60003C010 /* StolityFileProvider.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 331D00012044A3C60003C006 /* StolityFileProvider.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		331D00012044A3C60003C020 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D00012044A3C60003C01E /* KeychainHelper.swift */; };
 		331D00012044A3C60003C021 /* StolityUploadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D00012044A3C60003C01F /* StolityUploadService.swift */; };
 		335BBD1B22A9A15E00E9071D /* GeneratedPluginRegistrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335BBD1A22A9A15E00E9071D /* GeneratedPluginRegistrant.swift */; };
 		33CC10F12044A3C60003C045 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CC10F02044A3C60003C045 /* AppDelegate.swift */; };
@@ -95,7 +94,6 @@
 		331D00012044A3C60003C009 /* StolityFileProviderExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StolityFileProviderExtension.swift; sourceTree = "<group>"; };
 		331D00012044A3C60003C00A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		331D00012044A3C60003C00B /* StolityFileProvider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StolityFileProvider.entitlements; sourceTree = "<group>"; };
-		331D00012044A3C60003C01E /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
 		331D00012044A3C60003C01F /* StolityUploadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StolityUploadService.swift; sourceTree = "<group>"; };
 		333000ED22D3DE5D00554162 /* Warnings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Warnings.xcconfig; sourceTree = "<group>"; };
 		335BBD1A22A9A15E00E9071D /* GeneratedPluginRegistrant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratedPluginRegistrant.swift; sourceTree = "<group>"; };
@@ -176,7 +174,6 @@
 				331D00012044A3C60003C007 /* StolityFileProviderItem.swift */,
 				331D00012044A3C60003C008 /* StolityFileProviderEnumerators.swift */,
 				331D00012044A3C60003C009 /* StolityFileProviderExtension.swift */,
-				331D00012044A3C60003C01E /* KeychainHelper.swift */,
 				331D00012044A3C60003C01F /* StolityUploadService.swift */,
 				331D00012044A3C60003C00A /* Info.plist */,
 				331D00012044A3C60003C00B /* StolityFileProvider.entitlements */,
@@ -523,7 +520,6 @@
 				331D00012044A3C60003C00C /* StolityFileProviderItem.swift in Sources */,
 				331D00012044A3C60003C00D /* StolityFileProviderEnumerators.swift in Sources */,
 				331D00012044A3C60003C00E /* StolityFileProviderExtension.swift in Sources */,
-				331D00012044A3C60003C020 /* KeychainHelper.swift in Sources */,
 				331D00012044A3C60003C021 /* StolityUploadService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -637,7 +633,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 2.1.2;
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stolity.StolityFileProvider;
@@ -670,7 +666,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 2.1.2;
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stolity.StolityFileProvider;
@@ -703,7 +699,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 2.1.2;
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stolity.StolityFileProvider;
@@ -755,7 +751,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -780,7 +776,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
@@ -841,7 +837,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -891,7 +887,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -916,7 +912,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -940,7 +936,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};

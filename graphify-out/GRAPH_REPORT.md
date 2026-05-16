@@ -1,16 +1,16 @@
-# Graph Report - stolity_desktop  (2026-05-15)
+# Graph Report - stolity_desktop  (2026-05-16)
 
 ## Corpus Check
-- 68 files · ~25,970 words
+- 67 files · ~26,115 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 419 nodes · 598 edges · 49 communities (35 shown, 14 thin omitted)
+- 425 nodes · 607 edges · 48 communities (35 shown, 13 thin omitted)
 - Extraction: 96% EXTRACTED · 4% INFERRED · 0% AMBIGUOUS · INFERRED: 23 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `309feea1`
+- Built from commit: `d732bf50`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -46,14 +46,13 @@
 - [[_COMMUNITY_Community 28|Community 28]]
 - [[_COMMUNITY_Community 29|Community 29]]
 - [[_COMMUNITY_Community 30|Community 30]]
-- [[_COMMUNITY_Community 31|Community 31]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `webview_screen.dart` - 42 edges
-2. `OrderedSet` - 17 edges
-3. `AppDelegate` - 16 edges
+2. `AppDelegate` - 18 edges
+3. `OrderedSet` - 17 edges
 4. `SequencedContents` - 13 edges
-5. `FileProviderExtension` - 11 edges
+5. `FileProviderExtension` - 12 edges
 6. `uploadFilesMultipart()` - 11 edges
 7. `StolityFileProviderExtension` - 11 edges
 8. `BuddyFileProviderExtension` - 11 edges
@@ -72,15 +71,15 @@
 - `webview_screen.dart` --defines--> `_NavPillIconButtonState`  [EXTRACTED]
   lib/main.dart → lib/webview_screen.dart
 
-## Communities (49 total, 14 thin omitted)
+## Communities (48 total, 13 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.06
-Nodes (32): auth_token_service.dart, dart:collection, dart:developer, package:flutter/foundation.dart, services/download_service.dart, _armPopupFallback, _attemptAutoLogin, _authLog (+24 more)
+Nodes (33): auth_token_service.dart, dart:collection, dart:developer, package:flutter/foundation.dart, _armPopupFallback, _attemptAutoLogin, _authLog, build (+25 more)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.06
-Nodes (33): dart:async, dart:ui, services/file_picker_service.dart, services/window_service.dart, _buildNavigationPill, ColoredBox, Dialog, dispose (+25 more)
+Nodes (34): dart:async, dart:ui, services/download_service.dart, services/file_picker_service.dart, services/window_service.dart, _buildNavigationPill, ColoredBox, Dialog (+26 more)
 
 ### Community 2 - "Community 2"
 Cohesion: 0.12
@@ -103,20 +102,20 @@ Cohesion: 0.1
 Nodes (3): BuddyRootEnumerator, BuddyWorkingSetEnumerator, BuddyFileProviderExtension
 
 ### Community 7 - "Community 7"
+Cohesion: 0.11
+Nodes (17): dart:convert, dart:io, dart:typed_data, package:flutter_secure_storage/flutter_secure_storage.dart, package:flutter/services.dart, AuthTokenService, _deleteTokenFromSharedContainer, isTokenValid (+9 more)
+
+### Community 8 - "Community 8"
+Cohesion: 0.21
+Nodes (3): FlutterAppDelegate, FlutterImplicitEngineDelegate, AppDelegate
+
+### Community 9 - "Community 9"
 Cohesion: 0.23
 Nodes (9): Error, LocalizedError, ChunkMeta, StolityUploadError, invalidStartResponse, missingETag, missingToken, uploadFailed (+1 more)
 
-### Community 8 - "Community 8"
+### Community 10 - "Community 10"
 Cohesion: 0.16
 Nodes (14): package:flutter_test/flutter_test.dart, package:stolity_desktop/main.dart, package:stolity_desktop/webview_screen.dart, main(), first_frame_cb(), my_application_activate(), my_application_class_init(), my_application_dispose() (+6 more)
-
-### Community 9 - "Community 9"
-Cohesion: 0.12
-Nodes (16): dart:convert, dart:io, dart:typed_data, package:flutter_secure_storage/flutter_secure_storage.dart, package:flutter/services.dart, AuthTokenService, _deleteTokenFromSharedContainer, isTokenValid (+8 more)
-
-### Community 10 - "Community 10"
-Cohesion: 0.24
-Nodes (3): FlutterAppDelegate, FlutterImplicitEngineDelegate, AppDelegate
 
 ### Community 11 - "Community 11"
 Cohesion: 0.12
@@ -127,18 +126,18 @@ Cohesion: 0.15
 Nodes (7): fl_register_plugins(), RegisterGeneratedPlugins(), NSWindow, GeneratedPluginRegistrant, GeneratedPluginRegistrant, -registerWithRegistry, MainFlutterWindow
 
 ### Community 13 - "Community 13"
-Cohesion: 0.2
-Nodes (8): ../constants.dart, package:flutter/material.dart, package:window_manager/window_manager.dart, build, main, MaterialApp, StolityApp, showReusableSnackbar
+Cohesion: 0.19
+Nodes (7): NSFileProviderItem, DummyItem, FileProviderWellKnownItems, RootItem, StolityFileItem, StolityFileProviderDomainSupport, StolityFileProviderItem
 
 ### Community 14 - "Community 14"
-Cohesion: 0.24
-Nodes (6): NSFileProviderItem, DummyItem, FileProviderWellKnownItems, RootItem, StolityFileItem, StolityFileProviderDomainSupport
+Cohesion: 0.2
+Nodes (8): ../constants.dart, package:flutter/material.dart, package:window_manager/window_manager.dart, build, main, MaterialApp, StolityApp, showReusableSnackbar
 
 ### Community 15 - "Community 15"
 Cohesion: 0.18
 Nodes (10): code:swift (var set = OrderedSet<Int>()), code:ruby (pod 'OrderedSet', '5.0'), code:block3 (github "Weebly/OrderedSet"), code:swift (import OrderedSet), code:swift (package.append(.package(url: "https://github.com/Weebly/Orde), CONTRIBUTING, Installation, Introduction (+2 more)
 
-### Community 17 - "Community 17"
+### Community 18 - "Community 18"
 Cohesion: 0.22
 Nodes (8): package:file_picker/file_picker.dart, package:flutter_inappwebview/flutter_inappwebview.dart, package:webview_flutter/webview_flutter.dart, package:webview_windows/webview_windows.dart, services/snackbar_service.dart, _escapeJsString, handleFolderPick, ../utils/mime_types.dart
 
@@ -147,21 +146,21 @@ Cohesion: 0.47
 Nodes (4): wWinMain(), CreateAndAttachConsole(), GetCommandLineArguments(), Utf8FromUtf16()
 
 ## Knowledge Gaps
-- **76 isolated node(s):** `FileProviderWellKnownItems`, `missingToken`, `invalidStartResponse`, `main`, `package:flutter_test/flutter_test.dart` (+71 more)
+- **79 isolated node(s):** `FileProviderWellKnownItems`, `missingToken`, `invalidStartResponse`, `main`, `package:flutter_test/flutter_test.dart` (+74 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **14 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `main()` connect `Community 8` to `Community 13`?**
+- **Why does `main()` connect `Community 10` to `Community 14`?**
   _High betweenness centrality (0.080) - this node is a cross-community bridge._
-- **Why does `my_application_activate()` connect `Community 8` to `Community 12`?**
+- **Why does `my_application_activate()` connect `Community 10` to `Community 12`?**
   _High betweenness centrality (0.064) - this node is a cross-community bridge._
-- **Why does `fl_register_plugins()` connect `Community 12` to `Community 8`?**
+- **Why does `fl_register_plugins()` connect `Community 12` to `Community 10`?**
   _High betweenness centrality (0.064) - this node is a cross-community bridge._
 - **What connects `FileProviderWellKnownItems`, `missingToken`, `invalidStartResponse` to the rest of the system?**
-  _76 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _79 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.06 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**

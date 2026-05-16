@@ -403,6 +403,39 @@ class _StolityWebViewState extends State<StolityWebView>
     })();
   ''';
 
+  static const String _logoutInterceptJs = r'''
+    (function(){
+      if (window.__stolityLogoutPatched) return;
+      window.__stolityLogoutPatched = true;
+      function _notifyLogout() {
+        try { window.flutter_inappwebview.callHandler('FlutterLogout', {}); } catch(e) {}
+      }
+      var _origFetch = window.fetch;
+      window.fetch = function(input, init) {
+        var url = (typeof input === 'string') ? input : (input && input.url) || '';
+        var p = _origFetch.apply(this, arguments);
+        if (url.indexOf('logout-user') !== -1) {
+          p.then(function(r) { if (r.ok) _notifyLogout(); }).catch(function(){});
+        }
+        return p;
+      };
+      var _origOpen = XMLHttpRequest.prototype.open;
+      XMLHttpRequest.prototype.open = function(method, url) {
+        this._stolityUrl = url || '';
+        return _origOpen.apply(this, arguments);
+      };
+      var _origSend = XMLHttpRequest.prototype.send;
+      XMLHttpRequest.prototype.send = function() {
+        if (this._stolityUrl && this._stolityUrl.indexOf('logout-user') !== -1) {
+          this.addEventListener('load', function() {
+            if (this.status >= 200 && this.status < 300) _notifyLogout();
+          });
+        }
+        return _origSend.apply(this, arguments);
+      };
+    })();
+  ''';
+
   static const String _filePickerPatchJs = r'''
     (function(){
       if (window.__stolityFilePickerPatched) return;
@@ -482,6 +515,10 @@ class _StolityWebViewState extends State<StolityWebView>
         source: _filePickerPatchJs,
         injectionTime: UserScriptInjectionTime.AT_DOCUMENT_END,
       ),
+      UserScript(
+        source: _logoutInterceptJs,
+        injectionTime: UserScriptInjectionTime.AT_DOCUMENT_END,
+      ),
     ];
     final auto = _buildAutoLoginUserScript();
     if (auto != null) scripts.add(auto);
@@ -532,6 +569,12 @@ class _StolityWebViewState extends State<StolityWebView>
         final message =
             payload is String ? payload : jsonEncode(payload);
         await handleFilePick(message, _controller);
+      },
+    );
+    c.addJavaScriptHandler(
+      handlerName: 'FlutterLogout',
+      callback: (args) async {
+        await _clearStoredAuth('logout-user API call detected');
       },
     );
   }
