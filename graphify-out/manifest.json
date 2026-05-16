@@ -4,104 +4,104 @@
     "hash": "97d3a20fd20a063c192e886d1822b4a8"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Runner/MainFlutterWindow.swift": {
-    "mtime": 1777962776.9619308,
-    "hash": "3f25fe4d6ee5c18ec5894f85fa236119"
+    "mtime": 1778751707.5044825,
+    "hash": "c125207cfebd3d391466ae3e90f359db"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Runner/AppDelegate.swift": {
-    "mtime": 1778584181.8337321,
-    "hash": "3da04dd7455b8937621e6ab7384f3e00"
+    "mtime": 1778842393.8286173,
+    "hash": "fef4931317f7b0da20b0cf9a7df2c029"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Flutter/GeneratedPluginRegistrant.swift": {
     "mtime": 1778233890.8032718,
     "hash": "e45a83bc606b96d705ce39acb0e2e17b"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/Target Support Files/window_manager/window_manager-umbrella.h": {
-    "mtime": 1777962989.192968,
+    "mtime": 1778840251.0690293,
     "hash": "37423e11783e967555ae49070f575aef"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/Target Support Files/window_manager/window_manager-dummy.m": {
-    "mtime": 1777962989.1942086,
+    "mtime": 1778840251.0700736,
     "hash": "a856bcd871016590358faa9001fa82fe"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/Target Support Files/flutter_secure_storage_darwin/flutter_secure_storage_darwin-dummy.m": {
-    "mtime": 1778149589.4749396,
+    "mtime": 1778840251.0643108,
     "hash": "58ad0193f8621030793f0b1901e7c402"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/Target Support Files/flutter_secure_storage_darwin/flutter_secure_storage_darwin-umbrella.h": {
-    "mtime": 1778149589.473427,
+    "mtime": 1778840251.0624924,
     "hash": "a36d4f58b20f7453bb28088237885242"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/Target Support Files/screen_retriever/screen_retriever-dummy.m": {
-    "mtime": 1777962989.185457,
+    "mtime": 1778840251.0673754,
     "hash": "d66f91904dcecb833677caf5e7d0153f"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/Target Support Files/screen_retriever/screen_retriever-umbrella.h": {
-    "mtime": 1777962989.1836932,
+    "mtime": 1778840251.0663192,
     "hash": "dd45ffabdc76e6c6f784a93575c3ca7c"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/Target Support Files/OrderedSet/OrderedSet-umbrella.h": {
-    "mtime": 1778236549.6206937,
+    "mtime": 1778840251.051126,
     "hash": "9b2f1f435f2efd755f3ee4f05ec6b6ec"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/Target Support Files/OrderedSet/OrderedSet-dummy.m": {
-    "mtime": 1778236549.6219535,
+    "mtime": 1778840251.05271,
     "hash": "bce73ef2c144ee0cd41ad1e017c48017"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/Target Support Files/flutter_inappwebview_macos/flutter_inappwebview_macos-umbrella.h": {
-    "mtime": 1778236549.631674,
+    "mtime": 1778840251.059403,
     "hash": "49de2b42b344f6e42854f0ce26527b52"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/Target Support Files/flutter_inappwebview_macos/flutter_inappwebview_macos-dummy.m": {
-    "mtime": 1778236549.6327446,
+    "mtime": 1778840251.0604453,
     "hash": "d5e0c61ea6c675fad90a1da4b1a8aa94"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/Target Support Files/Pods-Runner/Pods-Runner-umbrella.h": {
-    "mtime": 1777961481.904778,
+    "mtime": 1778840251.0760586,
     "hash": "814a4c2d3024597e419f66f6f048d39e"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/Target Support Files/Pods-Runner/Pods-Runner-dummy.m": {
-    "mtime": 1777961481.9078147,
+    "mtime": 1778840251.082514,
     "hash": "d3f88e6bc5bffb456bd31d3ae36c9256"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/Target Support Files/Pods-RunnerTests/Pods-RunnerTests-dummy.m": {
-    "mtime": 1777961481.9103718,
+    "mtime": 1778840251.085773,
     "hash": "097dfaf08332f413805fcca47157791c"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/Target Support Files/Pods-RunnerTests/Pods-RunnerTests-umbrella.h": {
-    "mtime": 1777961481.9092627,
+    "mtime": 1778840251.0851502,
     "hash": "c23802aedf43339011f9ddde1d7d0c49"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/Target Support Files/file_picker/file_picker-dummy.m": {
-    "mtime": 1777981301.9321334,
+    "mtime": 1778840251.0558527,
     "hash": "b45f1c8a2558a1fa4e5b3e217add9ad5"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/Target Support Files/file_picker/file_picker-umbrella.h": {
-    "mtime": 1777981301.9290783,
+    "mtime": 1778840251.0548494,
     "hash": "6e42e908f87ebdb630e3e154d55058bc"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/OrderedSet/Sources/OrderedSet.swift": {
-    "mtime": 1778585501.4640925,
+    "mtime": 1778842505.9200613,
     "hash": "c7b72b7b8982fe3e68e6656f17bb9893"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/StolityFileProvider/KeychainHelper.swift": {
-    "mtime": 1778659094.0896778,
-    "hash": "fcb96c764dfa0ef1d022b06436308295"
+    "mtime": 1778751707.5044599,
+    "hash": "15e3ae608401afb2b1fbbd3dc8b22146"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/StolityFileProvider/StolityFileProviderExtension.swift": {
-    "mtime": 1778659130.9520042,
-    "hash": "0c41aa4033e2fd82e5d0c71eef31808d"
+    "mtime": 1778844739.1817596,
+    "hash": "9843cd9a289348fbc3f553956fef0198"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/StolityFileProvider/StolityFileProviderEnumerators.swift": {
-    "mtime": 1778564906.9540107,
-    "hash": "70e4db687463a0389b732b7b97d170f7"
+    "mtime": 1778842393.8286078,
+    "hash": "972ce835fad8d81751368f513fbf965f"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/StolityFileProvider/StolityFileProviderItem.swift": {
-    "mtime": 1778584790.3007674,
-    "hash": "01c8c47a2cbb4132f8b9a6f0dd66a1d4"
+    "mtime": 1778844746.8472886,
+    "hash": "65c82af14b53c0f8555793db413e8608"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/StolityFileProvider/StolityUploadService.swift": {
-    "mtime": 1778659121.8212395,
-    "hash": "442fbcada32819ad76cdb956acfcaef7"
+    "mtime": 1778672251.3203177,
+    "hash": "c6d6eea26f1fdf6bf87646071341b47e"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/test/widget_test.dart": {
     "mtime": 1778048808.0153263,
@@ -132,7 +132,7 @@
     "hash": "748d701e783e68faf618c00464257a19"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/ios/Flutter/ephemeral/flutter_lldb_helper.py": {
-    "mtime": 1778585499.327893,
+    "mtime": 1778842290.5653613,
     "hash": "98fc75412162af387e2e3461e4e58094"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/linux/runner/main.cc": {
@@ -184,8 +184,8 @@
     "hash": "36c05f4089e6dfe30d3ec8de0c7a0bc9"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/lib/auth_token_service.dart": {
-    "mtime": 1778563395.5992079,
-    "hash": "99e726ec2a46a48489dd27d8847c492c"
+    "mtime": 1778758448.227822,
+    "hash": "0b0b0681cda2fa036ecd6defa16cc886"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/lib/webview_screen.dart": {
     "mtime": 1778475636.1350217,
@@ -264,15 +264,15 @@
     "hash": "9899590a35676f4dba78ecf0a19b7a13"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/pubspec.yaml": {
-    "mtime": 1778310914.593089,
-    "hash": "1caabf8e3cc8a7dcf3e7fc3907038f33"
+    "mtime": 1778842393.8286698,
+    "hash": "2ee65ccecbf99015f44402e4f9283447"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/analysis_options.yaml": {
     "mtime": 1777959827.9880006,
     "hash": "66d03d7647c8e438164feaf5b922d44a"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/OrderedSet/README.md": {
-    "mtime": 1778585501.4637408,
+    "mtime": 1778842505.9197206,
     "hash": "ac4585e0496edf486b4fece0ec0297ee"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/web/index.html": {

@@ -26,14 +26,20 @@ final class FileProviderExtension: NSObject, NSFileProviderReplicatedExtension {
         request: NSFileProviderRequest,
         completionHandler: @escaping (NSFileProviderItem?, Error?) -> Void
     ) -> Progress {
+        let item: NSFileProviderItem?
         switch identifier {
         case .rootContainer:
-            completionHandler(FileProviderItem.rootContainerItem(), nil)
+            item = RootItem()
         case .trashContainer:
-            completionHandler(FileProviderItem.trashContainerItem(), nil)
+            item = FileProviderItem.trashContainerItem()
         default:
-            completionHandler(nil, NSFileProviderError(.noSuchItem))
+            if identifier == FileProviderWellKnownItems.welcomeIdentifier {
+                item = DummyItem.welcome
+            } else {
+                item = nil
+            }
         }
+        completionHandler(item, item == nil ? NSFileProviderError(.noSuchItem) : nil)
         return Progress(totalUnitCount: 1)
     }
 
@@ -63,7 +69,24 @@ final class FileProviderExtension: NSObject, NSFileProviderReplicatedExtension {
         request: NSFileProviderRequest,
         completionHandler: @escaping (URL?, NSFileProviderItem?, Error?) -> Void
     ) -> Progress {
-        completionHandler(nil, nil, NSFileProviderError(.noSuchItem))
+        guard itemIdentifier == FileProviderWellKnownItems.welcomeIdentifier else {
+            completionHandler(nil, nil, NSFileProviderError(.noSuchItem))
+            return Progress(totalUnitCount: 1)
+        }
+
+        let body = """
+        Welcome to Stolity.
+
+        Your cloud files will appear here once syncing is enabled.
+        """
+        let url = FileManager.default.temporaryDirectory
+            .appendingPathComponent("welcome-\(UUID().uuidString).txt")
+        do {
+            try body.write(to: url, atomically: true, encoding: .utf8)
+            completionHandler(url, DummyItem.welcome, nil)
+        } catch {
+            completionHandler(nil, nil, error)
+        }
         return Progress(totalUnitCount: 1)
     }
 
@@ -130,7 +153,10 @@ final class FileProviderExtension: NSObject, NSFileProviderReplicatedExtension {
         request: NSFileProviderRequest,
         completionHandler: @escaping (NSFileProviderItem?, NSFileProviderItemFields, Bool, Error?) -> Void
     ) -> Progress {
-        completionHandler(nil, [], false, NSFileProviderError(.serverUnreachable))
+        // Acknowledge the modification silently. Returning a server error here
+        // blocks fileproviderd reconciliation and prevents FPFS mount.
+        logger.info("modifyItem: \(item.filename, privacy: .public) — acknowledged")
+        completionHandler(item, [], false, nil)
         return Progress(totalUnitCount: 1)
     }
 
@@ -141,7 +167,11 @@ final class FileProviderExtension: NSObject, NSFileProviderReplicatedExtension {
         request: NSFileProviderRequest,
         completionHandler: @escaping (Error?) -> Void
     ) -> Progress {
-        completionHandler(NSFileProviderError(.serverUnreachable))
+        // Acknowledge deletion silently. Returning a server error here causes
+        // fileproviderd to retry indefinitely, stalling the FPFS mount and
+        // generating the repeated -1004 errors seen in logs.
+        logger.info("deleteItem: \(identifier.rawValue, privacy: .public) — acknowledged")
+        completionHandler(nil)
         return Progress(totalUnitCount: 1)
     }
 }

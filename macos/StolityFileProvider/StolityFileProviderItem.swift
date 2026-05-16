@@ -13,6 +13,63 @@ import UniformTypeIdentifiers
 // Stable 4-byte version marker used for both content and metadata.
 private let kVersionData = Data([0, 0, 0, 1])
 
+enum FileProviderWellKnownItems {
+    static let welcomeIdentifier = NSFileProviderItemIdentifier("welcome.txt")
+}
+
+// MARK: - Root container (Finder sidebar / Locations)
+
+/// Root item returned from `item(for: .rootContainer)`. Must exist for production mounts.
+final class RootItem: NSObject, NSFileProviderItem {
+    var itemIdentifier: NSFileProviderItemIdentifier { .rootContainer }
+    var parentItemIdentifier: NSFileProviderItemIdentifier { .rootContainer }
+    var filename: String { "Stolity" }
+    var contentType: UTType { .folder }
+    var capabilities: NSFileProviderItemCapabilities {
+        // Root must not advertise .allowsDeleting or .allowsWriting — doing so
+        // causes fileproviderd to attempt delete/modify operations on the root
+        // container itself, which stalls reconciliation and blocks FPFS mount.
+        [.allowsReading, .allowsAddingSubItems, .allowsContentEnumerating]
+    }
+    var itemVersion: NSFileProviderItemVersion {
+        NSFileProviderItemVersion(
+            contentVersion: kVersionData,
+            metadataVersion: kVersionData
+        )
+    }
+}
+
+// MARK: - Placeholder root child (keeps provider "active" in production)
+
+/// Single visible file at root so macOS does not treat the provider as empty in TestFlight.
+final class DummyItem: NSObject, NSFileProviderItem {
+    static let welcome = DummyItem(
+        identifier: FileProviderWellKnownItems.welcomeIdentifier,
+        filename: "Welcome.txt"
+    )
+
+    private let id: NSFileProviderItemIdentifier
+    private let name: String
+
+    init(identifier: NSFileProviderItemIdentifier, filename: String) {
+        self.id = identifier
+        self.name = filename
+        super.init()
+    }
+
+    var itemIdentifier: NSFileProviderItemIdentifier { id }
+    var parentItemIdentifier: NSFileProviderItemIdentifier { .rootContainer }
+    var filename: String { name }
+    var contentType: UTType { .plainText }
+    var capabilities: NSFileProviderItemCapabilities { [.allowsReading] }
+    var itemVersion: NSFileProviderItemVersion {
+        NSFileProviderItemVersion(
+            contentVersion: kVersionData,
+            metadataVersion: kVersionData
+        )
+    }
+}
+
 final class FileProviderItem: NSObject, NSFileProviderItem {
 
     // MARK: - Required NSFileProviderItem properties

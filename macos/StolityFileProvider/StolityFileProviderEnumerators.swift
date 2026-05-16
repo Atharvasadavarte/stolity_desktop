@@ -5,7 +5,7 @@ let kSyncAnchor = NSFileProviderSyncAnchor(rawValue: Data([0, 0, 0, 1]))
 
 // MARK: - Root container enumerator
 
-/// Enumerates the root container. Returns an empty directory — no files yet.
+/// Enumerates the root container. Always exposes at least one item for production Finder sidebar.
 final class RootEnumerator: NSObject, NSFileProviderEnumerator {
 
     func invalidate() {}
@@ -14,7 +14,7 @@ final class RootEnumerator: NSObject, NSFileProviderEnumerator {
         for observer: NSFileProviderEnumerationObserver,
         startingAt page: NSFileProviderPage
     ) {
-        observer.didEnumerate([])
+        observer.didEnumerate([DummyItem.welcome])
         observer.finishEnumerating(upTo: nil)
     }
 }
