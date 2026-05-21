@@ -1,16 +1,16 @@
-# Graph Report - stolity_desktop  (2026-05-16)
+# Graph Report - stolity_desktop  (2026-05-19)
 
 ## Corpus Check
-- 67 files · ~26,115 words
+- 67 files · ~37,639 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 425 nodes · 607 edges · 48 communities (35 shown, 13 thin omitted)
+- 445 nodes · 650 edges · 49 communities (35 shown, 14 thin omitted)
 - Extraction: 96% EXTRACTED · 4% INFERRED · 0% AMBIGUOUS · INFERRED: 23 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `d732bf50`
+- Built from commit: `9db5814e`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -46,18 +46,19 @@
 - [[_COMMUNITY_Community 28|Community 28]]
 - [[_COMMUNITY_Community 29|Community 29]]
 - [[_COMMUNITY_Community 30|Community 30]]
+- [[_COMMUNITY_Community 31|Community 31]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `webview_screen.dart` - 42 edges
-2. `AppDelegate` - 18 edges
-3. `OrderedSet` - 17 edges
-4. `SequencedContents` - 13 edges
-5. `FileProviderExtension` - 12 edges
-6. `uploadFilesMultipart()` - 11 edges
-7. `StolityFileProviderExtension` - 11 edges
-8. `BuddyFileProviderExtension` - 11 edges
-9. `StolityWorkingSetEnumerator` - 10 edges
-10. `StolityUploadService` - 9 edges
+2. `StolityUploadService` - 23 edges
+3. `AppDelegate` - 20 edges
+4. `OrderedSet` - 17 edges
+5. `SequencedContents` - 13 edges
+6. `FileProviderExtension` - 12 edges
+7. `uploadFilesMultipart()` - 11 edges
+8. `StolityFileProviderExtension` - 11 edges
+9. `BuddyFileProviderExtension` - 11 edges
+10. `StolityWorkingSetEnumerator` - 10 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `main()` --calls--> `my_application_new()`  [INFERRED]
@@ -71,47 +72,47 @@
 - `webview_screen.dart` --defines--> `_NavPillIconButtonState`  [EXTRACTED]
   lib/main.dart → lib/webview_screen.dart
 
-## Communities (48 total, 13 thin omitted)
+## Communities (49 total, 14 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.06
-Nodes (33): auth_token_service.dart, dart:collection, dart:developer, package:flutter/foundation.dart, _armPopupFallback, _attemptAutoLogin, _authLog, build (+25 more)
+Cohesion: 0.12
+Nodes (10): Error, LocalizedError, ChunkMeta, StolityUploadError, invalidStartResponse, missingETag, missingToken, uploadFailed (+2 more)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.06
 Nodes (34): dart:async, dart:ui, services/download_service.dart, services/file_picker_service.dart, services/window_service.dart, _buildNavigationPill, ColoredBox, Dialog (+26 more)
 
 ### Community 2 - "Community 2"
+Cohesion: 0.06
+Nodes (33): auth_token_service.dart, dart:collection, dart:developer, package:flutter/foundation.dart, _armPopupFallback, _attemptAutoLogin, _authLog, build (+25 more)
+
+### Community 3 - "Community 3"
 Cohesion: 0.12
 Nodes (19): RegisterPlugins(), FlutterWindow(), OnCreate(), Create(), Destroy(), EnableFullDpiSupportIfAvailable(), GetClientArea(), GetThisFromHandle() (+11 more)
 
-### Community 3 - "Community 3"
+### Community 4 - "Community 4"
 Cohesion: 0.15
 Nodes (7): CustomStringConvertible, Equatable, ExpressibleByArrayLiteral, RandomAccessCollection, +(), OrderedSet, SequencedContents
 
-### Community 4 - "Community 4"
+### Community 5 - "Community 5"
 Cohesion: 0.11
 Nodes (6): NSFileProviderEnumerator, RootEnumerator, StolityRootEnumerator, StolityWorkingSetEnumerator, TrashEnumerator, WorkingSetEnumerator
 
-### Community 5 - "Community 5"
+### Community 6 - "Community 6"
 Cohesion: 0.17
 Nodes (24): abortMultipartUpload(), abortUpload(), buildEndpoint(), cancelFileUpload(), completeMultipartUpload(), copyFileToStablePath(), createCancelError(), doHttpRequest() (+16 more)
 
-### Community 6 - "Community 6"
+### Community 7 - "Community 7"
+Cohesion: 0.19
+Nodes (3): FlutterAppDelegate, FlutterImplicitEngineDelegate, AppDelegate
+
+### Community 8 - "Community 8"
 Cohesion: 0.1
 Nodes (3): BuddyRootEnumerator, BuddyWorkingSetEnumerator, BuddyFileProviderExtension
 
-### Community 7 - "Community 7"
+### Community 9 - "Community 9"
 Cohesion: 0.11
 Nodes (17): dart:convert, dart:io, dart:typed_data, package:flutter_secure_storage/flutter_secure_storage.dart, package:flutter/services.dart, AuthTokenService, _deleteTokenFromSharedContainer, isTokenValid (+9 more)
-
-### Community 8 - "Community 8"
-Cohesion: 0.21
-Nodes (3): FlutterAppDelegate, FlutterImplicitEngineDelegate, AppDelegate
-
-### Community 9 - "Community 9"
-Cohesion: 0.23
-Nodes (9): Error, LocalizedError, ChunkMeta, StolityUploadError, invalidStartResponse, missingETag, missingToken, uploadFailed (+1 more)
 
 ### Community 10 - "Community 10"
 Cohesion: 0.16
@@ -126,16 +127,16 @@ Cohesion: 0.15
 Nodes (7): fl_register_plugins(), RegisterGeneratedPlugins(), NSWindow, GeneratedPluginRegistrant, GeneratedPluginRegistrant, -registerWithRegistry, MainFlutterWindow
 
 ### Community 13 - "Community 13"
-Cohesion: 0.19
-Nodes (7): NSFileProviderItem, DummyItem, FileProviderWellKnownItems, RootItem, StolityFileItem, StolityFileProviderDomainSupport, StolityFileProviderItem
-
-### Community 14 - "Community 14"
 Cohesion: 0.2
 Nodes (8): ../constants.dart, package:flutter/material.dart, package:window_manager/window_manager.dart, build, main, MaterialApp, StolityApp, showReusableSnackbar
 
-### Community 15 - "Community 15"
+### Community 14 - "Community 14"
 Cohesion: 0.18
 Nodes (10): code:swift (var set = OrderedSet<Int>()), code:ruby (pod 'OrderedSet', '5.0'), code:block3 (github "Weebly/OrderedSet"), code:swift (import OrderedSet), code:swift (package.append(.package(url: "https://github.com/Weebly/Orde), CONTRIBUTING, Installation, Introduction (+2 more)
+
+### Community 15 - "Community 15"
+Cohesion: 0.27
+Nodes (6): NSFileProviderItem, DummyItem, FileProviderWellKnownItems, RootItem, StolityFileItem, StolityFileProviderDomainSupport
 
 ### Community 18 - "Community 18"
 Cohesion: 0.22
@@ -148,22 +149,22 @@ Nodes (4): wWinMain(), CreateAndAttachConsole(), GetCommandLineArguments(), Utf8
 ## Knowledge Gaps
 - **79 isolated node(s):** `FileProviderWellKnownItems`, `missingToken`, `invalidStartResponse`, `main`, `package:flutter_test/flutter_test.dart` (+74 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **14 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `main()` connect `Community 10` to `Community 14`?**
-  _High betweenness centrality (0.080) - this node is a cross-community bridge._
+- **Why does `main()` connect `Community 10` to `Community 13`?**
+  _High betweenness centrality (0.073) - this node is a cross-community bridge._
 - **Why does `my_application_activate()` connect `Community 10` to `Community 12`?**
-  _High betweenness centrality (0.064) - this node is a cross-community bridge._
+  _High betweenness centrality (0.058) - this node is a cross-community bridge._
 - **Why does `fl_register_plugins()` connect `Community 12` to `Community 10`?**
-  _High betweenness centrality (0.064) - this node is a cross-community bridge._
+  _High betweenness centrality (0.058) - this node is a cross-community bridge._
 - **What connects `FileProviderWellKnownItems`, `missingToken`, `invalidStartResponse` to the rest of the system?**
   _79 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.06 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.12 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.06 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
-  _Cohesion score 0.12 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.06 - nodes in this community are weakly interconnected._

@@ -90,7 +90,7 @@
       "source_file": "macos/Runner/AppDelegate.swift",
       "source_location": "L1",
       "id": "macos_runner_appdelegate_swift",
-      "community": 8,
+      "community": 7,
       "norm_label": "appdelegate.swift"
     },
     {
@@ -99,7 +99,7 @@
       "source_file": "ios/Runner/AppDelegate.swift",
       "source_location": "L4",
       "id": "runner_appdelegate_appdelegate",
-      "community": 8,
+      "community": 7,
       "norm_label": "appdelegate"
     },
     {
@@ -108,70 +108,88 @@
       "source_file": "",
       "source_location": "",
       "id": "flutterappdelegate",
-      "community": 8,
+      "community": 7,
       "norm_label": "flutterappdelegate"
     },
     {
       "label": ".applicationDidFinishLaunching()",
       "file_type": "code",
       "source_file": "macos/Runner/AppDelegate.swift",
-      "source_location": "L14",
+      "source_location": "L15",
       "id": "runner_appdelegate_appdelegate_applicationdidfinishlaunching",
-      "community": 8,
+      "community": 7,
       "norm_label": ".applicationdidfinishlaunching()"
+    },
+    {
+      "label": ".requestNotificationPermissionIfNeeded()",
+      "file_type": "code",
+      "source_file": "macos/Runner/AppDelegate.swift",
+      "source_location": "L22",
+      "id": "runner_appdelegate_appdelegate_requestnotificationpermissionifneeded",
+      "community": 7,
+      "norm_label": ".requestnotificationpermissionifneeded()"
     },
     {
       "label": ".registerFileProviderDomainIfNeeded()",
       "file_type": "code",
       "source_file": "macos/Runner/AppDelegate.swift",
-      "source_location": "L27",
+      "source_location": "L43",
       "id": "runner_appdelegate_appdelegate_registerfileproviderdomainifneeded",
-      "community": 8,
+      "community": 7,
       "norm_label": ".registerfileproviderdomainifneeded()"
     },
     {
       "label": ".updateDomainWithToken()",
       "file_type": "code",
       "source_file": "macos/Runner/AppDelegate.swift",
-      "source_location": "L60",
+      "source_location": "L76",
       "id": "runner_appdelegate_appdelegate_updatedomainwithtoken",
-      "community": 8,
+      "community": 7,
       "norm_label": ".updatedomainwithtoken()"
     },
     {
       "label": ".addDomain()",
       "file_type": "code",
       "source_file": "macos/Runner/AppDelegate.swift",
-      "source_location": "L73",
+      "source_location": "L89",
       "id": "runner_appdelegate_appdelegate_adddomain",
-      "community": 8,
+      "community": 7,
       "norm_label": ".adddomain()"
+    },
+    {
+      "label": ".resetLoginNotificationFlag()",
+      "file_type": "code",
+      "source_file": "macos/Runner/AppDelegate.swift",
+      "source_location": "L104",
+      "id": "runner_appdelegate_appdelegate_resetloginnotificationflag",
+      "community": 7,
+      "norm_label": ".resetloginnotificationflag()"
     },
     {
       "label": ".signalWorkingSet()",
       "file_type": "code",
       "source_file": "macos/Runner/AppDelegate.swift",
-      "source_location": "L88",
+      "source_location": "L112",
       "id": "runner_appdelegate_appdelegate_signalworkingset",
-      "community": 8,
+      "community": 7,
       "norm_label": ".signalworkingset()"
     },
     {
       "label": ".applicationShouldTerminateAfterLastWindowClosed()",
       "file_type": "code",
       "source_file": "macos/Runner/AppDelegate.swift",
-      "source_location": "L104",
+      "source_location": "L128",
       "id": "runner_appdelegate_appdelegate_applicationshouldterminateafterlastwindowclosed",
-      "community": 8,
+      "community": 7,
       "norm_label": ".applicationshouldterminateafterlastwindowclosed()"
     },
     {
       "label": ".applicationSupportsSecureRestorableState()",
       "file_type": "code",
       "source_file": "macos/Runner/AppDelegate.swift",
-      "source_location": "L108",
+      "source_location": "L132",
       "id": "runner_appdelegate_appdelegate_applicationsupportssecurerestorablestate",
-      "community": 8,
+      "community": 7,
       "norm_label": ".applicationsupportssecurerestorablestate()"
     },
     {
@@ -198,7 +216,7 @@
       "source_file": "macos/Pods/Target Support Files/window_manager/window_manager-umbrella.h",
       "source_location": "L1",
       "id": "macos_pods_target_support_files_window_manager_window_manager_umbrella_h",
-      "community": 31,
+      "community": 32,
       "norm_label": "window_manager-umbrella.h"
     },
     {
@@ -243,7 +261,7 @@
       "source_file": "macos/Pods/Target Support Files/flutter_secure_storage_darwin/flutter_secure_storage_darwin-umbrella.h",
       "source_location": "L1",
       "id": "macos_pods_target_support_files_flutter_secure_storage_darwin_flutter_secure_storage_darwin_umbrella_h",
-      "community": 32,
+      "community": 33,
       "norm_label": "flutter_secure_storage_darwin-umbrella.h"
     },
     {
@@ -270,7 +288,7 @@
       "source_file": "macos/Pods/Target Support Files/screen_retriever/screen_retriever-umbrella.h",
       "source_location": "L1",
       "id": "macos_pods_target_support_files_screen_retriever_screen_retriever_umbrella_h",
-      "community": 33,
+      "community": 34,
       "norm_label": "screen_retriever-umbrella.h"
     },
     {
@@ -279,7 +297,7 @@
       "source_file": "macos/Pods/Target Support Files/OrderedSet/OrderedSet-umbrella.h",
       "source_location": "L1",
       "id": "macos_pods_target_support_files_orderedset_orderedset_umbrella_h",
-      "community": 34,
+      "community": 35,
       "norm_label": "orderedset-umbrella.h"
     },
     {
@@ -306,7 +324,7 @@
       "source_file": "macos/Pods/Target Support Files/flutter_inappwebview_macos/flutter_inappwebview_macos-umbrella.h",
       "source_location": "L1",
       "id": "macos_pods_target_support_files_flutter_inappwebview_macos_flutter_inappwebview_macos_umbrella_h",
-      "community": 35,
+      "community": 36,
       "norm_label": "flutter_inappwebview_macos-umbrella.h"
     },
     {
@@ -333,7 +351,7 @@
       "source_file": "macos/Pods/Target Support Files/Pods-Runner/Pods-Runner-umbrella.h",
       "source_location": "L1",
       "id": "macos_pods_target_support_files_pods_runner_pods_runner_umbrella_h",
-      "community": 36,
+      "community": 37,
       "norm_label": "pods-runner-umbrella.h"
     },
     {
@@ -378,7 +396,7 @@
       "source_file": "macos/Pods/Target Support Files/Pods-RunnerTests/Pods-RunnerTests-umbrella.h",
       "source_location": "L1",
       "id": "macos_pods_target_support_files_pods_runnertests_pods_runnertests_umbrella_h",
-      "community": 37,
+      "community": 38,
       "norm_label": "pods-runnertests-umbrella.h"
     },
     {
@@ -405,7 +423,7 @@
       "source_file": "macos/Pods/Target Support Files/file_picker/file_picker-umbrella.h",
       "source_location": "L1",
       "id": "macos_pods_target_support_files_file_picker_file_picker_umbrella_h",
-      "community": 38,
+      "community": 39,
       "norm_label": "file_picker-umbrella.h"
     },
     {
@@ -414,7 +432,7 @@
       "source_file": "macos/Pods/OrderedSet/Sources/OrderedSet.swift",
       "source_location": "L1",
       "id": "macos_pods_orderedset_sources_orderedset_swift",
-      "community": 3,
+      "community": 4,
       "norm_label": "orderedset.swift"
     },
     {
@@ -423,7 +441,7 @@
       "source_file": "macos/Pods/OrderedSet/Sources/OrderedSet.swift",
       "source_location": "L5",
       "id": "sources_orderedset_orderedset",
-      "community": 3,
+      "community": 4,
       "norm_label": "orderedset"
     },
     {
@@ -432,7 +450,7 @@
       "source_file": "macos/Pods/OrderedSet/Sources/OrderedSet.swift",
       "source_location": "L9",
       "id": "sources_orderedset_sequencedcontents",
-      "community": 3,
+      "community": 4,
       "norm_label": "sequencedcontents"
     },
     {
@@ -441,7 +459,7 @@
       "source_file": "macos/Pods/OrderedSet/Sources/OrderedSet.swift",
       "source_location": "L12",
       "id": "sources_orderedset_sequencedcontents_append",
-      "community": 3,
+      "community": 4,
       "norm_label": ".append()"
     },
     {
@@ -450,7 +468,7 @@
       "source_file": "macos/Pods/OrderedSet/Sources/OrderedSet.swift",
       "source_location": "L16",
       "id": "sources_orderedset_sequencedcontents_index",
-      "community": 3,
+      "community": 4,
       "norm_label": ".index()"
     },
     {
@@ -459,7 +477,7 @@
       "source_file": "macos/Pods/OrderedSet/Sources/OrderedSet.swift",
       "source_location": "L20",
       "id": "sources_orderedset_sequencedcontents_insert",
-      "community": 3,
+      "community": 4,
       "norm_label": ".insert()"
     },
     {
@@ -468,7 +486,7 @@
       "source_file": "macos/Pods/OrderedSet/Sources/OrderedSet.swift",
       "source_location": "L28",
       "id": "sources_orderedset_sequencedcontents_remove",
-      "community": 3,
+      "community": 4,
       "norm_label": ".remove()"
     },
     {
@@ -477,7 +495,7 @@
       "source_file": "macos/Pods/OrderedSet/Sources/OrderedSet.swift",
       "source_location": "L33",
       "id": "sources_orderedset_sequencedcontents_removeall",
-      "community": 3,
+      "community": 4,
       "norm_label": ".removeall()"
     },
     {
@@ -486,7 +504,7 @@
       "source_file": "macos/Pods/OrderedSet/Sources/OrderedSet.swift",
       "source_location": "L37",
       "id": "sources_orderedset_sequencedcontents_subscript",
-      "community": 3,
+      "community": 4,
       "norm_label": ".subscript()"
     },
     {
@@ -495,7 +513,7 @@
       "source_file": "macos/Pods/OrderedSet/Sources/OrderedSet.swift",
       "source_location": "L42",
       "id": "sources_orderedset_sequencedcontents_copy",
-      "community": 3,
+      "community": 4,
       "norm_label": ".copy()"
     },
     {
@@ -504,7 +522,7 @@
       "source_file": "macos/Pods/OrderedSet/Sources/OrderedSet.swift",
       "source_location": "L58",
       "id": "sources_orderedset_orderedset_init",
-      "community": 3,
+      "community": 4,
       "norm_label": ".init()"
     },
     {
@@ -513,7 +531,7 @@
       "source_file": "macos/Pods/OrderedSet/Sources/OrderedSet.swift",
       "source_location": "L94",
       "id": "sources_orderedset_orderedset_index",
-      "community": 3,
+      "community": 4,
       "norm_label": ".index()"
     },
     {
@@ -522,7 +540,7 @@
       "source_file": "macos/Pods/OrderedSet/Sources/OrderedSet.swift",
       "source_location": "L106",
       "id": "sources_orderedset_orderedset_append",
-      "community": 3,
+      "community": 4,
       "norm_label": ".append()"
     },
     {
@@ -531,7 +549,7 @@
       "source_file": "macos/Pods/OrderedSet/Sources/OrderedSet.swift",
       "source_location": "L142",
       "id": "sources_orderedset_orderedset_remove",
-      "community": 3,
+      "community": 4,
       "norm_label": ".remove()"
     },
     {
@@ -540,7 +558,7 @@
       "source_file": "macos/Pods/OrderedSet/Sources/OrderedSet.swift",
       "source_location": "L194",
       "id": "sources_orderedset_orderedset_removeobject",
-      "community": 3,
+      "community": 4,
       "norm_label": ".removeobject()"
     },
     {
@@ -549,7 +567,7 @@
       "source_file": "macos/Pods/OrderedSet/Sources/OrderedSet.swift",
       "source_location": "L207",
       "id": "sources_orderedset_orderedset_removeallobjects",
-      "community": 3,
+      "community": 4,
       "norm_label": ".removeallobjects()"
     },
     {
@@ -558,7 +576,7 @@
       "source_file": "macos/Pods/OrderedSet/Sources/OrderedSet.swift",
       "source_location": "L244",
       "id": "sources_orderedset_orderedset_swapobject",
-      "community": 3,
+      "community": 4,
       "norm_label": ".swapobject()"
     },
     {
@@ -567,7 +585,7 @@
       "source_file": "macos/Pods/OrderedSet/Sources/OrderedSet.swift",
       "source_location": "L264",
       "id": "sources_orderedset_orderedset_intersects",
-      "community": 3,
+      "community": 4,
       "norm_label": ".intersects()"
     },
     {
@@ -576,7 +594,7 @@
       "source_file": "macos/Pods/OrderedSet/Sources/OrderedSet.swift",
       "source_location": "L280",
       "id": "sources_orderedset_orderedset_issubset",
-      "community": 3,
+      "community": 4,
       "norm_label": ".issubset()"
     },
     {
@@ -585,7 +603,7 @@
       "source_file": "macos/Pods/OrderedSet/Sources/OrderedSet.swift",
       "source_location": "L298",
       "id": "sources_orderedset_orderedset_moveobject",
-      "community": 3,
+      "community": 4,
       "norm_label": ".moveobject()"
     },
     {
@@ -594,7 +612,7 @@
       "source_file": "macos/Pods/OrderedSet/Sources/OrderedSet.swift",
       "source_location": "L356",
       "id": "sources_orderedset_orderedset_insert",
-      "community": 3,
+      "community": 4,
       "norm_label": ".insert()"
     },
     {
@@ -603,7 +621,7 @@
       "source_file": "",
       "source_location": "",
       "id": "expressiblebyarrayliteral",
-      "community": 3,
+      "community": 4,
       "norm_label": "expressiblebyarrayliteral"
     },
     {
@@ -612,7 +630,7 @@
       "source_file": "macos/Pods/OrderedSet/Sources/OrderedSet.swift",
       "source_location": "L447",
       "id": "sources_orderedset_orderedset_subscript",
-      "community": 3,
+      "community": 4,
       "norm_label": ".subscript()"
     },
     {
@@ -621,7 +639,7 @@
       "source_file": "macos/Pods/OrderedSet/Sources/OrderedSet.swift",
       "source_location": "L474",
       "id": "sources_orderedset",
-      "community": 3,
+      "community": 4,
       "norm_label": "+()"
     },
     {
@@ -630,7 +648,7 @@
       "source_file": "",
       "source_location": "",
       "id": "equatable",
-      "community": 3,
+      "community": 4,
       "norm_label": "equatable"
     },
     {
@@ -639,7 +657,7 @@
       "source_file": "",
       "source_location": "",
       "id": "customstringconvertible",
-      "community": 3,
+      "community": 4,
       "norm_label": "customstringconvertible"
     },
     {
@@ -648,7 +666,7 @@
       "source_file": "",
       "source_location": "",
       "id": "randomaccesscollection",
-      "community": 3,
+      "community": 4,
       "norm_label": "randomaccesscollection"
     },
     {
@@ -657,7 +675,7 @@
       "source_file": "macos/StolityFileProvider/StolityFileProviderExtension.swift",
       "source_location": "L1",
       "id": "macos_stolityfileprovider_stolityfileproviderextension_swift",
-      "community": 16,
+      "community": 17,
       "norm_label": "stolityfileproviderextension.swift"
     },
     {
@@ -684,7 +702,7 @@
       "source_file": "",
       "source_location": "",
       "id": "nsfileproviderreplicatedextension",
-      "community": 17,
+      "community": 16,
       "norm_label": "nsfileproviderreplicatedextension"
     },
     {
@@ -720,7 +738,7 @@
       "source_file": "macos/StolityFileProvider/StolityFileProviderExtension.swift",
       "source_location": "L31",
       "id": "stolityfileprovider_stolityfileproviderextension_fileproviderextension_item",
-      "community": 13,
+      "community": 15,
       "norm_label": ".item()"
     },
     {
@@ -729,7 +747,7 @@
       "source_file": "macos/StolityFileProvider/StolityFileProviderExtension.swift",
       "source_location": "L55",
       "id": "stolityfileprovider_stolityfileproviderextension_fileproviderextension_enumerator",
-      "community": 4,
+      "community": 5,
       "norm_label": ".enumerator()"
     },
     {
@@ -754,7 +772,7 @@
       "label": ".modifyItem()",
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/StolityFileProviderExtension.swift",
-      "source_location": "L155",
+      "source_location": "L183",
       "id": "stolityfileprovider_stolityfileproviderextension_fileproviderextension_modifyitem",
       "community": 16,
       "norm_label": ".modifyitem()"
@@ -763,7 +781,7 @@
       "label": ".deleteItem()",
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/StolityFileProviderExtension.swift",
-      "source_location": "L171",
+      "source_location": "L199",
       "id": "stolityfileprovider_stolityfileproviderextension_fileproviderextension_deleteitem",
       "community": 16,
       "norm_label": ".deleteitem()"
@@ -774,7 +792,7 @@
       "source_file": "macos/StolityFileProvider/StolityFileProviderEnumerators.swift",
       "source_location": "L1",
       "id": "macos_stolityfileprovider_stolityfileproviderenumerators_swift",
-      "community": 4,
+      "community": 5,
       "norm_label": "stolityfileproviderenumerators.swift"
     },
     {
@@ -783,7 +801,7 @@
       "source_file": "macos/StolityFileProvider/StolityFileProviderEnumerators.swift",
       "source_location": "L9",
       "id": "stolityfileprovider_stolityfileproviderenumerators_rootenumerator",
-      "community": 4,
+      "community": 5,
       "norm_label": "rootenumerator"
     },
     {
@@ -792,7 +810,7 @@
       "source_file": "",
       "source_location": "",
       "id": "nsfileproviderenumerator",
-      "community": 4,
+      "community": 5,
       "norm_label": "nsfileproviderenumerator"
     },
     {
@@ -801,7 +819,7 @@
       "source_file": "macos/StolityFileProvider/StolityFileProviderEnumerators.swift",
       "source_location": "L11",
       "id": "stolityfileprovider_stolityfileproviderenumerators_rootenumerator_invalidate",
-      "community": 4,
+      "community": 5,
       "norm_label": ".invalidate()"
     },
     {
@@ -810,7 +828,7 @@
       "source_file": "macos/StolityFileProvider/StolityFileProviderEnumerators.swift",
       "source_location": "L13",
       "id": "stolityfileprovider_stolityfileproviderenumerators_rootenumerator_enumerateitems",
-      "community": 4,
+      "community": 5,
       "norm_label": ".enumerateitems()"
     },
     {
@@ -819,7 +837,7 @@
       "source_file": "macos/StolityFileProvider/StolityFileProviderEnumerators.swift",
       "source_location": "L25",
       "id": "stolityfileprovider_stolityfileproviderenumerators_trashenumerator",
-      "community": 4,
+      "community": 5,
       "norm_label": "trashenumerator"
     },
     {
@@ -828,7 +846,7 @@
       "source_file": "macos/StolityFileProvider/StolityFileProviderEnumerators.swift",
       "source_location": "L27",
       "id": "stolityfileprovider_stolityfileproviderenumerators_trashenumerator_invalidate",
-      "community": 4,
+      "community": 5,
       "norm_label": ".invalidate()"
     },
     {
@@ -837,7 +855,7 @@
       "source_file": "macos/StolityFileProvider/StolityFileProviderEnumerators.swift",
       "source_location": "L29",
       "id": "stolityfileprovider_stolityfileproviderenumerators_trashenumerator_enumerateitems",
-      "community": 4,
+      "community": 5,
       "norm_label": ".enumerateitems()"
     },
     {
@@ -846,7 +864,7 @@
       "source_file": "macos/StolityFileProvider/StolityFileProviderEnumerators.swift",
       "source_location": "L42",
       "id": "stolityfileprovider_stolityfileproviderenumerators_workingsetenumerator",
-      "community": 4,
+      "community": 5,
       "norm_label": "workingsetenumerator"
     },
     {
@@ -855,7 +873,7 @@
       "source_file": "macos/StolityFileProvider/StolityFileProviderEnumerators.swift",
       "source_location": "L44",
       "id": "stolityfileprovider_stolityfileproviderenumerators_workingsetenumerator_invalidate",
-      "community": 4,
+      "community": 5,
       "norm_label": ".invalidate()"
     },
     {
@@ -864,7 +882,7 @@
       "source_file": "macos/StolityFileProvider/StolityFileProviderEnumerators.swift",
       "source_location": "L46",
       "id": "stolityfileprovider_stolityfileproviderenumerators_workingsetenumerator_enumerateitems",
-      "community": 4,
+      "community": 5,
       "norm_label": ".enumerateitems()"
     },
     {
@@ -873,7 +891,7 @@
       "source_file": "macos/StolityFileProvider/StolityFileProviderEnumerators.swift",
       "source_location": "L54",
       "id": "stolityfileprovider_stolityfileproviderenumerators_workingsetenumerator_enumeratechanges",
-      "community": 4,
+      "community": 5,
       "norm_label": ".enumeratechanges()"
     },
     {
@@ -882,7 +900,7 @@
       "source_file": "macos/StolityFileProvider/StolityFileProviderEnumerators.swift",
       "source_location": "L62",
       "id": "stolityfileprovider_stolityfileproviderenumerators_workingsetenumerator_currentsyncanchor",
-      "community": 4,
+      "community": 5,
       "norm_label": ".currentsyncanchor()"
     },
     {
@@ -891,7 +909,7 @@
       "source_file": "macos/StolityFileProvider/StolityFileProviderItem.swift",
       "source_location": "L1",
       "id": "macos_stolityfileprovider_stolityfileprovideritem_swift",
-      "community": 13,
+      "community": 15,
       "norm_label": "stolityfileprovideritem.swift"
     },
     {
@@ -900,7 +918,7 @@
       "source_file": "macos/StolityFileProvider/StolityFileProviderItem.swift",
       "source_location": "L16",
       "id": "stolityfileprovider_stolityfileprovideritem_fileproviderwellknownitems",
-      "community": 13,
+      "community": 15,
       "norm_label": "fileproviderwellknownitems"
     },
     {
@@ -909,7 +927,7 @@
       "source_file": "macos/StolityFileProvider/StolityFileProviderItem.swift",
       "source_location": "L23",
       "id": "stolityfileprovider_stolityfileprovideritem_rootitem",
-      "community": 13,
+      "community": 15,
       "norm_label": "rootitem"
     },
     {
@@ -918,7 +936,7 @@
       "source_file": "",
       "source_location": "",
       "id": "nsfileprovideritem",
-      "community": 13,
+      "community": 15,
       "norm_label": "nsfileprovideritem"
     },
     {
@@ -927,7 +945,7 @@
       "source_file": "macos/StolityFileProvider/StolityFileProviderItem.swift",
       "source_location": "L45",
       "id": "stolityfileprovider_stolityfileprovideritem_dummyitem",
-      "community": 13,
+      "community": 15,
       "norm_label": "dummyitem"
     },
     {
@@ -936,7 +954,7 @@
       "source_file": "macos/StolityFileProvider/StolityFileProviderItem.swift",
       "source_location": "L54",
       "id": "stolityfileprovider_stolityfileprovideritem_dummyitem_init",
-      "community": 13,
+      "community": 15,
       "norm_label": ".init()"
     },
     {
@@ -945,7 +963,7 @@
       "source_file": "macos/StolityFileProvider/StolityFileProviderItem.swift",
       "source_location": "L73",
       "id": "stolityfileprovider_stolityfileprovideritem_fileprovideritem",
-      "community": 22,
+      "community": 23,
       "norm_label": "fileprovideritem"
     },
     {
@@ -954,7 +972,7 @@
       "source_file": "macos/StolityFileProvider/StolityFileProviderItem.swift",
       "source_location": "L88",
       "id": "stolityfileprovider_stolityfileprovideritem_fileprovideritem_rootcontaineritem",
-      "community": 22,
+      "community": 23,
       "norm_label": ".rootcontaineritem()"
     },
     {
@@ -963,7 +981,7 @@
       "source_file": "macos/StolityFileProvider/StolityFileProviderItem.swift",
       "source_location": "L110",
       "id": "stolityfileprovider_stolityfileprovideritem_fileprovideritem_trashcontaineritem",
-      "community": 22,
+      "community": 23,
       "norm_label": ".trashcontaineritem()"
     },
     {
@@ -972,7 +990,7 @@
       "source_file": "macos/StolityFileProvider/StolityFileProviderItem.swift",
       "source_location": "L126",
       "id": "stolityfileprovider_stolityfileprovideritem_fileprovideritem_init",
-      "community": 22,
+      "community": 23,
       "norm_label": ".init()"
     },
     {
@@ -981,7 +999,7 @@
       "source_file": "macos/StolityFileProvider/StolityFileProviderItem.swift",
       "source_location": "L144",
       "id": "stolityfileprovider_stolityfileprovideritem_stolityfileitem",
-      "community": 13,
+      "community": 15,
       "norm_label": "stolityfileitem"
     },
     {
@@ -990,7 +1008,7 @@
       "source_file": "macos/StolityFileProvider/StolityFileProviderItem.swift",
       "source_location": "L152",
       "id": "stolityfileprovider_stolityfileprovideritem_stolityfileitem_init",
-      "community": 13,
+      "community": 15,
       "norm_label": ".init()"
     },
     {
@@ -999,16 +1017,16 @@
       "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
       "source_location": "L1",
       "id": "macos_stolityfileprovider_stolityuploadservice_swift",
-      "community": 9,
+      "community": 0,
       "norm_label": "stolityuploadservice.swift"
     },
     {
       "label": "StolityUploadError",
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
-      "source_location": "L4",
+      "source_location": "L5",
       "id": "stolityfileprovider_stolityuploadservice_stolityuploaderror",
-      "community": 9,
+      "community": 0,
       "norm_label": "stolityuploaderror"
     },
     {
@@ -1017,7 +1035,7 @@
       "source_file": "",
       "source_location": "",
       "id": "error",
-      "community": 9,
+      "community": 0,
       "norm_label": "error"
     },
     {
@@ -1026,134 +1044,215 @@
       "source_file": "",
       "source_location": "",
       "id": "localizederror",
-      "community": 9,
+      "community": 0,
       "norm_label": "localizederror"
     },
     {
       "label": "missingToken",
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
-      "source_location": "L5",
+      "source_location": "L6",
       "id": "stolityfileprovider_stolityuploadservice_stolityuploaderror_missingtoken",
-      "community": 9,
+      "community": 0,
       "norm_label": "missingtoken"
     },
     {
       "label": "invalidStartResponse",
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
-      "source_location": "L6",
+      "source_location": "L7",
       "id": "stolityfileprovider_stolityuploadservice_stolityuploaderror_invalidstartresponse",
-      "community": 9,
+      "community": 0,
       "norm_label": "invalidstartresponse"
     },
     {
       "label": "missingETag",
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
-      "source_location": "L7",
+      "source_location": "L8",
       "id": "stolityfileprovider_stolityuploadservice_stolityuploaderror_missingetag",
-      "community": 9,
+      "community": 0,
       "norm_label": "missingetag"
     },
     {
       "label": "uploadFailed",
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
-      "source_location": "L8",
+      "source_location": "L9",
       "id": "stolityfileprovider_stolityuploadservice_stolityuploaderror_uploadfailed",
-      "community": 9,
+      "community": 0,
       "norm_label": "uploadfailed"
     },
     {
       "label": "StolityUploadService",
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
-      "source_location": "L29",
+      "source_location": "L30",
       "id": "stolityfileprovider_stolityuploadservice_stolityuploadservice",
-      "community": 9,
+      "community": 0,
       "norm_label": "stolityuploadservice"
+    },
+    {
+      "label": ".resetLoginNotificationFlag()",
+      "file_type": "code",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L44",
+      "id": "stolityfileprovider_stolityuploadservice_stolityuploadservice_resetloginnotificationflag",
+      "community": 0,
+      "norm_label": ".resetloginnotificationflag()"
+    },
+    {
+      "label": ".uploadDedupeKey()",
+      "file_type": "code",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L50",
+      "id": "stolityfileprovider_stolityuploadservice_stolityuploadservice_uploaddedupekey",
+      "community": 0,
+      "norm_label": ".uploaddedupekey()"
+    },
+    {
+      "label": ".notifyLoginRequiredFromExtension()",
+      "file_type": "code",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L55",
+      "id": "stolityfileprovider_stolityuploadservice_stolityuploadservice_notifyloginrequiredfromextension",
+      "community": 0,
+      "norm_label": ".notifyloginrequiredfromextension()"
+    },
+    {
+      "label": ".uploadIfNeeded()",
+      "file_type": "code",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L62",
+      "id": "stolityfileprovider_stolityuploadservice_stolityuploadservice_uploadifneeded",
+      "community": 0,
+      "norm_label": ".uploadifneeded()"
     },
     {
       "label": ".upload()",
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
-      "source_location": "L36",
+      "source_location": "L97",
       "id": "stolityfileprovider_stolityuploadservice_stolityuploadservice_upload",
-      "community": 9,
+      "community": 0,
       "norm_label": ".upload()"
+    },
+    {
+      "label": ".completedUploadKeys()",
+      "file_type": "code",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L117",
+      "id": "stolityfileprovider_stolityuploadservice_stolityuploadservice_completeduploadkeys",
+      "community": 0,
+      "norm_label": ".completeduploadkeys()"
+    },
+    {
+      "label": ".markUploadCompleted()",
+      "file_type": "code",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L121",
+      "id": "stolityfileprovider_stolityuploadservice_stolityuploadservice_markuploadcompleted",
+      "community": 0,
+      "norm_label": ".markuploadcompleted()"
     },
     {
       "label": ".uploadFileMultipart()",
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
-      "source_location": "L52",
+      "source_location": "L131",
       "id": "stolityfileprovider_stolityuploadservice_stolityuploadservice_uploadfilemultipart",
-      "community": 9,
+      "community": 0,
       "norm_label": ".uploadfilemultipart()"
     },
     {
       "label": "ChunkMeta",
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
-      "source_location": "L146",
+      "source_location": "L225",
       "id": "stolityfileprovider_stolityuploadservice_chunkmeta",
-      "community": 9,
+      "community": 0,
       "norm_label": "chunkmeta"
     },
     {
       "label": ".buildChunks()",
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
-      "source_location": "L152",
+      "source_location": "L231",
       "id": "stolityfileprovider_stolityuploadservice_stolityuploadservice_buildchunks",
-      "community": 9,
+      "community": 0,
       "norm_label": ".buildchunks()"
     },
     {
       "label": ".startMultipartUpload()",
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
-      "source_location": "L166",
+      "source_location": "L245",
       "id": "stolityfileprovider_stolityuploadservice_stolityuploadservice_startmultipartupload",
-      "community": 9,
+      "community": 0,
       "norm_label": ".startmultipartupload()"
     },
     {
       "label": ".uploadPart()",
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
-      "source_location": "L187",
+      "source_location": "L266",
       "id": "stolityfileprovider_stolityuploadservice_stolityuploadservice_uploadpart",
-      "community": 9,
+      "community": 0,
       "norm_label": ".uploadpart()"
     },
     {
       "label": ".completeMultipartUpload()",
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
-      "source_location": "L221",
+      "source_location": "L300",
       "id": "stolityfileprovider_stolityuploadservice_stolityuploadservice_completemultipartupload",
-      "community": 9,
+      "community": 0,
       "norm_label": ".completemultipartupload()"
     },
     {
       "label": ".abortMultipartUpload()",
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
-      "source_location": "L235",
+      "source_location": "L314",
       "id": "stolityfileprovider_stolityuploadservice_stolityuploadservice_abortmultipartupload",
-      "community": 9,
+      "community": 0,
       "norm_label": ".abortmultipartupload()"
     },
     {
       "label": ".jsonRequest()",
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
-      "source_location": "L249",
+      "source_location": "L328",
       "id": "stolityfileprovider_stolityuploadservice_stolityuploadservice_jsonrequest",
-      "community": 9,
+      "community": 0,
       "norm_label": ".jsonrequest()"
+    },
+    {
+      "label": ".hasNotifiedForFilename()",
+      "file_type": "code",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L357",
+      "id": "stolityfileprovider_stolityuploadservice_stolityuploadservice_hasnotifiedforfilename",
+      "community": 0,
+      "norm_label": ".hasnotifiedforfilename()"
+    },
+    {
+      "label": ".markNotifiedForFilename()",
+      "file_type": "code",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L364",
+      "id": "stolityfileprovider_stolityuploadservice_stolityuploadservice_marknotifiedforfilename",
+      "community": 0,
+      "norm_label": ".marknotifiedforfilename()"
+    },
+    {
+      "label": ".notifyLoginRequired()",
+      "file_type": "code",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L374",
+      "id": "stolityfileprovider_stolityuploadservice_stolityuploadservice_notifyloginrequired",
+      "community": 0,
+      "norm_label": ".notifyloginrequired()"
     },
     {
       "label": "widget_test.dart",
@@ -1215,7 +1314,7 @@
       "source_file": "ios/Runner/Runner-Bridging-Header.h",
       "source_location": "L1",
       "id": "ios_runner_runner_bridging_header_h",
-      "community": 39,
+      "community": 40,
       "norm_label": "runner-bridging-header.h"
     },
     {
@@ -1233,7 +1332,7 @@
       "source_file": "ios/Runner/AppDelegate.swift",
       "source_location": "L1",
       "id": "ios_runner_appdelegate_swift",
-      "community": 8,
+      "community": 7,
       "norm_label": "appdelegate.swift"
     },
     {
@@ -1242,7 +1341,7 @@
       "source_file": "",
       "source_location": "",
       "id": "flutterimplicitenginedelegate",
-      "community": 8,
+      "community": 7,
       "norm_label": "flutterimplicitenginedelegate"
     },
     {
@@ -1251,7 +1350,7 @@
       "source_file": "ios/Runner/AppDelegate.swift",
       "source_location": "L6",
       "id": "runner_appdelegate_appdelegate_application",
-      "community": 8,
+      "community": 7,
       "norm_label": ".application()"
     },
     {
@@ -1260,7 +1359,7 @@
       "source_file": "ios/Runner/AppDelegate.swift",
       "source_location": "L13",
       "id": "runner_appdelegate_appdelegate_didinitializeimplicitflutterengine",
-      "community": 8,
+      "community": 7,
       "norm_label": ".didinitializeimplicitflutterengine()"
     },
     {
@@ -1296,7 +1395,7 @@
       "source_file": "ios/Runner/SceneDelegate.swift",
       "source_location": "L1",
       "id": "ios_runner_scenedelegate_swift",
-      "community": 24,
+      "community": 25,
       "norm_label": "scenedelegate.swift"
     },
     {
@@ -1305,7 +1404,7 @@
       "source_file": "ios/Runner/SceneDelegate.swift",
       "source_location": "L4",
       "id": "runner_scenedelegate_scenedelegate",
-      "community": 24,
+      "community": 25,
       "norm_label": "scenedelegate"
     },
     {
@@ -1314,7 +1413,7 @@
       "source_file": "",
       "source_location": "",
       "id": "flutterscenedelegate",
-      "community": 24,
+      "community": 25,
       "norm_label": "flutterscenedelegate"
     },
     {
@@ -1323,7 +1422,7 @@
       "source_file": "ios/Flutter/ephemeral/flutter_lldb_helper.py",
       "source_location": "L1",
       "id": "ios_flutter_ephemeral_flutter_lldb_helper_py",
-      "community": 23,
+      "community": 24,
       "norm_label": "flutter_lldb_helper.py"
     },
     {
@@ -1332,7 +1431,7 @@
       "source_file": "ios/Flutter/ephemeral/flutter_lldb_helper.py",
       "source_location": "L7",
       "id": "ephemeral_flutter_lldb_helper_handle_new_rx_page",
-      "community": 23,
+      "community": 24,
       "norm_label": "handle_new_rx_page()"
     },
     {
@@ -1341,7 +1440,7 @@
       "source_file": "ios/Flutter/ephemeral/flutter_lldb_helper.py",
       "source_location": "L24",
       "id": "ephemeral_flutter_lldb_helper_lldb_init_module",
-      "community": 23,
+      "community": 24,
       "norm_label": "__lldb_init_module()"
     },
     {
@@ -1350,7 +1449,7 @@
       "source_file": "ios/Flutter/ephemeral/flutter_lldb_helper.py",
       "source_location": "L8",
       "id": "ephemeral_flutter_lldb_helper_rationale_8",
-      "community": 23,
+      "community": 24,
       "norm_label": "intercept notify_debugger_about_rx_pages and touch the pages."
     },
     {
@@ -1494,7 +1593,7 @@
       "source_file": "linux/flutter/generated_plugin_registrant.h",
       "source_location": "L1",
       "id": "linux_flutter_generated_plugin_registrant_h",
-      "community": 40,
+      "community": 41,
       "norm_label": "generated_plugin_registrant.h"
     },
     {
@@ -1503,7 +1602,7 @@
       "source_file": "android/build.gradle.kts",
       "source_location": "L1",
       "id": "android_build_gradle_kts",
-      "community": 41,
+      "community": 42,
       "norm_label": "build.gradle.kts"
     },
     {
@@ -1512,7 +1611,7 @@
       "source_file": "android/settings.gradle.kts",
       "source_location": "L1",
       "id": "android_settings_gradle_kts",
-      "community": 42,
+      "community": 43,
       "norm_label": "settings.gradle.kts"
     },
     {
@@ -1521,7 +1620,7 @@
       "source_file": "android/app/build.gradle.kts",
       "source_location": "L1",
       "id": "android_app_build_gradle_kts",
-      "community": 43,
+      "community": 44,
       "norm_label": "build.gradle.kts"
     },
     {
@@ -1557,7 +1656,7 @@
       "source_file": "android/app/src/main/kotlin/com/example/stolity_desktop/MainActivity.kt",
       "source_location": "L1",
       "id": "android_app_src_main_kotlin_com_example_stolity_desktop_mainactivity_kt",
-      "community": 27,
+      "community": 28,
       "norm_label": "mainactivity.kt"
     },
     {
@@ -1566,7 +1665,7 @@
       "source_file": "android/app/src/main/kotlin/com/example/stolity_desktop/MainActivity.kt",
       "source_location": "L5",
       "id": "stolity_desktop_mainactivity_mainactivity",
-      "community": 27,
+      "community": 28,
       "norm_label": "mainactivity"
     },
     {
@@ -1575,7 +1674,7 @@
       "source_file": "lib/main.dart",
       "source_location": null,
       "id": "lib_main_dart",
-      "community": 14,
+      "community": 13,
       "norm_label": "main.dart"
     },
     {
@@ -1584,7 +1683,7 @@
       "source_file": "lib/main.dart",
       "source_location": null,
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_main_dart_stolityapp",
-      "community": 14,
+      "community": 13,
       "norm_label": "stolityapp"
     },
     {
@@ -1593,7 +1692,7 @@
       "source_file": "lib/main.dart",
       "source_location": null,
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_main_dart_main",
-      "community": 14,
+      "community": 13,
       "norm_label": "main"
     },
     {
@@ -1602,7 +1701,7 @@
       "source_file": "lib/main.dart",
       "source_location": null,
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_main_dart_build",
-      "community": 14,
+      "community": 13,
       "norm_label": "build"
     },
     {
@@ -1611,7 +1710,7 @@
       "source_file": "lib/main.dart",
       "source_location": null,
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_main_dart_materialapp",
-      "community": 14,
+      "community": 13,
       "norm_label": "materialapp"
     },
     {
@@ -1620,7 +1719,7 @@
       "source_file": "lib/services/window_service.dart",
       "source_location": null,
       "id": "package_flutter_material_dart",
-      "community": 14,
+      "community": 13,
       "norm_label": "package:flutter/material.dart"
     },
     {
@@ -1629,7 +1728,7 @@
       "source_file": "lib/services/window_service.dart",
       "source_location": null,
       "id": "package_window_manager_window_manager_dart",
-      "community": 14,
+      "community": 13,
       "norm_label": "package:window_manager/window_manager.dart"
     },
     {
@@ -1647,7 +1746,7 @@
       "source_file": "lib/auth_token_service.dart",
       "source_location": null,
       "id": "lib_auth_token_service_dart",
-      "community": 7,
+      "community": 9,
       "norm_label": "auth_token_service.dart"
     },
     {
@@ -1656,7 +1755,7 @@
       "source_file": "lib/auth_token_service.dart",
       "source_location": null,
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_auth_token_service_dart_authtokenservice",
-      "community": 7,
+      "community": 9,
       "norm_label": "authtokenservice"
     },
     {
@@ -1665,7 +1764,7 @@
       "source_file": "lib/auth_token_service.dart",
       "source_location": null,
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_auth_token_service_dart_notifydomain",
-      "community": 7,
+      "community": 9,
       "norm_label": "_notifydomain"
     },
     {
@@ -1674,7 +1773,7 @@
       "source_file": "lib/auth_token_service.dart",
       "source_location": null,
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_auth_token_service_dart_istokenvalid",
-      "community": 7,
+      "community": 9,
       "norm_label": "istokenvalid"
     },
     {
@@ -1683,7 +1782,7 @@
       "source_file": "lib/services/file_picker_service.dart",
       "source_location": null,
       "id": "dart_convert",
-      "community": 7,
+      "community": 9,
       "norm_label": "dart:convert"
     },
     {
@@ -1692,7 +1791,7 @@
       "source_file": "lib/services/file_picker_service.dart",
       "source_location": null,
       "id": "dart_io",
-      "community": 7,
+      "community": 9,
       "norm_label": "dart:io"
     },
     {
@@ -1701,7 +1800,7 @@
       "source_file": "lib/auth_token_service.dart",
       "source_location": null,
       "id": "package_flutter_services_dart",
-      "community": 7,
+      "community": 9,
       "norm_label": "package:flutter/services.dart"
     },
     {
@@ -1710,7 +1809,7 @@
       "source_file": "lib/auth_token_service.dart",
       "source_location": null,
       "id": "package_flutter_secure_storage_flutter_secure_storage_dart",
-      "community": 7,
+      "community": 9,
       "norm_label": "package:flutter_secure_storage/flutter_secure_storage.dart"
     },
     {
@@ -1719,7 +1818,7 @@
       "source_file": "lib/webview_screen.dart",
       "source_location": null,
       "id": "lib_webview_screen_dart",
-      "community": 0,
+      "community": 2,
       "norm_label": "webview_screen.dart"
     },
     {
@@ -1737,7 +1836,7 @@
       "source_file": "lib/webview_screen.dart",
       "source_location": null,
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_stolitywebviewstate",
-      "community": 0,
+      "community": 2,
       "norm_label": "_stolitywebviewstate"
     },
     {
@@ -1746,7 +1845,7 @@
       "source_file": "lib/webview_screen.dart",
       "source_location": null,
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_popupshell",
-      "community": 0,
+      "community": 2,
       "norm_label": "_popupshell"
     },
     {
@@ -1782,7 +1881,7 @@
       "source_file": "lib/webview_screen.dart",
       "source_location": null,
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_attemptautologin",
-      "community": 0,
+      "community": 2,
       "norm_label": "_attemptautologin"
     },
     {
@@ -1818,7 +1917,7 @@
       "source_file": "lib/webview_screen.dart",
       "source_location": null,
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_isourapporigin",
-      "community": 0,
+      "community": 2,
       "norm_label": "_isourapporigin"
     },
     {
@@ -1836,7 +1935,7 @@
       "source_file": "lib/webview_screen.dart",
       "source_location": null,
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_scheduletransitionextraction",
-      "community": 0,
+      "community": 2,
       "norm_label": "_scheduletransitionextraction"
     },
     {
@@ -1845,7 +1944,7 @@
       "source_file": "lib/webview_screen.dart",
       "source_location": null,
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_performauthlogic",
-      "community": 0,
+      "community": 2,
       "norm_label": "_performauthlogic"
     },
     {
@@ -1917,7 +2016,7 @@
       "source_file": "lib/webview_screen.dart",
       "source_location": null,
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_notifylogout",
-      "community": 0,
+      "community": 2,
       "norm_label": "_notifylogout"
     },
     {
@@ -1944,7 +2043,7 @@
       "source_file": "lib/webview_screen.dart",
       "source_location": null,
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_buildsettings",
-      "community": 0,
+      "community": 2,
       "norm_label": "_buildsettings"
     },
     {
@@ -1953,7 +2052,7 @@
       "source_file": "lib/webview_screen.dart",
       "source_location": null,
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_inappwebviewsettings",
-      "community": 0,
+      "community": 2,
       "norm_label": "inappwebviewsettings"
     },
     {
@@ -1962,7 +2061,7 @@
       "source_file": "lib/webview_screen.dart",
       "source_location": null,
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_userscript",
-      "community": 0,
+      "community": 2,
       "norm_label": "userscript"
     },
     {
@@ -1971,7 +2070,7 @@
       "source_file": "lib/webview_screen.dart",
       "source_location": null,
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_registerjshandlers",
-      "community": 0,
+      "community": 2,
       "norm_label": "_registerjshandlers"
     },
     {
@@ -1998,7 +2097,7 @@
       "source_file": "lib/webview_screen.dart",
       "source_location": null,
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_clearstoredauth",
-      "community": 0,
+      "community": 2,
       "norm_label": "_clearstoredauth"
     },
     {
@@ -2016,7 +2115,7 @@
       "source_file": "lib/webview_screen.dart",
       "source_location": null,
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_permissionresponse",
-      "community": 0,
+      "community": 2,
       "norm_label": "permissionresponse"
     },
     {
@@ -2025,7 +2124,7 @@
       "source_file": "lib/webview_screen.dart",
       "source_location": null,
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_build",
-      "community": 0,
+      "community": 2,
       "norm_label": "build"
     },
     {
@@ -2061,7 +2160,7 @@
       "source_file": "lib/webview_screen.dart",
       "source_location": null,
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_column",
-      "community": 0,
+      "community": 2,
       "norm_label": "column"
     },
     {
@@ -2070,7 +2169,7 @@
       "source_file": "lib/webview_screen.dart",
       "source_location": null,
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_expanded",
-      "community": 0,
+      "community": 2,
       "norm_label": "expanded"
     },
     {
@@ -2079,7 +2178,7 @@
       "source_file": "lib/webview_screen.dart",
       "source_location": null,
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_divider",
-      "community": 0,
+      "community": 2,
       "norm_label": "divider"
     },
     {
@@ -2106,7 +2205,7 @@
       "source_file": "lib/webview_screen.dart",
       "source_location": null,
       "id": "dart_collection",
-      "community": 0,
+      "community": 2,
       "norm_label": "dart:collection"
     },
     {
@@ -2124,7 +2223,7 @@
       "source_file": "lib/webview_screen.dart",
       "source_location": null,
       "id": "package_flutter_foundation_dart",
-      "community": 0,
+      "community": 2,
       "norm_label": "package:flutter/foundation.dart"
     },
     {
@@ -2142,7 +2241,7 @@
       "source_file": "lib/webview_screen.dart",
       "source_location": null,
       "id": "auth_token_service_dart",
-      "community": 0,
+      "community": 2,
       "norm_label": "auth_token_service.dart"
     },
     {
@@ -2151,7 +2250,7 @@
       "source_file": "lib/services/window_service.dart",
       "source_location": null,
       "id": "constants_dart",
-      "community": 14,
+      "community": 13,
       "norm_label": "../constants.dart"
     },
     {
@@ -2196,7 +2295,7 @@
       "source_file": "lib/constants.dart",
       "source_location": null,
       "id": "lib_constants_dart",
-      "community": 14,
+      "community": 13,
       "norm_label": "constants.dart"
     },
     {
@@ -2205,7 +2304,7 @@
       "source_file": "lib/React-native/upload_service.js",
       "source_location": "L1",
       "id": "lib_react_native_upload_service_js",
-      "community": 5,
+      "community": 6,
       "norm_label": "upload_service.js"
     },
     {
@@ -2214,7 +2313,7 @@
       "source_file": "lib/React-native/upload_service.js",
       "source_location": "L15",
       "id": "react_native_upload_service_dohttprequest",
-      "community": 5,
+      "community": 6,
       "norm_label": "dohttprequest()"
     },
     {
@@ -2223,7 +2322,7 @@
       "source_file": "lib/React-native/upload_service.js",
       "source_location": "L157",
       "id": "react_native_upload_service_getfilekey",
-      "community": 5,
+      "community": 6,
       "norm_label": "getfilekey()"
     },
     {
@@ -2232,7 +2331,7 @@
       "source_file": "lib/React-native/upload_service.js",
       "source_location": "L159",
       "id": "react_native_upload_service_iscancelerror",
-      "community": 5,
+      "community": 6,
       "norm_label": "iscancelerror()"
     },
     {
@@ -2241,7 +2340,7 @@
       "source_file": "lib/React-native/upload_service.js",
       "source_location": "L161",
       "id": "react_native_upload_service_createcancelerror",
-      "community": 5,
+      "community": 6,
       "norm_label": "createcancelerror()"
     },
     {
@@ -2250,7 +2349,7 @@
       "source_file": "lib/React-native/upload_service.js",
       "source_location": "L170",
       "id": "react_native_upload_service_yieldtoui",
-      "community": 5,
+      "community": 6,
       "norm_label": "yieldtoui()"
     },
     {
@@ -2259,7 +2358,7 @@
       "source_file": "lib/React-native/upload_service.js",
       "source_location": "L172",
       "id": "react_native_upload_service_normalizepath",
-      "community": 5,
+      "community": 6,
       "norm_label": "normalizepath()"
     },
     {
@@ -2268,7 +2367,7 @@
       "source_file": "lib/React-native/upload_service.js",
       "source_location": "L174",
       "id": "react_native_upload_service_resolvefolderpath",
-      "community": 5,
+      "community": 6,
       "norm_label": "resolvefolderpath()"
     },
     {
@@ -2277,7 +2376,7 @@
       "source_file": "lib/React-native/upload_service.js",
       "source_location": "L193",
       "id": "react_native_upload_service_normalizefilepath",
-      "community": 5,
+      "community": 6,
       "norm_label": "normalizefilepath()"
     },
     {
@@ -2286,7 +2385,7 @@
       "source_file": "lib/React-native/upload_service.js",
       "source_location": "L211",
       "id": "react_native_upload_service_sanitizefilename",
-      "community": 5,
+      "community": 6,
       "norm_label": "sanitizefilename()"
     },
     {
@@ -2295,7 +2394,7 @@
       "source_file": "lib/React-native/upload_service.js",
       "source_location": "L216",
       "id": "react_native_upload_service_shouldcopytostablepath",
-      "community": 5,
+      "community": 6,
       "norm_label": "shouldcopytostablepath()"
     },
     {
@@ -2304,7 +2403,7 @@
       "source_file": "lib/React-native/upload_service.js",
       "source_location": "L224",
       "id": "react_native_upload_service_copyfiletostablepath",
-      "community": 5,
+      "community": 6,
       "norm_label": "copyfiletostablepath()"
     },
     {
@@ -2313,7 +2412,7 @@
       "source_file": "lib/React-native/upload_service.js",
       "source_location": "L241",
       "id": "react_native_upload_service_ensurestablepathsforupload",
-      "community": 5,
+      "community": 6,
       "norm_label": "ensurestablepathsforupload()"
     },
     {
@@ -2322,7 +2421,7 @@
       "source_file": "lib/React-native/upload_service.js",
       "source_location": "L304",
       "id": "react_native_upload_service_getfilesize",
-      "community": 5,
+      "community": 6,
       "norm_label": "getfilesize()"
     },
     {
@@ -2331,7 +2430,7 @@
       "source_file": "lib/React-native/upload_service.js",
       "source_location": "L310",
       "id": "react_native_upload_service_splitfileintochunks",
-      "community": 5,
+      "community": 6,
       "norm_label": "splitfileintochunks()"
     },
     {
@@ -2340,7 +2439,7 @@
       "source_file": "lib/React-native/upload_service.js",
       "source_location": "L320",
       "id": "react_native_upload_service_readfilechunk",
-      "community": 5,
+      "community": 6,
       "norm_label": "readfilechunk()"
     },
     {
@@ -2349,7 +2448,7 @@
       "source_file": "lib/React-native/upload_service.js",
       "source_location": "L330",
       "id": "react_native_upload_service_buildendpoint",
-      "community": 5,
+      "community": 6,
       "norm_label": "buildendpoint()"
     },
     {
@@ -2358,7 +2457,7 @@
       "source_file": "lib/React-native/upload_service.js",
       "source_location": "L338",
       "id": "react_native_upload_service_startmultipartupload",
-      "community": 5,
+      "community": 6,
       "norm_label": "startmultipartupload()"
     },
     {
@@ -2367,7 +2466,7 @@
       "source_file": "lib/React-native/upload_service.js",
       "source_location": "L363",
       "id": "react_native_upload_service_uploadpart",
-      "community": 5,
+      "community": 6,
       "norm_label": "uploadpart()"
     },
     {
@@ -2376,7 +2475,7 @@
       "source_file": "lib/React-native/upload_service.js",
       "source_location": "L375",
       "id": "react_native_upload_service_uploadpartnative",
-      "community": 5,
+      "community": 6,
       "norm_label": "uploadpartnative()"
     },
     {
@@ -2385,7 +2484,7 @@
       "source_file": "lib/React-native/upload_service.js",
       "source_location": "L399",
       "id": "react_native_upload_service_completemultipartupload",
-      "community": 5,
+      "community": 6,
       "norm_label": "completemultipartupload()"
     },
     {
@@ -2394,7 +2493,7 @@
       "source_file": "lib/React-native/upload_service.js",
       "source_location": "L410",
       "id": "react_native_upload_service_abortmultipartupload",
-      "community": 5,
+      "community": 6,
       "norm_label": "abortmultipartupload()"
     },
     {
@@ -2403,7 +2502,7 @@
       "source_file": "lib/React-native/upload_service.js",
       "source_location": "L421",
       "id": "react_native_upload_service_abortupload",
-      "community": 5,
+      "community": 6,
       "norm_label": "abortupload()"
     },
     {
@@ -2412,7 +2511,7 @@
       "source_file": "lib/React-native/upload_service.js",
       "source_location": "L430",
       "id": "react_native_upload_service_cancelfileupload",
-      "community": 5,
+      "community": 6,
       "norm_label": "cancelfileupload()"
     },
     {
@@ -2421,7 +2520,7 @@
       "source_file": "lib/React-native/upload_service.js",
       "source_location": "L449",
       "id": "react_native_upload_service_uploadfilesmultipart",
-      "community": 5,
+      "community": 6,
       "norm_label": "uploadfilesmultipart()"
     },
     {
@@ -2430,7 +2529,7 @@
       "source_file": "lib/utils/mime_types.dart",
       "source_location": null,
       "id": "lib_utils_mime_types_dart",
-      "community": 28,
+      "community": 29,
       "norm_label": "mime_types.dart"
     },
     {
@@ -2439,7 +2538,7 @@
       "source_file": "lib/utils/mime_types.dart",
       "source_location": null,
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_utils_mime_types_dart_getmimetype",
-      "community": 28,
+      "community": 29,
       "norm_label": "getmimetype"
     },
     {
@@ -2448,7 +2547,7 @@
       "source_file": "lib/services/download_service.dart",
       "source_location": null,
       "id": "lib_services_download_service_dart",
-      "community": 7,
+      "community": 9,
       "norm_label": "download_service.dart"
     },
     {
@@ -2457,7 +2556,7 @@
       "source_file": "lib/services/download_service.dart",
       "source_location": null,
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_services_download_service_dart_downloadservice",
-      "community": 7,
+      "community": 9,
       "norm_label": "downloadservice"
     },
     {
@@ -2466,7 +2565,7 @@
       "source_file": "lib/services/download_service.dart",
       "source_location": null,
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_services_download_service_dart_downloadsdirectory",
-      "community": 7,
+      "community": 9,
       "norm_label": "_downloadsdirectory"
     },
     {
@@ -2475,7 +2574,7 @@
       "source_file": "lib/services/download_service.dart",
       "source_location": null,
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_services_download_service_dart_directory",
-      "community": 7,
+      "community": 9,
       "norm_label": "directory"
     },
     {
@@ -2484,7 +2583,7 @@
       "source_file": "lib/services/download_service.dart",
       "source_location": null,
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_services_download_service_dart_sanitizefilename",
-      "community": 7,
+      "community": 9,
       "norm_label": "_sanitizefilename"
     },
     {
@@ -2493,7 +2592,7 @@
       "source_file": "lib/services/download_service.dart",
       "source_location": null,
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_services_download_service_dart_filenamefromurl",
-      "community": 7,
+      "community": 9,
       "norm_label": "_filenamefromurl"
     },
     {
@@ -2502,7 +2601,7 @@
       "source_file": "lib/services/download_service.dart",
       "source_location": null,
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_services_download_service_dart_httpexception",
-      "community": 7,
+      "community": 9,
       "norm_label": "httpexception"
     },
     {
@@ -2511,7 +2610,7 @@
       "source_file": "lib/services/download_service.dart",
       "source_location": null,
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_services_download_service_dart_savebytes",
-      "community": 7,
+      "community": 9,
       "norm_label": "savebytes"
     },
     {
@@ -2520,7 +2619,7 @@
       "source_file": "lib/services/download_service.dart",
       "source_location": null,
       "id": "dart_typed_data",
-      "community": 7,
+      "community": 9,
       "norm_label": "dart:typed_data"
     },
     {
@@ -2529,7 +2628,7 @@
       "source_file": "lib/services/snackbar_service.dart",
       "source_location": null,
       "id": "lib_services_snackbar_service_dart",
-      "community": 14,
+      "community": 13,
       "norm_label": "snackbar_service.dart"
     },
     {
@@ -2538,7 +2637,7 @@
       "source_file": "lib/services/snackbar_service.dart",
       "source_location": null,
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_services_snackbar_service_dart_showreusablesnackbar",
-      "community": 14,
+      "community": 13,
       "norm_label": "showreusablesnackbar"
     },
     {
@@ -2547,7 +2646,7 @@
       "source_file": "lib/services/window_service.dart",
       "source_location": null,
       "id": "lib_services_window_service_dart",
-      "community": 14,
+      "community": 13,
       "norm_label": "window_service.dart"
     },
     {
@@ -2601,7 +2700,7 @@
       "source_file": "windows/runner/flutter_window.cpp",
       "source_location": "L1",
       "id": "windows_runner_flutter_window_cpp",
-      "community": 2,
+      "community": 3,
       "norm_label": "flutter_window.cpp"
     },
     {
@@ -2610,7 +2709,7 @@
       "source_file": "windows/runner/flutter_window.h",
       "source_location": "L12",
       "id": "runner_flutter_window_flutterwindow",
-      "community": 2,
+      "community": 3,
       "norm_label": "flutterwindow()"
     },
     {
@@ -2619,7 +2718,7 @@
       "source_file": "windows/runner/flutter_window.cpp",
       "source_location": "L12",
       "id": "runner_flutter_window_oncreate",
-      "community": 2,
+      "community": 3,
       "norm_label": "oncreate()"
     },
     {
@@ -2628,7 +2727,7 @@
       "source_file": "windows/runner/flutter_window.cpp",
       "source_location": "L42",
       "id": "runner_flutter_window_ondestroy",
-      "community": 2,
+      "community": 3,
       "norm_label": "ondestroy()"
     },
     {
@@ -2637,7 +2736,7 @@
       "source_file": "windows/runner/flutter_window.cpp",
       "source_location": "L50",
       "id": "runner_flutter_window_messagehandler",
-      "community": 2,
+      "community": 3,
       "norm_label": "messagehandler()"
     },
     {
@@ -2646,7 +2745,7 @@
       "source_file": "windows/runner/utils.h",
       "source_location": "L1",
       "id": "windows_runner_utils_h",
-      "community": 44,
+      "community": 45,
       "norm_label": "utils.h"
     },
     {
@@ -2691,7 +2790,7 @@
       "source_file": "windows/runner/win32_window.h",
       "source_location": "L1",
       "id": "windows_runner_win32_window_h",
-      "community": 2,
+      "community": 3,
       "norm_label": "win32_window.h"
     },
     {
@@ -2700,7 +2799,7 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L1",
       "id": "windows_runner_win32_window_cpp",
-      "community": 2,
+      "community": 3,
       "norm_label": "win32_window.cpp"
     },
     {
@@ -2709,7 +2808,7 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L36",
       "id": "runner_win32_window_scale",
-      "community": 2,
+      "community": 3,
       "norm_label": "scale()"
     },
     {
@@ -2718,7 +2817,7 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L42",
       "id": "runner_win32_window_enablefulldpisupportifavailable",
-      "community": 2,
+      "community": 3,
       "norm_label": "enablefulldpisupportifavailable()"
     },
     {
@@ -2727,7 +2826,7 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L59",
       "id": "runner_win32_window_windowclassregistrar",
-      "community": 2,
+      "community": 3,
       "norm_label": "windowclassregistrar"
     },
     {
@@ -2736,7 +2835,7 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L61",
       "id": "runner_win32_window_windowclassregistrar_windowclassregistrar",
-      "community": 2,
+      "community": 3,
       "norm_label": ".windowclassregistrar()"
     },
     {
@@ -2745,7 +2844,7 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L89",
       "id": "runner_win32_window_getwindowclass",
-      "community": 2,
+      "community": 3,
       "norm_label": "getwindowclass()"
     },
     {
@@ -2754,7 +2853,7 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L109",
       "id": "runner_win32_window_unregisterwindowclass",
-      "community": 2,
+      "community": 3,
       "norm_label": "unregisterwindowclass()"
     },
     {
@@ -2763,7 +2862,7 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L114",
       "id": "runner_win32_window_win32window",
-      "community": 2,
+      "community": 3,
       "norm_label": "win32window()"
     },
     {
@@ -2772,7 +2871,7 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L123",
       "id": "runner_win32_window_create",
-      "community": 2,
+      "community": 3,
       "norm_label": "create()"
     },
     {
@@ -2781,7 +2880,7 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L152",
       "id": "runner_win32_window_show",
-      "community": 2,
+      "community": 3,
       "norm_label": "show()"
     },
     {
@@ -2790,7 +2889,7 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L157",
       "id": "runner_win32_window_wndproc",
-      "community": 2,
+      "community": 3,
       "norm_label": "wndproc()"
     },
     {
@@ -2799,7 +2898,7 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L176",
       "id": "runner_win32_window_messagehandler",
-      "community": 2,
+      "community": 3,
       "norm_label": "messagehandler()"
     },
     {
@@ -2808,7 +2907,7 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L224",
       "id": "runner_win32_window_destroy",
-      "community": 2,
+      "community": 3,
       "norm_label": "destroy()"
     },
     {
@@ -2817,7 +2916,7 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L236",
       "id": "runner_win32_window_getthisfromhandle",
-      "community": 2,
+      "community": 3,
       "norm_label": "getthisfromhandle()"
     },
     {
@@ -2826,7 +2925,7 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L241",
       "id": "runner_win32_window_setchildcontent",
-      "community": 2,
+      "community": 3,
       "norm_label": "setchildcontent()"
     },
     {
@@ -2835,7 +2934,7 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L252",
       "id": "runner_win32_window_getclientarea",
-      "community": 2,
+      "community": 3,
       "norm_label": "getclientarea()"
     },
     {
@@ -2844,7 +2943,7 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L258",
       "id": "runner_win32_window_gethandle",
-      "community": 2,
+      "community": 3,
       "norm_label": "gethandle()"
     },
     {
@@ -2853,7 +2952,7 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L262",
       "id": "runner_win32_window_setquitonclose",
-      "community": 2,
+      "community": 3,
       "norm_label": "setquitonclose()"
     },
     {
@@ -2862,7 +2961,7 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L266",
       "id": "runner_win32_window_oncreate",
-      "community": 2,
+      "community": 3,
       "norm_label": "oncreate()"
     },
     {
@@ -2871,7 +2970,7 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L271",
       "id": "runner_win32_window_ondestroy",
-      "community": 2,
+      "community": 3,
       "norm_label": "ondestroy()"
     },
     {
@@ -2880,7 +2979,7 @@
       "source_file": "windows/runner/win32_window.cpp",
       "source_location": "L275",
       "id": "runner_win32_window_updatetheme",
-      "community": 2,
+      "community": 3,
       "norm_label": "updatetheme()"
     },
     {
@@ -2889,7 +2988,7 @@
       "source_file": "windows/runner/resource.h",
       "source_location": "L1",
       "id": "windows_runner_resource_h",
-      "community": 45,
+      "community": 46,
       "norm_label": "resource.h"
     },
     {
@@ -2916,7 +3015,7 @@
       "source_file": "windows/runner/flutter_window.h",
       "source_location": "L1",
       "id": "windows_runner_flutter_window_h",
-      "community": 2,
+      "community": 3,
       "norm_label": "flutter_window.h"
     },
     {
@@ -2925,7 +3024,7 @@
       "source_file": "windows/flutter/generated_plugin_registrant.cc",
       "source_location": "L1",
       "id": "windows_flutter_generated_plugin_registrant_cc",
-      "community": 2,
+      "community": 3,
       "norm_label": "generated_plugin_registrant.cc"
     },
     {
@@ -2934,7 +3033,7 @@
       "source_file": "windows/flutter/generated_plugin_registrant.cc",
       "source_location": "L14",
       "id": "flutter_generated_plugin_registrant_registerplugins",
-      "community": 2,
+      "community": 3,
       "norm_label": "registerplugins()"
     },
     {
@@ -2943,7 +3042,7 @@
       "source_file": "windows/flutter/generated_plugin_registrant.h",
       "source_location": "L1",
       "id": "windows_flutter_generated_plugin_registrant_h",
-      "community": 46,
+      "community": 47,
       "norm_label": "generated_plugin_registrant.h"
     },
     {
@@ -2952,7 +3051,7 @@
       "source_file": "README.md",
       "source_location": "L1",
       "id": "readme_md",
-      "community": 25,
+      "community": 26,
       "norm_label": "readme.md"
     },
     {
@@ -2961,7 +3060,7 @@
       "source_file": "README.md",
       "source_location": "L1",
       "id": "stolity_desktop_readme_stolity_desktop",
-      "community": 25,
+      "community": 26,
       "norm_label": "stolity_desktop"
     },
     {
@@ -2970,7 +3069,7 @@
       "source_file": "README.md",
       "source_location": "L5",
       "id": "stolity_desktop_readme_getting_started",
-      "community": 25,
+      "community": 26,
       "norm_label": "getting started"
     },
     {
@@ -2979,7 +3078,7 @@
       "source_file": "macos/Pods/OrderedSet/README.md",
       "source_location": "L1",
       "id": "macos_pods_orderedset_readme_md",
-      "community": 15,
+      "community": 14,
       "norm_label": "readme.md"
     },
     {
@@ -2988,7 +3087,7 @@
       "source_file": "macos/Pods/OrderedSet/README.md",
       "source_location": "L1",
       "id": "orderedset_readme_introduction",
-      "community": 15,
+      "community": 14,
       "norm_label": "introduction"
     },
     {
@@ -2997,7 +3096,7 @@
       "source_file": "macos/Pods/OrderedSet/README.md",
       "source_location": "L5",
       "id": "orderedset_readme_usage",
-      "community": 15,
+      "community": 14,
       "norm_label": "usage"
     },
     {
@@ -3006,7 +3105,7 @@
       "source_file": "macos/Pods/OrderedSet/README.md",
       "source_location": "L9",
       "id": "orderedset_readme_codeblock_1",
-      "community": 15,
+      "community": 14,
       "norm_label": "code:swift (var set = orderedset<int>())"
     },
     {
@@ -3015,7 +3114,7 @@
       "source_file": "macos/Pods/OrderedSet/README.md",
       "source_location": "L27",
       "id": "orderedset_readme_installation",
-      "community": 15,
+      "community": 14,
       "norm_label": "installation"
     },
     {
@@ -3024,7 +3123,7 @@
       "source_file": "macos/Pods/OrderedSet/README.md",
       "source_location": "L31",
       "id": "orderedset_readme_codeblock_2",
-      "community": 15,
+      "community": 14,
       "norm_label": "code:ruby (pod 'orderedset', '5.0')"
     },
     {
@@ -3033,7 +3132,7 @@
       "source_file": "macos/Pods/OrderedSet/README.md",
       "source_location": "L37",
       "id": "orderedset_readme_codeblock_3",
-      "community": 15,
+      "community": 14,
       "norm_label": "code:block3 (github \"weebly/orderedset\")"
     },
     {
@@ -3042,7 +3141,7 @@
       "source_file": "macos/Pods/OrderedSet/README.md",
       "source_location": "L45",
       "id": "orderedset_readme_codeblock_4",
-      "community": 15,
+      "community": 14,
       "norm_label": "code:swift (import orderedset)"
     },
     {
@@ -3051,7 +3150,7 @@
       "source_file": "macos/Pods/OrderedSet/README.md",
       "source_location": "L51",
       "id": "orderedset_readme_codeblock_5",
-      "community": 15,
+      "community": 14,
       "norm_label": "code:swift (package.append(.package(url: \"https://github.com/weebly/orde)"
     },
     {
@@ -3060,7 +3159,7 @@
       "source_file": "macos/Pods/OrderedSet/README.md",
       "source_location": "L55",
       "id": "orderedset_readme_license",
-      "community": 15,
+      "community": 14,
       "norm_label": "license"
     },
     {
@@ -3069,7 +3168,7 @@
       "source_file": "macos/Pods/OrderedSet/README.md",
       "source_location": "L59",
       "id": "orderedset_readme_contributing",
-      "community": 15,
+      "community": 14,
       "norm_label": "contributing"
     },
     {
@@ -3078,7 +3177,7 @@
       "source_file": "ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md",
       "source_location": "L1",
       "id": "ios_runner_assets_xcassets_launchimage_imageset_readme_md",
-      "community": 29,
+      "community": 30,
       "norm_label": "readme.md"
     },
     {
@@ -3087,15 +3186,96 @@
       "source_file": "ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md",
       "source_location": "L1",
       "id": "launchimage_imageset_readme_launch_screen_assets",
-      "community": 29,
+      "community": 30,
       "norm_label": "launch screen assets"
+    },
+    {
+      "label": ".hasShownLoginNotification()",
+      "file_type": "code",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L297",
+      "community": 0,
+      "norm_label": ".hasshownloginnotification()",
+      "id": "stolityfileprovider_stolityuploadservice_stolityuploadservice_hasshownloginnotification"
+    },
+    {
+      "label": ".shouldPostLoginNotification()",
+      "file_type": "code",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L288",
+      "community": 0,
+      "norm_label": ".shouldpostloginnotification()",
+      "id": "stolityfileprovider_stolityuploadservice_stolityuploadservice_shouldpostloginnotification"
+    },
+    {
+      "label": ".markLoginNotificationPosted()",
+      "file_type": "code",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L302",
+      "community": 0,
+      "norm_label": ".markloginnotificationposted()",
+      "id": "stolityfileprovider_stolityuploadservice_stolityuploadservice_markloginnotificationposted"
+    },
+    {
+      "label": "UploadGate",
+      "file_type": "code",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L32",
+      "community": 0,
+      "norm_label": "uploadgate",
+      "id": "stolityfileprovider_stolityuploadservice_uploadgate"
+    },
+    {
+      "label": ".tryBeginUpload()",
+      "file_type": "code",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L42",
+      "community": 0,
+      "norm_label": ".trybeginupload()",
+      "id": "stolityfileprovider_stolityuploadservice_uploadgate_trybeginupload"
+    },
+    {
+      "label": ".endUpload()",
+      "file_type": "code",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L50",
+      "community": 0,
+      "norm_label": ".endupload()",
+      "id": "stolityfileprovider_stolityuploadservice_uploadgate_endupload"
+    },
+    {
+      "label": ".tryNotify()",
+      "file_type": "code",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L55",
+      "community": 0,
+      "norm_label": ".trynotify()",
+      "id": "stolityfileprovider_stolityuploadservice_uploadgate_trynotify"
+    },
+    {
+      "label": ".uploadDedupKey()",
+      "file_type": "code",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L97",
+      "community": 0,
+      "norm_label": ".uploaddedupkey()",
+      "id": "stolityfileprovider_stolityuploadservice_stolityuploadservice_uploaddedupkey"
+    },
+    {
+      "label": ".notifyUploadSucceeded()",
+      "file_type": "code",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L333",
+      "community": 0,
+      "norm_label": ".notifyuploadsucceeded()",
+      "id": "stolityfileprovider_stolityuploadservice_stolityuploadservice_notifyuploadsucceeded"
     },
     {
       "label": "KeychainHelper.swift",
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/KeychainHelper.swift",
       "source_location": "L1",
-      "community": 26,
+      "community": 27,
       "norm_label": "keychainhelper.swift",
       "id": "macos_stolityfileprovider_keychainhelper_swift"
     },
@@ -3104,7 +3284,7 @@
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/KeychainHelper.swift",
       "source_location": "L10",
-      "community": 26,
+      "community": 27,
       "norm_label": "keychainhelper",
       "id": "stolityfileprovider_keychainhelper_keychainhelper"
     },
@@ -3113,7 +3293,7 @@
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/KeychainHelper.swift",
       "source_location": "L15",
-      "community": 26,
+      "community": 27,
       "norm_label": ".readtoken()",
       "id": "stolityfileprovider_keychainhelper_keychainhelper_readtoken"
     },
@@ -3122,7 +3302,7 @@
       "file_type": "code",
       "source_file": "lib/auth_token_service.dart",
       "source_location": null,
-      "community": 7,
+      "community": 9,
       "norm_label": "_writetokentosharedcontainer",
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_auth_token_service_dart_writetokentosharedcontainer"
     },
@@ -3131,7 +3311,7 @@
       "file_type": "code",
       "source_file": "lib/auth_token_service.dart",
       "source_location": null,
-      "community": 7,
+      "community": 9,
       "norm_label": "_deletetokenfromsharedcontainer",
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_auth_token_service_dart_deletetokenfromsharedcontainer"
     },
@@ -3140,7 +3320,7 @@
       "file_type": "code",
       "source_file": "macos/Runner/AppDelegate.swift",
       "source_location": "L16",
-      "community": 8,
+      "community": 7,
       "norm_label": ".cleanupstalefileproviderdirectory()",
       "id": "runner_appdelegate_appdelegate_cleanupstalefileproviderdirectory"
     },
@@ -3149,7 +3329,7 @@
       "file_type": "code",
       "source_file": "macos/Runner/AppDelegate.swift",
       "source_location": "L31",
-      "community": 8,
+      "community": 7,
       "norm_label": ".reregisterfileproviderdomain()",
       "id": "runner_appdelegate_appdelegate_reregisterfileproviderdomain"
     },
@@ -3158,7 +3338,7 @@
       "file_type": "code",
       "source_file": "macos/Runner/AppDelegate.swift",
       "source_location": "L27",
-      "community": 8,
+      "community": 7,
       "norm_label": ".refreshandregisterstolityfileproviderdomain()",
       "id": "runner_appdelegate_appdelegate_refreshandregisterstolityfileproviderdomain"
     },
@@ -3167,7 +3347,7 @@
       "file_type": "code",
       "source_file": "macos/Runner/AppDelegate.swift",
       "source_location": "L60",
-      "community": 8,
+      "community": 7,
       "norm_label": ".registerstolityfileproviderdomain()",
       "id": "runner_appdelegate_appdelegate_registerstolityfileproviderdomain"
     },
@@ -3176,7 +3356,7 @@
       "file_type": "code",
       "source_file": "macos/Runner/AppDelegate.swift",
       "source_location": "L65",
-      "community": 8,
+      "community": 7,
       "norm_label": ".addstolityfileproviderdomain()",
       "id": "runner_appdelegate_appdelegate_addstolityfileproviderdomain"
     },
@@ -3185,7 +3365,7 @@
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/StolityFileProviderEnumerators.swift",
       "source_location": "L5",
-      "community": 4,
+      "community": 5,
       "norm_label": "stolityrootenumerator",
       "id": "stolityfileprovider_stolityfileproviderenumerators_stolityrootenumerator"
     },
@@ -3194,7 +3374,7 @@
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/StolityFileProviderEnumerators.swift",
       "source_location": "L9",
-      "community": 4,
+      "community": 5,
       "norm_label": ".init()",
       "id": "stolityfileprovider_stolityfileproviderenumerators_stolityrootenumerator_init"
     },
@@ -3203,7 +3383,7 @@
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/StolityFileProviderEnumerators.swift",
       "source_location": "L15",
-      "community": 4,
+      "community": 5,
       "norm_label": ".invalidate()",
       "id": "stolityfileprovider_stolityfileproviderenumerators_stolityrootenumerator_invalidate"
     },
@@ -3212,7 +3392,7 @@
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/StolityFileProviderEnumerators.swift",
       "source_location": "L19",
-      "community": 4,
+      "community": 5,
       "norm_label": ".enumerateitems()",
       "id": "stolityfileprovider_stolityfileproviderenumerators_stolityrootenumerator_enumerateitems"
     },
@@ -3221,7 +3401,7 @@
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/StolityFileProviderEnumerators.swift",
       "source_location": "L33",
-      "community": 4,
+      "community": 5,
       "norm_label": "stolityworkingsetenumerator",
       "id": "stolityfileprovider_stolityfileproviderenumerators_stolityworkingsetenumerator"
     },
@@ -3230,7 +3410,7 @@
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/StolityFileProviderEnumerators.swift",
       "source_location": "L37",
-      "community": 4,
+      "community": 5,
       "norm_label": ".init()",
       "id": "stolityfileprovider_stolityfileproviderenumerators_stolityworkingsetenumerator_init"
     },
@@ -3239,7 +3419,7 @@
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/StolityFileProviderEnumerators.swift",
       "source_location": "L43",
-      "community": 4,
+      "community": 5,
       "norm_label": ".invalidate()",
       "id": "stolityfileprovider_stolityfileproviderenumerators_stolityworkingsetenumerator_invalidate"
     },
@@ -3248,7 +3428,7 @@
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/StolityFileProviderEnumerators.swift",
       "source_location": "L47",
-      "community": 4,
+      "community": 5,
       "norm_label": ".enumerateitems()",
       "id": "stolityfileprovider_stolityfileproviderenumerators_stolityworkingsetenumerator_enumerateitems"
     },
@@ -3257,7 +3437,7 @@
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/StolityFileProviderEnumerators.swift",
       "source_location": "L59",
-      "community": 4,
+      "community": 5,
       "norm_label": ".enumeratechanges()",
       "id": "stolityfileprovider_stolityfileproviderenumerators_stolityworkingsetenumerator_enumeratechanges"
     },
@@ -3266,7 +3446,7 @@
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/StolityFileProviderEnumerators.swift",
       "source_location": "L71",
-      "community": 4,
+      "community": 5,
       "norm_label": ".currentsyncanchor()",
       "id": "stolityfileprovider_stolityfileproviderenumerators_stolityworkingsetenumerator_currentsyncanchor"
     },
@@ -3275,7 +3455,7 @@
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/StolityFileProviderItem.swift",
       "source_location": "L5",
-      "community": 13,
+      "community": 15,
       "norm_label": "stolityfileproviderdomainsupport",
       "id": "stolityfileprovider_stolityfileprovideritem_stolityfileproviderdomainsupport"
     },
@@ -3284,7 +3464,7 @@
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/StolityFileProviderItem.swift",
       "source_location": "L12",
-      "community": 13,
+      "community": 22,
       "norm_label": "stolityfileprovideritem",
       "id": "stolityfileprovider_stolityfileprovideritem_stolityfileprovideritem"
     },
@@ -3293,7 +3473,7 @@
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/StolityFileProviderItem.swift",
       "source_location": "L25",
-      "community": 13,
+      "community": 22,
       "norm_label": ".init()",
       "id": "stolityfileprovider_stolityfileprovideritem_stolityfileprovideritem_init"
     },
@@ -3302,7 +3482,7 @@
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/StolityFileProviderItem.swift",
       "source_location": "L58",
-      "community": 13,
+      "community": 22,
       "norm_label": ".rootitem()",
       "id": "stolityfileprovider_stolityfileprovideritem_stolityfileprovideritem_rootitem"
     },
@@ -3338,7 +3518,7 @@
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/StolityFileProviderExtension.swift",
       "source_location": "L15",
-      "community": 4,
+      "community": 5,
       "norm_label": ".enumerator()",
       "id": "stolityfileprovider_stolityfileproviderextension_stolityfileproviderextension_enumerator"
     },
@@ -3392,7 +3572,7 @@
       "file_type": "code",
       "source_file": "macos/StolityFileProvider/StolityFileProviderItem.swift",
       "source_location": "L44",
-      "community": 13,
+      "community": 22,
       "norm_label": ".welcomeitem()",
       "id": "stolityfileprovider_stolityfileprovideritem_stolityfileprovideritem_welcomeitem"
     },
@@ -3401,7 +3581,7 @@
       "file_type": "code",
       "source_file": "macos/BuddyFileProvider/BuddyFileProviderEnumerators.swift",
       "source_location": "L1",
-      "community": 6,
+      "community": 8,
       "norm_label": "buddyfileproviderenumerators.swift",
       "id": "macos_buddyfileprovider_buddyfileproviderenumerators_swift"
     },
@@ -3410,7 +3590,7 @@
       "file_type": "code",
       "source_file": "macos/BuddyFileProvider/BuddyFileProviderEnumerators.swift",
       "source_location": "L5",
-      "community": 6,
+      "community": 8,
       "norm_label": "buddyrootenumerator",
       "id": "buddyfileprovider_buddyfileproviderenumerators_buddyrootenumerator"
     },
@@ -3419,7 +3599,7 @@
       "file_type": "code",
       "source_file": "macos/BuddyFileProvider/BuddyFileProviderEnumerators.swift",
       "source_location": "L8",
-      "community": 6,
+      "community": 8,
       "norm_label": ".init()",
       "id": "buddyfileprovider_buddyfileproviderenumerators_buddyrootenumerator_init"
     },
@@ -3428,7 +3608,7 @@
       "file_type": "code",
       "source_file": "macos/BuddyFileProvider/BuddyFileProviderEnumerators.swift",
       "source_location": "L13",
-      "community": 6,
+      "community": 8,
       "norm_label": ".invalidate()",
       "id": "buddyfileprovider_buddyfileproviderenumerators_buddyrootenumerator_invalidate"
     },
@@ -3437,7 +3617,7 @@
       "file_type": "code",
       "source_file": "macos/BuddyFileProvider/BuddyFileProviderEnumerators.swift",
       "source_location": "L15",
-      "community": 6,
+      "community": 8,
       "norm_label": ".enumerateitems()",
       "id": "buddyfileprovider_buddyfileproviderenumerators_buddyrootenumerator_enumerateitems"
     },
@@ -3446,7 +3626,7 @@
       "file_type": "code",
       "source_file": "macos/BuddyFileProvider/BuddyFileProviderEnumerators.swift",
       "source_location": "L22",
-      "community": 6,
+      "community": 8,
       "norm_label": "buddyworkingsetenumerator",
       "id": "buddyfileprovider_buddyfileproviderenumerators_buddyworkingsetenumerator"
     },
@@ -3455,7 +3635,7 @@
       "file_type": "code",
       "source_file": "macos/BuddyFileProvider/BuddyFileProviderEnumerators.swift",
       "source_location": "L25",
-      "community": 6,
+      "community": 8,
       "norm_label": ".init()",
       "id": "buddyfileprovider_buddyfileproviderenumerators_buddyworkingsetenumerator_init"
     },
@@ -3464,7 +3644,7 @@
       "file_type": "code",
       "source_file": "macos/BuddyFileProvider/BuddyFileProviderEnumerators.swift",
       "source_location": "L30",
-      "community": 6,
+      "community": 8,
       "norm_label": ".invalidate()",
       "id": "buddyfileprovider_buddyfileproviderenumerators_buddyworkingsetenumerator_invalidate"
     },
@@ -3473,7 +3653,7 @@
       "file_type": "code",
       "source_file": "macos/BuddyFileProvider/BuddyFileProviderEnumerators.swift",
       "source_location": "L32",
-      "community": 6,
+      "community": 8,
       "norm_label": ".enumerateitems()",
       "id": "buddyfileprovider_buddyfileproviderenumerators_buddyworkingsetenumerator_enumerateitems"
     },
@@ -3482,7 +3662,7 @@
       "file_type": "code",
       "source_file": "macos/BuddyFileProvider/BuddyFileProviderEnumerators.swift",
       "source_location": "L37",
-      "community": 6,
+      "community": 8,
       "norm_label": ".enumeratechanges()",
       "id": "buddyfileprovider_buddyfileproviderenumerators_buddyworkingsetenumerator_enumeratechanges"
     },
@@ -3491,7 +3671,7 @@
       "file_type": "code",
       "source_file": "macos/BuddyFileProvider/BuddyFileProviderEnumerators.swift",
       "source_location": "L46",
-      "community": 6,
+      "community": 8,
       "norm_label": ".currentsyncanchor()",
       "id": "buddyfileprovider_buddyfileproviderenumerators_buddyworkingsetenumerator_currentsyncanchor"
     },
@@ -3500,7 +3680,7 @@
       "file_type": "code",
       "source_file": "macos/BuddyFileProvider/BuddyFileProviderExtension.swift",
       "source_location": "L1",
-      "community": 6,
+      "community": 8,
       "norm_label": "buddyfileproviderextension.swift",
       "id": "macos_buddyfileprovider_buddyfileproviderextension_swift"
     },
@@ -3509,7 +3689,7 @@
       "file_type": "code",
       "source_file": "macos/BuddyFileProvider/BuddyFileProviderExtension.swift",
       "source_location": "L5",
-      "community": 6,
+      "community": 8,
       "norm_label": "buddyfileproviderextension",
       "id": "buddyfileprovider_buddyfileproviderextension_buddyfileproviderextension"
     },
@@ -3518,7 +3698,7 @@
       "file_type": "code",
       "source_file": "macos/BuddyFileProvider/BuddyFileProviderExtension.swift",
       "source_location": "L9",
-      "community": 6,
+      "community": 8,
       "norm_label": ".init()",
       "id": "buddyfileprovider_buddyfileproviderextension_buddyfileproviderextension_init"
     },
@@ -3527,7 +3707,7 @@
       "file_type": "code",
       "source_file": "macos/BuddyFileProvider/BuddyFileProviderExtension.swift",
       "source_location": "L15",
-      "community": 6,
+      "community": 8,
       "norm_label": ".invalidate()",
       "id": "buddyfileprovider_buddyfileproviderextension_buddyfileproviderextension_invalidate"
     },
@@ -3536,7 +3716,7 @@
       "file_type": "code",
       "source_file": "macos/BuddyFileProvider/BuddyFileProviderExtension.swift",
       "source_location": "L17",
-      "community": 6,
+      "community": 8,
       "norm_label": ".enumerator()",
       "id": "buddyfileprovider_buddyfileproviderextension_buddyfileproviderextension_enumerator"
     },
@@ -3545,7 +3725,7 @@
       "file_type": "code",
       "source_file": "macos/BuddyFileProvider/BuddyFileProviderExtension.swift",
       "source_location": "L34",
-      "community": 6,
+      "community": 8,
       "norm_label": ".item()",
       "id": "buddyfileprovider_buddyfileproviderextension_buddyfileproviderextension_item"
     },
@@ -3554,7 +3734,7 @@
       "file_type": "code",
       "source_file": "macos/BuddyFileProvider/BuddyFileProviderExtension.swift",
       "source_location": "L56",
-      "community": 6,
+      "community": 8,
       "norm_label": ".fetchcontents()",
       "id": "buddyfileprovider_buddyfileproviderextension_buddyfileproviderextension_fetchcontents"
     },
@@ -3563,7 +3743,7 @@
       "file_type": "code",
       "source_file": "macos/BuddyFileProvider/BuddyFileProviderExtension.swift",
       "source_location": "L93",
-      "community": 6,
+      "community": 8,
       "norm_label": ".createitem()",
       "id": "buddyfileprovider_buddyfileproviderextension_buddyfileproviderextension_createitem"
     },
@@ -3572,7 +3752,7 @@
       "file_type": "code",
       "source_file": "macos/BuddyFileProvider/BuddyFileProviderExtension.swift",
       "source_location": "L116",
-      "community": 6,
+      "community": 8,
       "norm_label": ".modifyitem()",
       "id": "buddyfileprovider_buddyfileproviderextension_buddyfileproviderextension_modifyitem"
     },
@@ -3581,7 +3761,7 @@
       "file_type": "code",
       "source_file": "macos/BuddyFileProvider/BuddyFileProviderExtension.swift",
       "source_location": "L140",
-      "community": 6,
+      "community": 8,
       "norm_label": ".deleteitem()",
       "id": "buddyfileprovider_buddyfileproviderextension_buddyfileproviderextension_deleteitem"
     },
@@ -3635,7 +3815,7 @@
       "file_type": "code",
       "source_file": "macos/Pods/Target Support Files/webview_flutter_wkwebview/webview_flutter_wkwebview-dummy.m",
       "source_location": "L1",
-      "community": 30,
+      "community": 31,
       "norm_label": "webview_flutter_wkwebview-dummy.m",
       "id": "macos_pods_target_support_files_webview_flutter_wkwebview_webview_flutter_wkwebview_dummy_m"
     },
@@ -3644,7 +3824,7 @@
       "file_type": "code",
       "source_file": "macos/Pods/Target Support Files/webview_flutter_wkwebview/webview_flutter_wkwebview-dummy.m",
       "source_location": "L2",
-      "community": 30,
+      "community": 31,
       "norm_label": "podsdummy_webview_flutter_wkwebview",
       "id": "webview_flutter_wkwebview_webview_flutter_wkwebview_dummy_podsdummy_webview_flutter_wkwebview"
     },
@@ -3653,7 +3833,7 @@
       "file_type": "code",
       "source_file": "macos/Pods/Target Support Files/webview_flutter_wkwebview/webview_flutter_wkwebview-umbrella.h",
       "source_location": "L1",
-      "community": 47,
+      "community": 48,
       "norm_label": "webview_flutter_wkwebview-umbrella.h",
       "id": "macos_pods_target_support_files_webview_flutter_wkwebview_webview_flutter_wkwebview_umbrella_h"
     },
@@ -3662,7 +3842,7 @@
       "file_type": "code",
       "source_file": "lib/webview_screen.dart",
       "source_location": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "_authlog",
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_authlog"
     },
@@ -3671,7 +3851,7 @@
       "file_type": "code",
       "source_file": "lib/webview_screen.dart",
       "source_location": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "_init",
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_init"
     },
@@ -3680,7 +3860,7 @@
       "file_type": "code",
       "source_file": "lib/webview_screen.dart",
       "source_location": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "_isgoogleoauthurl",
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_isgoogleoauthurl"
     },
@@ -3689,7 +3869,7 @@
       "file_type": "code",
       "source_file": "lib/webview_screen.dart",
       "source_location": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "_closepopupifopen",
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_closepopupifopen"
     },
@@ -3698,7 +3878,7 @@
       "file_type": "code",
       "source_file": "lib/webview_screen.dart",
       "source_location": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "_armpopupfallback",
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_armpopupfallback"
     },
@@ -3716,7 +3896,7 @@
       "file_type": "code",
       "source_file": "lib/webview_screen.dart",
       "source_location": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "_redirectmaintogoogleoauth",
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_redirectmaintogoogleoauth"
     },
@@ -3743,7 +3923,7 @@
       "file_type": "code",
       "source_file": "lib/webview_screen.dart",
       "source_location": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "_debug",
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_debug"
     },
@@ -3752,7 +3932,7 @@
       "file_type": "code",
       "source_file": "lib/webview_screen.dart",
       "source_location": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "_opener",
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_opener"
     },
@@ -3761,7 +3941,7 @@
       "file_type": "code",
       "source_file": "lib/webview_screen.dart",
       "source_location": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "_handleopenermessage",
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_handleopenermessage"
     },
@@ -3770,7 +3950,7 @@
       "file_type": "code",
       "source_file": "lib/webview_screen.dart",
       "source_location": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "_send",
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_send"
     },
@@ -3788,7 +3968,7 @@
       "file_type": "code",
       "source_file": "lib/webview_screen.dart",
       "source_location": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "dart:developer",
       "id": "dart_developer"
     },
@@ -3815,7 +3995,7 @@
       "file_type": "code",
       "source_file": "lib/webview_screen.dart",
       "source_location": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "scan",
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_scan"
     },
@@ -3824,7 +4004,7 @@
       "file_type": "code",
       "source_file": "lib/webview_screen.dart",
       "source_location": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "_forwardgooglecredentialtomain",
       "id": "users_atharvasadavarte_documents_stolity_desktop_lib_webview_screen_dart_forwardgooglecredentialtomain"
     }
@@ -3986,6 +4166,16 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "macos/Runner/AppDelegate.swift",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "runner_appdelegate_appdelegate",
+      "target": "runner_appdelegate_appdelegate_requestnotificationpermissionifneeded"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/Runner/AppDelegate.swift",
       "source_location": "L25",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -3998,9 +4188,9 @@
       "source_file": "macos/Runner/AppDelegate.swift",
       "source_location": "L60",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runner_appdelegate_appdelegate",
-      "target": "runner_appdelegate_appdelegate_updatedomainwithtoken",
-      "confidence_score": 1.0
+      "target": "runner_appdelegate_appdelegate_updatedomainwithtoken"
     },
     {
       "relation": "method",
@@ -4008,9 +4198,19 @@
       "source_file": "macos/Runner/AppDelegate.swift",
       "source_location": "L73",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runner_appdelegate_appdelegate",
-      "target": "runner_appdelegate_appdelegate_adddomain",
-      "confidence_score": 1.0
+      "target": "runner_appdelegate_appdelegate_adddomain"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/Runner/AppDelegate.swift",
+      "source_location": "L104",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "runner_appdelegate_appdelegate",
+      "target": "runner_appdelegate_appdelegate_resetloginnotificationflag"
     },
     {
       "relation": "method",
@@ -4147,6 +4347,17 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "macos/Runner/AppDelegate.swift",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "runner_appdelegate_appdelegate_applicationdidfinishlaunching",
+      "target": "runner_appdelegate_appdelegate_requestnotificationpermissionifneeded"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/Runner/AppDelegate.swift",
       "source_location": "L15",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -4215,9 +4426,20 @@
       "source_file": "macos/Runner/AppDelegate.swift",
       "source_location": "L65",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runner_appdelegate_appdelegate_updatedomainwithtoken",
-      "target": "runner_appdelegate_appdelegate_adddomain",
-      "confidence_score": 1.0
+      "target": "runner_appdelegate_appdelegate_adddomain"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/Runner/AppDelegate.swift",
+      "source_location": "L97",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "runner_appdelegate_appdelegate_adddomain",
+      "target": "runner_appdelegate_appdelegate_resetloginnotificationflag"
     },
     {
       "relation": "calls",
@@ -4226,9 +4448,9 @@
       "source_file": "macos/Runner/AppDelegate.swift",
       "source_location": "L81",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "runner_appdelegate_appdelegate_adddomain",
-      "target": "runner_appdelegate_appdelegate_signalworkingset",
-      "confidence_score": 1.0
+      "target": "runner_appdelegate_appdelegate_signalworkingset"
     },
     {
       "relation": "method",
@@ -5044,9 +5266,9 @@
       "source_file": "macos/StolityFileProvider/StolityFileProviderExtension.swift",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stolityfileprovider_stolityfileproviderextension_fileproviderextension",
-      "target": "stolityfileprovider_stolityfileproviderextension_fileproviderextension_gettoken",
-      "confidence_score": 1.0
+      "target": "stolityfileprovider_stolityfileproviderextension_fileproviderextension_gettoken"
     },
     {
       "relation": "method",
@@ -5295,9 +5517,9 @@
       "source_file": "macos/StolityFileProvider/StolityFileProviderExtension.swift",
       "source_location": "L141",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stolityfileprovider_stolityfileproviderextension_fileproviderextension_createitem",
-      "target": "stolityfileprovider_stolityfileproviderextension_fileproviderextension_gettoken",
-      "confidence_score": 1.0
+      "target": "stolityfileprovider_stolityfileproviderextension_fileproviderextension_gettoken"
     },
     {
       "relation": "calls",
@@ -5800,6 +6022,16 @@
       "target": "stolityfileprovider_stolityuploadservice_chunkmeta"
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "macos_stolityfileprovider_stolityuploadservice_swift",
+      "target": "stolityfileprovider_stolityuploadservice_uploadgate"
+    },
+    {
       "relation": "inherits",
       "confidence": "EXTRACTED",
       "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
@@ -5864,6 +6096,17 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice_uploadifneeded",
+      "target": "error",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
       "source_location": "L46",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -5901,6 +6144,28 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice_jsonrequest",
+      "target": "error"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L296",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice_notifyloginrequired",
+      "target": "error"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L311",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice_notifyuploadsucceeded",
       "target": "error"
     },
     {
@@ -5951,11 +6216,71 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice",
+      "target": "stolityfileprovider_stolityuploadservice_stolityuploadservice_resetloginnotificationflag"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice",
+      "target": "stolityfileprovider_stolityuploadservice_stolityuploadservice_uploaddedupekey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L47",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice",
+      "target": "stolityfileprovider_stolityuploadservice_stolityuploadservice_notifyloginrequiredfromextension"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice",
+      "target": "stolityfileprovider_stolityuploadservice_stolityuploadservice_uploadifneeded",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
       "source_location": "L30",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice",
       "target": "stolityfileprovider_stolityuploadservice_stolityuploadservice_upload"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L117",
+      "weight": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice",
+      "target": "stolityfileprovider_stolityuploadservice_stolityuploadservice_completeduploadkeys",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L121",
+      "weight": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice",
+      "target": "stolityfileprovider_stolityuploadservice_stolityuploadservice_markuploadcompleted",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -6028,6 +6353,163 @@
       "target": "stolityfileprovider_stolityuploadservice_stolityuploadservice_jsonrequest"
     },
     {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L297",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice",
+      "target": "stolityfileprovider_stolityuploadservice_stolityuploadservice_hasnotifiedforfilename"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L304",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice",
+      "target": "stolityfileprovider_stolityuploadservice_stolityuploadservice_marknotifiedforfilename"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L281",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice",
+      "target": "stolityfileprovider_stolityuploadservice_stolityuploadservice_notifyloginrequired"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L297",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice",
+      "target": "stolityfileprovider_stolityuploadservice_stolityuploadservice_hasshownloginnotification"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L288",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice",
+      "target": "stolityfileprovider_stolityuploadservice_stolityuploadservice_shouldpostloginnotification"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L302",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice",
+      "target": "stolityfileprovider_stolityuploadservice_stolityuploadservice_markloginnotificationposted"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L97",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice",
+      "target": "stolityfileprovider_stolityuploadservice_stolityuploadservice_uploaddedupkey"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L283",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice",
+      "target": "stolityfileprovider_stolityuploadservice_stolityuploadservice_notifyuploadsucceeded"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice_upload",
+      "target": "stolityfileprovider_stolityuploadservice_stolityuploadservice_uploaddedupekey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L48",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice_notifyloginrequiredfromextension",
+      "target": "stolityfileprovider_stolityuploadservice_stolityuploadservice_notifyloginrequired"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice_uploadifneeded",
+      "target": "stolityfileprovider_stolityuploadservice_stolityuploadservice_completeduploadkeys",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice_uploadifneeded",
+      "target": "stolityfileprovider_stolityuploadservice_stolityuploadservice_uploadfilemultipart",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice_uploadifneeded",
+      "target": "stolityfileprovider_stolityuploadservice_stolityuploadservice_markuploadcompleted",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L109",
+      "weight": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice_upload",
+      "target": "stolityfileprovider_stolityuploadservice_stolityuploadservice_uploadifneeded",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice_upload",
+      "target": "stolityfileprovider_stolityuploadservice_stolityuploadservice_notifyloginrequired"
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -6037,6 +6519,72 @@
       "confidence_score": 1.0,
       "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice_upload",
       "target": "stolityfileprovider_stolityuploadservice_stolityuploadservice_uploadfilemultipart"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L72",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice_upload",
+      "target": "stolityfileprovider_stolityuploadservice_uploadgate_trybeginupload"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L94",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice_upload",
+      "target": "stolityfileprovider_stolityuploadservice_uploadgate_endupload"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L87",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice_upload",
+      "target": "stolityfileprovider_stolityuploadservice_uploadgate_trynotify"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L71",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice_upload",
+      "target": "stolityfileprovider_stolityuploadservice_stolityuploadservice_uploaddedupkey"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice_upload",
+      "target": "stolityfileprovider_stolityuploadservice_stolityuploadservice_notifyuploadsucceeded"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L122",
+      "weight": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice_markuploadcompleted",
+      "target": "stolityfileprovider_stolityuploadservice_stolityuploadservice_completeduploadkeys",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -6136,6 +6684,61 @@
       "confidence_score": 1.0,
       "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice_abortmultipartupload",
       "target": "stolityfileprovider_stolityuploadservice_stolityuploadservice_jsonrequest"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L316",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice_notifyloginrequired",
+      "target": "stolityfileprovider_stolityuploadservice_stolityuploadservice_hasnotifiedforfilename"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L365",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice_notifyloginrequired",
+      "target": "stolityfileprovider_stolityuploadservice_stolityuploadservice_marknotifiedforfilename"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L304",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice_notifyloginrequired",
+      "target": "stolityfileprovider_stolityuploadservice_stolityuploadservice_hasshownloginnotification"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L311",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice_notifyloginrequired",
+      "target": "stolityfileprovider_stolityuploadservice_stolityuploadservice_shouldpostloginnotification"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L316",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_stolityuploadservice_notifyloginrequired",
+      "target": "stolityfileprovider_stolityuploadservice_stolityuploadservice_markloginnotificationposted"
     },
     {
       "relation": "defines",
@@ -9473,6 +10076,36 @@
       "target": "launchimage_imageset_readme_launch_screen_assets"
     },
     {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_uploadgate",
+      "target": "stolityfileprovider_stolityuploadservice_uploadgate_trybeginupload"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_uploadgate",
+      "target": "stolityfileprovider_stolityuploadservice_uploadgate_endupload"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "macos/StolityFileProvider/StolityUploadService.swift",
+      "source_location": "L55",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "stolityfileprovider_stolityuploadservice_uploadgate",
+      "target": "stolityfileprovider_stolityuploadservice_uploadgate_trynotify"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "macos/StolityFileProvider/KeychainHelper.swift",
@@ -10037,5 +10670,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "d732bf50d0e7bdfa9630b10f5a178de70451d335"
+  "built_at_commit": "9db5814e943d132518b5638af654a5ad0b2f9a35"
 }

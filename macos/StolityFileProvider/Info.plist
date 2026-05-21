@@ -13,6 +13,8 @@
 	  -name 'StolityFileProvider.appex' 2>/dev/null | head -1)"
 	log stream --predicate 'subsystem == "com.apple.fileprovider"' --level debug
 	-->
+	<key>NSUserNotificationsUsageDescription</key>
+	<string>Stolity uses notifications to tell you when you need to sign in before uploading files.</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>

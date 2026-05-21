@@ -110,37 +110,65 @@ final class FileProviderExtension: NSObject, NSFileProviderReplicatedExtension {
         logger.info("createItem called: \(itemTemplate.filename, privacy: .public)")
         logger.info("Content URL present: \(url != nil, privacy: .public)")
 
-        let contentType = itemTemplate.contentType ?? .data
-        let newItem = StolityFileItem(
-            identifier: NSFileProviderItemIdentifier(UUID().uuidString),
-            parentIdentifier: itemTemplate.parentItemIdentifier,
-            filename: itemTemplate.filename,
-            contentType: contentType
-        )
-
-        // Copy to a stable temp location BEFORE calling completionHandler.
-        // The url from fileproviderd is a temporary staging file that gets
-        // reclaimed the moment completionHandler returns.
-        var stableURL: URL? = nil
-        if let sourceURL = url {
-            let dest = FileManager.default.temporaryDirectory
-                .appendingPathComponent(UUID().uuidString + "_" + itemTemplate.filename)
-            do {
-                try FileManager.default.copyItem(at: sourceURL, to: dest)
-                stableURL = dest
-                logger.info("Copied to stable path: \(dest.lastPathComponent, privacy: .public)")
-            } catch {
-                logger.error("Failed to copy file to stable path: \(error.localizedDescription, privacy: .public)")
-            }
+        let itemId: NSFileProviderItemIdentifier
+        if itemTemplate.itemIdentifier == .rootContainer
+            || itemTemplate.itemIdentifier.rawValue.isEmpty {
+            itemId = NSFileProviderItemIdentifier(UUID().uuidString)
+        } else {
+            itemId = itemTemplate.itemIdentifier
         }
 
+        let newItem = StolityFileItem(
+            identifier: itemId,
+            parentIdentifier: itemTemplate.parentItemIdentifier,
+            filename: itemTemplate.filename,
+            contentType: itemTemplate.contentType ?? .data
+        )
+
+        guard let token = getToken(), !token.isEmpty else {
+            completionHandler(nil, [], false, NSFileProviderError(.notAuthenticated))
+            Task {
+                await StolityUploadService.notifyLoginRequiredFromExtension(
+                    filename: itemTemplate.filename
+                )
+            }
+            return Progress()
+        }
+
+        // Metadata-only create (no file bytes) — acknowledge so fileproviderd stops retrying.
+        guard let sourceURL = url else {
+            completionHandler(newItem, [], false, nil)
+            return Progress()
+        }
+
+        // Copy before completionHandler; staging URL is reclaimed when we return.
+        var stableURL: URL?
+        var fileSize = 0
+        let dest = FileManager.default.temporaryDirectory
+            .appendingPathComponent(UUID().uuidString + "_" + itemTemplate.filename)
+        do {
+            try FileManager.default.copyItem(at: sourceURL, to: dest)
+            stableURL = dest
+            fileSize = try dest.resourceValues(forKeys: [.fileSizeKey]).fileSize ?? 0
+            logger.info("Copied to stable path: \(dest.lastPathComponent, privacy: .public)")
+        } catch {
+            logger.error("Failed to copy file to stable path: \(error.localizedDescription, privacy: .public)")
+            completionHandler(nil, [], false, error)
+            return Progress()
+        }
+
+        // Success stops fileproviderd from retrying create-item (which re-triggered uploads).
         completionHandler(newItem, [], false, nil)
-        logger.info("completionHandler called, starting background upload")
 
         if let uploadURL = stableURL {
-            let token = getToken()
+            let dedupeKey = StolityUploadService.uploadDedupeKey(
+                itemIdentifier: itemId.rawValue,
+                filename: itemTemplate.filename,
+                fileSize: fileSize
+            )
             Task {
-                await StolityUploadService.upload(
+                await StolityUploadService.uploadIfNeeded(
+                    dedupeKey: dedupeKey,
                     fileURL: uploadURL,
                     filename: itemTemplate.filename,
                     token: token

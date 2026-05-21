@@ -1,5 +1,6 @@
 import Foundation
 import os.log
+import UserNotifications
 
 enum StolityUploadError: Error, LocalizedError {
     case missingToken
@@ -31,19 +32,97 @@ enum StolityUploadService {
     private static let apiBaseURL = "https://stolityapi.infomanav.in/api/aws"
     private static let defaultPartSize = 10 * 1024 * 1024 // 10 MB — same as DEFAULT_PART_SIZE in JS
 
+    /// One notification per dropped filename (fileproviderd retries are deduped).
+    static let loginNotificationIdentifierPrefix = "stolity.login.required"
+    static let loginNotifiedFilenamesKey = "loginNotifiedFilenames"
+    static let completedUploadKeysKey = "completedUploadKeys"
+    static let appGroupId = "group.com.stolity.fileprovider"
+    @MainActor private static var loginNotificationInFlightFilenames = Set<String>()
+    @MainActor private static var uploadsInProgress = Set<String>()
+
+    /// Call from the main app after login so each file can alert again if still logged out.
+    static func resetLoginNotificationFlag() {
+        let defaults = UserDefaults(suiteName: appGroupId)
+        defaults?.removeObject(forKey: loginNotifiedFilenamesKey)
+        defaults?.removeObject(forKey: completedUploadKeysKey)
+    }
+
+    static func uploadDedupeKey(itemIdentifier: String, filename: String, fileSize: Int) -> String {
+        "\(itemIdentifier)|\(filename)|\(fileSize)"
+    }
+
+    /// Entry point for FileProviderExtension when there is no auth token (no file copy).
+    static func notifyLoginRequiredFromExtension(filename: String) async {
+        await notifyLoginRequired(filename: filename)
+    }
+
     // MARK: - Public entry point
 
-    static func upload(fileURL: URL, filename: String, token: String?) async {
+    /// Uploads once per dedupe key; skips retries from fileproviderd for the same item.
+    static func uploadIfNeeded(
+        dedupeKey: String,
+        fileURL: URL,
+        filename: String,
+        token: String
+    ) async {
+        if completedUploadKeys().contains(dedupeKey) {
+            uploadLogger.info("Upload skipped (already completed): \(dedupeKey, privacy: .public)")
+            return
+        }
+
+        let shouldStart: Bool = await MainActor.run {
+            if uploadsInProgress.contains(dedupeKey) { return false }
+            uploadsInProgress.insert(dedupeKey)
+            return true
+        }
+        guard shouldStart else {
+            uploadLogger.info("Upload skipped (in progress): \(dedupeKey, privacy: .public)")
+            return
+        }
+
+        defer {
+            Task { @MainActor in uploadsInProgress.remove(dedupeKey) }
+        }
+
         do {
-            uploadLogger.info("Starting upload: \(filename, privacy: .public)")
-            uploadLogger.info("Token present: \(token != nil, privacy: .public)")
-            guard let token = token, !token.isEmpty else {
-                throw StolityUploadError.missingToken
-            }
+            uploadLogger.info("Starting upload: \(filename, privacy: .public) key=\(dedupeKey, privacy: .public)")
             try await uploadFileMultipart(fileURL: fileURL, filename: filename, token: token)
+            markUploadCompleted(dedupeKey)
             uploadLogger.info("Upload complete: \(filename, privacy: .public)")
         } catch {
             uploadLogger.error("Upload failed: \(error.localizedDescription, privacy: .public)")
+        }
+    }
+
+    static func upload(fileURL: URL, filename: String, token: String?) async {
+        guard let token = token, !token.isEmpty else {
+            uploadLogger.error("Upload failed: no token — user not logged in")
+            await notifyLoginRequired(filename: filename)
+            return
+        }
+        let fileSize = (try? fileURL.resourceValues(forKeys: [.fileSizeKey]).fileSize) ?? 0
+        let dedupeKey = uploadDedupeKey(
+            itemIdentifier: UUID().uuidString,
+            filename: filename,
+            fileSize: fileSize
+        )
+        await uploadIfNeeded(
+            dedupeKey: dedupeKey,
+            fileURL: fileURL,
+            filename: filename,
+            token: token
+        )
+    }
+
+    private static func completedUploadKeys() -> Set<String> {
+        Set(UserDefaults(suiteName: appGroupId)?.stringArray(forKey: completedUploadKeysKey) ?? [])
+    }
+
+    private static func markUploadCompleted(_ key: String) {
+        var keys = Array(completedUploadKeys())
+        if !keys.contains(key) {
+            keys.append(key)
+            UserDefaults(suiteName: appGroupId)?.set(keys, forKey: completedUploadKeysKey)
         }
     }
 
@@ -273,5 +352,81 @@ enum StolityUploadService {
             return [:]
         }
         return json
+    }
+
+    @MainActor
+    private static func hasNotifiedForFilename(_ filename: String) -> Bool {
+        let notified = UserDefaults(suiteName: appGroupId)?
+            .stringArray(forKey: loginNotifiedFilenamesKey) ?? []
+        return notified.contains(filename)
+    }
+
+    @MainActor
+    private static func markNotifiedForFilename(_ filename: String) {
+        var notified = UserDefaults(suiteName: appGroupId)?
+            .stringArray(forKey: loginNotifiedFilenamesKey) ?? []
+        if !notified.contains(filename) {
+            notified.append(filename)
+            UserDefaults(suiteName: appGroupId)?.set(notified, forKey: loginNotifiedFilenamesKey)
+        }
+    }
+
+    @MainActor
+    private static func notifyLoginRequired(filename: String) async {
+        if hasNotifiedForFilename(filename) {
+            uploadLogger.info(
+                "Login notification suppressed for \(filename, privacy: .public) (already shown)"
+            )
+            return
+        }
+        if loginNotificationInFlightFilenames.contains(filename) {
+            uploadLogger.info(
+                "Login notification suppressed for \(filename, privacy: .public) (in-flight)"
+            )
+            return
+        }
+        loginNotificationInFlightFilenames.insert(filename)
+        defer { loginNotificationInFlightFilenames.remove(filename) }
+
+        let center = UNUserNotificationCenter.current()
+        let settings = await center.notificationSettings()
+
+        switch settings.authorizationStatus {
+        case .notDetermined:
+            let granted = (try? await center.requestAuthorization(options: [.alert, .sound])) ?? false
+            guard granted else {
+                uploadLogger.error("Login notification skipped: permission not granted")
+                return
+            }
+        case .authorized, .provisional:
+            break
+        default:
+            uploadLogger.error(
+                "Login notification skipped: enable notifications for Stolity in System Settings"
+            )
+            return
+        }
+
+        // Same identifier coalesces pending requests; do not remove delivered ones — that
+        // forces macOS to show the banner again on every fileproviderd retry.
+        let content = UNMutableNotificationContent()
+        content.title = "Stolity"
+        content.body = "Please log in to the Stolity app to upload \"\(filename)\"."
+        content.sound = .default
+
+        let request = UNNotificationRequest(
+            identifier: "\(loginNotificationIdentifierPrefix).\(filename)",
+            content: content,
+            trigger: nil
+        )
+
+        do {
+            try await center.add(request)
+            markNotifiedForFilename(filename)
+        } catch {
+            uploadLogger.error(
+                "Login notification failed: \(error.localizedDescription, privacy: .public)"
+            )
+        }
     }
 }

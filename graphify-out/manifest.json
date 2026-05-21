@@ -8,8 +8,8 @@
     "hash": "9629f0b30c989d1950babe84ee81b903"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Runner/AppDelegate.swift": {
-    "mtime": 1778914437.3460913,
-    "hash": "61ada9c85b248a1592750a19a0506a04"
+    "mtime": 1779188647.240678,
+    "hash": "b653e071e0755dd2d2f5e11f784cd256"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Flutter/GeneratedPluginRegistrant.swift": {
     "mtime": 1778233890.8032718,
@@ -80,12 +80,12 @@
     "hash": "6e42e908f87ebdb630e3e154d55058bc"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/OrderedSet/Sources/OrderedSet.swift": {
-    "mtime": 1778849911.9057546,
+    "mtime": 1779186547.359699,
     "hash": "c7b72b7b8982fe3e68e6656f17bb9893"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/StolityFileProvider/StolityFileProviderExtension.swift": {
-    "mtime": 1778914416.0172281,
-    "hash": "8a065ac07e650cc33186d73722a6d05e"
+    "mtime": 1779188628.3662817,
+    "hash": "f1e076be7f8a0cbd2bd1c13973e3b35c"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/StolityFileProvider/StolityFileProviderEnumerators.swift": {
     "mtime": 1778842393.8286078,
@@ -96,8 +96,8 @@
     "hash": "65c82af14b53c0f8555793db413e8608"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/StolityFileProvider/StolityUploadService.swift": {
-    "mtime": 1778672251.3203177,
-    "hash": "c6d6eea26f1fdf6bf87646071341b47e"
+    "mtime": 1779188644.6854262,
+    "hash": "62382ae6f194b31f0592f8bf426dc358"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/test/widget_test.dart": {
     "mtime": 1778048808.0153263,
@@ -128,7 +128,7 @@
     "hash": "748d701e783e68faf618c00464257a19"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/ios/Flutter/ephemeral/flutter_lldb_helper.py": {
-    "mtime": 1778849901.5930526,
+    "mtime": 1779186528.2683196,
     "hash": "98fc75412162af387e2e3461e4e58094"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/linux/runner/main.cc": {
@@ -268,7 +268,7 @@
     "hash": "66d03d7647c8e438164feaf5b922d44a"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Pods/OrderedSet/README.md": {
-    "mtime": 1778849911.905468,
+    "mtime": 1779186547.3593194,
     "hash": "ac4585e0496edf486b4fece0ec0297ee"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/web/index.html": {
@@ -304,32 +304,104 @@
     "hash": "0c500410e3259a9a053797dc1c28070e"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_16.png": {
-    "mtime": 1777959140.6072233,
-    "hash": "8bf511604bc6ed0a6aeb380c5113fdcf"
+    "mtime": 1779087781.8096821,
+    "hash": "1f4eab90b41c8b7e8ffd925a0d81c257"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_1024.png": {
-    "mtime": 1777959140.6080167,
-    "hash": "c9becc9105f8cabce934d20c7bfb6aac"
+    "mtime": 1779087781.9574106,
+    "hash": "cf9085d58e6a5ab54d04cbab373bdc8f"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_256.png": {
-    "mtime": 1777959140.6082127,
-    "hash": "dfe2c93d1536ae02f085cc63faa3430e"
+    "mtime": 1779087781.9002275,
+    "hash": "b1d9c09c3470663eda9fba7f0b853182"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_64.png": {
-    "mtime": 1777959140.6067379,
-    "hash": "04e7b6ef05346c70b663ca1d97de3ad5"
+    "mtime": 1779087781.8538942,
+    "hash": "b9deb561fd4cadbeb0cb4e51314f8c22"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_512.png": {
-    "mtime": 1777959140.6071093,
-    "hash": "0ad44039155424738917502c69667699"
+    "mtime": 1779087781.926195,
+    "hash": "45f15b100de08046a1dcc60437362e1d"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_128.png": {
-    "mtime": 1777959140.6069443,
-    "hash": "3ded30823804caaa5ccc944067c54a36"
+    "mtime": 1779087781.876904,
+    "hash": "a62cd7d1caecf1b80442c41a69d357bf"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_32.png": {
-    "mtime": 1777959140.6073263,
-    "hash": "8e0ae58e362a6636bdfccbc04da2c58c"
+    "mtime": 1779087781.8321416,
+    "hash": "e2a46c07792df98154af9766e89c9cef"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/macos_images/iTunesArtwork@1x.png": {
+    "mtime": 1779087682.5679824,
+    "hash": "8a5faf338f688cc3a9605cd8d0dc6e39"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/macos_images/iTunesArtwork@2x.png": {
+    "mtime": 1779087682.5695827,
+    "hash": "4cc5b92c63a24933e3a54c7b238e536c"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/macos_images/iTunesArtwork@3x.png": {
+    "mtime": 1779087682.5715919,
+    "hash": "50629bfc24dc2502c0b8e59b85db1217"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/macos_images/AppIcon.appiconset/Icon-App-76x76@2x.png": {
+    "mtime": 1779087682.5656178,
+    "hash": "60520376105a9e44db117d15224609e2"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/macos_images/AppIcon.appiconset/Icon-App-29x29@1x.png": {
+    "mtime": 1779087682.5622091,
+    "hash": "854acc2a72f6db2e6cae4569a0250b44"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/macos_images/AppIcon.appiconset/Icon-App-40x40@1x.png": {
+    "mtime": 1779087682.5629008,
+    "hash": "bd29759cd3e0d8152bf7ca4a11c5478a"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/macos_images/AppIcon.appiconset/Icon-App-20x20@1x.png": {
+    "mtime": 1779087682.5602794,
+    "hash": "3f066052660a67d5f6385a9b9aa78a66"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/macos_images/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png": {
+    "mtime": 1779087682.56626,
+    "hash": "e2efd0f7c32a64243ddbdc4f79185b29"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/macos_images/AppIcon.appiconset/Icon-App-20x20@3x.png": {
+    "mtime": 1779087682.5618725,
+    "hash": "d3ed988de8c2fd2c1e83ef4b2facc50a"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/macos_images/AppIcon.appiconset/ItunesArtwork@2x.png": {
+    "mtime": 1779087682.5676076,
+    "hash": "4cc5b92c63a24933e3a54c7b238e536c"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/macos_images/AppIcon.appiconset/Icon-App-20x20@2x.png": {
+    "mtime": 1779087682.561499,
+    "hash": "bd29759cd3e0d8152bf7ca4a11c5478a"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/macos_images/AppIcon.appiconset/Icon-App-29x29@3x.png": {
+    "mtime": 1779087682.5627193,
+    "hash": "08bd1af2a56d6a3946219714807ceaec"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/macos_images/AppIcon.appiconset/Icon-App-40x40@2x.png": {
+    "mtime": 1779087682.5630782,
+    "hash": "a485ddece196a549d1dcdda557ee3cfe"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/macos_images/AppIcon.appiconset/Icon-App-60x60@3x.png": {
+    "mtime": 1779087682.5644722,
+    "hash": "bf4a592de7ccc0f1a77d06377b17234c"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/macos_images/AppIcon.appiconset/Icon-App-60x60@2x.png": {
+    "mtime": 1779087682.5640893,
+    "hash": "9a781f4ca48754bb85ce9df556aa0e7a"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/macos_images/AppIcon.appiconset/Icon-App-76x76@1x.png": {
+    "mtime": 1779087682.5652978,
+    "hash": "00420f7e5bdb6c7207c4e31b7f665fc5"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/macos_images/AppIcon.appiconset/Icon-App-40x40@3x.png": {
+    "mtime": 1779087682.563432,
+    "hash": "9a781f4ca48754bb85ce9df556aa0e7a"
+  },
+  "/Users/atharvasadavarte/Documents/stolity_desktop/macos/macos_images/AppIcon.appiconset/Icon-App-29x29@2x.png": {
+    "mtime": 1779087682.5623953,
+    "hash": "f700ccaa14215e20c3cf183d11ace2f8"
   },
   "/Users/atharvasadavarte/Documents/stolity_desktop/web/favicon.png": {
     "mtime": 1777959114.0480316,

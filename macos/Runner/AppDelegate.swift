@@ -2,6 +2,7 @@ import Cocoa
 import FileProvider
 import FlutterMacOS
 import os.log
+import UserNotifications
 
 @main
 class AppDelegate: FlutterAppDelegate {
@@ -12,8 +13,23 @@ class AppDelegate: FlutterAppDelegate {
   )
 
   override func applicationDidFinishLaunching(_ aNotification: Notification) {
+    requestNotificationPermissionIfNeeded()
     registerFileProviderDomainIfNeeded()
     super.applicationDidFinishLaunching(aNotification)
+  }
+
+  /// Registers Stolity in System Settings → Notifications and prompts on first launch.
+  private func requestNotificationPermissionIfNeeded() {
+    UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound]) {
+      [weak self] granted, error in
+      if let error = error {
+        self?.logger.error(
+          "Notification permission request failed: \(error.localizedDescription, privacy: .public)"
+        )
+      } else {
+        self?.logger.info("Notification permission granted: \(granted, privacy: .public)")
+      }
+    }
   }
 
   // MARK: - FileProvider
@@ -78,9 +94,17 @@ class AppDelegate: FlutterAppDelegate {
         self?.logger.error("domain registration failed: \(error.localizedDescription, privacy: .public)")
       } else {
         self?.logger.info("domain registered with token")
+        self?.resetLoginNotificationFlag()
         self?.signalWorkingSet(for: domain)
       }
     }
+  }
+
+  /// Clears per-file login alerts and upload dedupe state after sign-in.
+  private func resetLoginNotificationFlag() {
+    let defaults = UserDefaults(suiteName: "group.com.stolity.fileprovider")
+    defaults?.removeObject(forKey: "loginNotifiedFilenames")
+    defaults?.removeObject(forKey: "completedUploadKeys")
   }
 
   /// Signals fileproviderd to fully mount the FPFS, which causes Finder to
