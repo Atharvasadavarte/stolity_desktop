@@ -25,6 +25,7 @@
 		331D00012044A3C60003C00C /* StolityFileProviderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D00012044A3C60003C007 /* StolityFileProviderItem.swift */; };
 		331D00012044A3C60003C00D /* StolityFileProviderEnumerators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D00012044A3C60003C008 /* StolityFileProviderEnumerators.swift */; };
 		331D00012044A3C60003C00E /* StolityFileProviderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D00012044A3C60003C009 /* StolityFileProviderExtension.swift */; };
+		331D00012044A3C60003C022 /* StolityFolderUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D00012044A3C60003C020 /* StolityFolderUpload.swift */; };
 		331D00012044A3C60003C010 /* StolityFileProvider.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 331D00012044A3C60003C006 /* StolityFileProvider.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		331D00012044A3C60003C021 /* StolityUploadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331D00012044A3C60003C01F /* StolityUploadService.swift */; };
 		335BBD1B22A9A15E00E9071D /* GeneratedPluginRegistrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335BBD1A22A9A15E00E9071D /* GeneratedPluginRegistrant.swift */; };
@@ -92,6 +93,7 @@
 		331D00012044A3C60003C007 /* StolityFileProviderItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StolityFileProviderItem.swift; sourceTree = "<group>"; };
 		331D00012044A3C60003C008 /* StolityFileProviderEnumerators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StolityFileProviderEnumerators.swift; sourceTree = "<group>"; };
 		331D00012044A3C60003C009 /* StolityFileProviderExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StolityFileProviderExtension.swift; sourceTree = "<group>"; };
+		331D00012044A3C60003C020 /* StolityFolderUpload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StolityFolderUpload.swift; sourceTree = "<group>"; };
 		331D00012044A3C60003C00A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		331D00012044A3C60003C00B /* StolityFileProvider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StolityFileProvider.entitlements; sourceTree = "<group>"; };
 		331D00012044A3C60003C01F /* StolityUploadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StolityUploadService.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				331D00012044A3C60003C007 /* StolityFileProviderItem.swift */,
 				331D00012044A3C60003C008 /* StolityFileProviderEnumerators.swift */,
 				331D00012044A3C60003C009 /* StolityFileProviderExtension.swift */,
+				331D00012044A3C60003C020 /* StolityFolderUpload.swift */,
 				331D00012044A3C60003C01F /* StolityUploadService.swift */,
 				331D00012044A3C60003C00A /* Info.plist */,
 				331D00012044A3C60003C00B /* StolityFileProvider.entitlements */,
@@ -520,6 +523,7 @@
 				331D00012044A3C60003C00C /* StolityFileProviderItem.swift in Sources */,
 				331D00012044A3C60003C00D /* StolityFileProviderEnumerators.swift in Sources */,
 				331D00012044A3C60003C00E /* StolityFileProviderExtension.swift in Sources */,
+				331D00012044A3C60003C022 /* StolityFolderUpload.swift in Sources */,
 				331D00012044A3C60003C021 /* StolityUploadService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

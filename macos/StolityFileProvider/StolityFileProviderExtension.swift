@@ -6,6 +6,20 @@ import os.log
 // NSExtensionPrincipalClass = $(PRODUCT_MODULE_NAME).FileProviderExtension
 final class FileProviderExtension: NSObject, NSFileProviderReplicatedExtension {
 
+    private struct PendingFolderUpload {
+        let folderName: String
+        let folderPath: String
+        var files: [StolityUploadService.FolderFile]
+        var debounceTask: Task<Void, Never>?
+    }
+
+    @MainActor private static var pendingFolders: [String: PendingFolderUpload] = [:]
+    private static let folderDebounceSeconds: Double = 1.5
+    private static let staticLogger = Logger(
+        subsystem: "com.stolity.StolityFileProvider",
+        category: "extension"
+    )
+
     private let logger = Logger(
         subsystem: "com.stolity.StolityFileProvider",
         category: "extension"
@@ -22,6 +36,79 @@ final class FileProviderExtension: NSObject, NSFileProviderReplicatedExtension {
 
     private func getToken() -> String? {
         return domain.userInfo?["auth_token"] as? String
+    }
+
+    private static func folderDebounceTask(
+        parentId: String,
+        token: String
+    ) -> Task<Void, Never> {
+        Task {
+            do {
+                try await Task.sleep(
+                    nanoseconds: UInt64(folderDebounceSeconds * 1_000_000_000)
+                )
+            } catch {
+                return
+            }
+
+            if Task.isCancelled {
+                return
+            }
+
+            let snapshot = await MainActor.run { () -> (String, String, [StolityUploadService.FolderFile])? in
+                guard let pending = pendingFolders[parentId], !pending.files.isEmpty else {
+                    pendingFolders.removeValue(forKey: parentId)
+                    return nil
+                }
+                return (pending.folderName, pending.folderPath, pending.files)
+            }
+
+            guard let (folderName, folderPath, files) = snapshot else {
+                return
+            }
+
+            staticLogger.info(
+                "Debounce elapsed, uploading folder '\(folderName, privacy: .public)' with \(files.count, privacy: .public) file(s)"
+            )
+
+            await StolityUploadService.uploadFolderFiles(
+                folderName: folderName,
+                files: files,
+                folderPath: folderPath,
+                isPrivate: true,
+                token: token
+            )
+
+            await MainActor.run {
+                for file in files {
+                    try? FileManager.default.removeItem(at: file.url)
+                }
+                pendingFolders.removeValue(forKey: parentId)
+            }
+        }
+    }
+
+    private static func isFolderCreateRequest(
+        itemTemplate: NSFileProviderItem,
+        url: URL?
+    ) -> Bool {
+        itemTemplate.contentType == .folder
+            || itemTemplate.contentType == .directory
+            || (itemTemplate.contentType?.conforms(to: .directory) ?? false)
+            || (itemTemplate.contentType?.conforms(to: .folder) ?? false)
+            || (url == nil && itemTemplate.filename.hasSuffix("/"))
+            || (url == nil
+                && itemTemplate.contentType == nil
+                && itemTemplate.parentItemIdentifier != .rootContainer
+                && !itemTemplate.filename.contains("."))
+    }
+
+    private static func parentFolderPath(
+        for itemTemplate: NSFileProviderItem
+    ) -> String {
+        itemTemplate.parentItemIdentifier == .rootContainer
+            ? ""
+            : itemTemplate.parentItemIdentifier.rawValue
     }
 
     func invalidate() {}
@@ -135,6 +222,37 @@ final class FileProviderExtension: NSObject, NSFileProviderReplicatedExtension {
             return Progress()
         }
 
+        let folderPath = Self.parentFolderPath(for: itemTemplate)
+
+        if Self.isFolderCreateRequest(itemTemplate: itemTemplate, url: url), url == nil {
+            let folderName = itemTemplate.filename.trimmingCharacters(in: CharacterSet(charactersIn: "/"))
+            let pendingFolderPath = folderPath.isEmpty
+                ? folderName
+                : "\(folderPath)/\(folderName)"
+
+            completionHandler(newItem, [], false, nil)
+            Task {
+                let debounceTask = Self.folderDebounceTask(
+                    parentId: itemId.rawValue,
+                    token: token
+                )
+
+                await MainActor.run {
+                    Self.pendingFolders[itemId.rawValue] = PendingFolderUpload(
+                        folderName: folderName,
+                        folderPath: pendingFolderPath,
+                        files: [],
+                        debounceTask: debounceTask
+                    )
+                }
+
+                Self.staticLogger.info(
+                    "Registered pending folder: \(itemId.rawValue, privacy: .public) path=\(pendingFolderPath, privacy: .public)"
+                )
+            }
+            return Progress()
+        }
+
         // Metadata-only create (no file bytes) — acknowledge so fileproviderd stops retrying.
         guard let sourceURL = url else {
             completionHandler(newItem, [], false, nil)
@@ -144,6 +262,7 @@ final class FileProviderExtension: NSObject, NSFileProviderReplicatedExtension {
         // Copy before completionHandler; staging URL is reclaimed when we return.
         var stableURL: URL?
         var fileSize = 0
+        let isDirectory = (try? sourceURL.resourceValues(forKeys: [.isDirectoryKey]).isDirectory) ?? sourceURL.hasDirectoryPath
         let dest = FileManager.default.temporaryDirectory
             .appendingPathComponent(UUID().uuidString + "_" + itemTemplate.filename)
         do {
@@ -161,18 +280,56 @@ final class FileProviderExtension: NSObject, NSFileProviderReplicatedExtension {
         completionHandler(newItem, [], false, nil)
 
         if let uploadURL = stableURL {
-            let dedupeKey = StolityUploadService.uploadDedupeKey(
-                itemIdentifier: itemId.rawValue,
-                filename: itemTemplate.filename,
-                fileSize: fileSize
-            )
             Task {
-                await StolityUploadService.uploadIfNeeded(
-                    dedupeKey: dedupeKey,
-                    fileURL: uploadURL,
-                    filename: itemTemplate.filename,
-                    token: token
-                )
+                let addedToFolder = await MainActor.run { () -> Bool in
+                    guard var pending = Self.pendingFolders[itemTemplate.parentItemIdentifier.rawValue] else {
+                        return false
+                    }
+
+                    let folderName = pending.folderName.trimmingCharacters(in: CharacterSet(charactersIn: "/"))
+                    let relativePath = "\(folderName)/\(itemTemplate.filename)"
+                    pending.files.append(
+                        StolityUploadService.FolderFile(
+                            url: uploadURL,
+                            relativePath: relativePath
+                        )
+                    )
+                    Self.staticLogger.info(
+                        "Added file \(itemTemplate.filename, privacy: .public) to pending folder \(itemTemplate.parentItemIdentifier.rawValue, privacy: .public)"
+                    )
+                    pending.debounceTask?.cancel()
+                    pending.debounceTask = Self.folderDebounceTask(
+                        parentId: itemTemplate.parentItemIdentifier.rawValue,
+                        token: token
+                    )
+                    Self.pendingFolders[itemTemplate.parentItemIdentifier.rawValue] = pending
+                    return true
+                }
+
+                if addedToFolder {
+                    return
+                }
+
+                if isDirectory {
+                    await StolityUploadService.uploadFolder(
+                        folderURL: uploadURL,
+                        token: token,
+                        folderPath: folderPath,
+                        isPrivate: true
+                    )
+                } else {
+                    let dedupeKey = StolityUploadService.uploadDedupeKey(
+                        itemIdentifier: itemId.rawValue,
+                        filename: itemTemplate.filename,
+                        fileSize: fileSize
+                    )
+                    await StolityUploadService.uploadIfNeeded(
+                        dedupeKey: dedupeKey,
+                        fileURL: uploadURL,
+                        filename: itemTemplate.filename,
+                        token: token
+                    )
+                }
                 try? FileManager.default.removeItem(at: uploadURL)
             }
         }

@@ -6,6 +6,8 @@ enum StolityUploadError: Error, LocalizedError {
     case missingToken
     case invalidStartResponse
     case missingETag(partNumber: Int)
+    case folderScanFailed(String)
+    case folderUploadFailed(String)
     case uploadFailed(String)
 
     var errorDescription: String? {
@@ -16,20 +18,24 @@ enum StolityUploadError: Error, LocalizedError {
             return "Invalid start-multipart response (missing key or uploadId)"
         case .missingETag(let n):
             return "No ETag returned for uploaded part \(n)"
+        case .folderScanFailed(let msg):
+            return msg
+        case .folderUploadFailed(let msg):
+            return msg
         case .uploadFailed(let msg):
             return msg
         }
     }
 }
 
-private let uploadLogger = Logger(
+let uploadLogger = Logger(
     subsystem: "com.stolity.StolityFileProvider",
     category: "upload"
 )
 
 enum StolityUploadService {
 
-    private static let apiBaseURL = "https://stolityapi.infomanav.in/api/aws"
+    static let apiBaseURL = "https://stolityapi.infomanav.in/api/aws"
     private static let defaultPartSize = 10 * 1024 * 1024 // 10 MB — same as DEFAULT_PART_SIZE in JS
 
     /// One notification per dropped filename (fileproviderd retries are deduped).
